@@ -9,7 +9,7 @@
  * path before writing. See src/base.ts.
  */
 import { dirname, join } from "@std/path";
-import { crawl, toOutput } from "@kuboon/remix-ssg";
+import { crawl, type CrawlFailure, toOutput } from "@kuboon/remix-ssg";
 import { router } from "../src/router.tsx";
 import { routes } from "../src/routes.ts";
 import { base } from "../src/base.ts";
@@ -30,9 +30,20 @@ async function main() {
 
   let pages = 0;
   let assets = 0;
+  const broken: CrawlFailure[] = [];
 
-  // Seed from the (base-aware) home path; every other page is reached by crawling.
-  for await (const result of crawl(router, { paths: [routes.home.href()] })) {
+  // Seed from the (base-aware) home path; every other page is reached by
+  // crawling. A broken internal link is reported and skipped rather than
+  // aborting the whole build — see the summary printed below.
+  for await (
+    const result of crawl(router, {
+      paths: [routes.home.href()],
+      onError: (failure) => {
+        broken.push(failure);
+        return "skip";
+      },
+    })
+  ) {
     const output = await toOutput(result);
     if (output == null) continue; // 204 No Content
 
@@ -54,6 +65,14 @@ async function main() {
       base ? ` (base: ${base})` : ""
     }`,
   );
+
+  if (broken.length > 0) {
+    console.warn(`\n⚠ ${broken.length} broken link(s) skipped:`);
+    for (const f of broken) {
+      const from = f.referrer ? ` (linked from ${f.referrer})` : "";
+      console.warn(`  ${f.status} ${f.pathname}${from}`);
+    }
+  }
 }
 
 await main();
