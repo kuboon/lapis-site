@@ -6,9 +6,12 @@
     "check": "deno check scripts src && deno lint && deno fmt --check"
   },
   "nodeModulesDir": "auto",
-  // Consume our own @kuboon/remix-ssg releases immediately; the default 24h
-  // minimum-dependency-age would otherwise block a just-published version.
-  "minimumDependencyAge": "0",
+  // Keep the default 24h supply-chain age check for third-party deps, but
+  // exclude our own package so we can consume a just-published release.
+  "minimumDependencyAge": {
+    "age": "P1D",
+    "exclude": ["jsr:@kuboon/remix-ssg"]
+  },
   "compilerOptions": {
     "lib": ["deno.ns", "dom", "dom.iterable", "esnext"],
     "jsx": "react-jsx",
