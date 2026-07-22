@@ -2,7 +2,7 @@
   "version": "5",
   "specifiers": {
     "jsr:@kuboon/md@0.1": "0.1.0",
-    "jsr:@kuboon/remix-ssg@0.2": "0.2.0",
+    "jsr:@kuboon/remix-ssg@0.3": "0.3.0",
     "jsr:@std/front-matter@1": "1.0.9",
     "jsr:@std/internal@^1.0.14": "1.0.14",
     "jsr:@std/path@1": "1.1.6",
@@ -53,8 +53,8 @@
         "npm:unist-util-visit"
       ]
     },
-    "@kuboon/remix-ssg@0.2.0": {
-      "integrity": "1315288acddefb3bea148f0234c7e0a139ec3f4baf6895a39ab2ef155db97263"
+    "@kuboon/remix-ssg@0.3.0": {
+      "integrity": "187d90812028994ed46d9a574c9fbb960cd4e049eb56f922677bd36cc95d7cba"
     },
     "@std/front-matter@1.0.9": {
       "integrity": "ee6201d06674cbef137dda2252f62477450b48249e7d8d9ab57a30f85ff6f051",
@@ -2277,7 +2277,7 @@
   "workspace": {
     "dependencies": [
       "jsr:@kuboon/md@0.1",
-      "jsr:@kuboon/remix-ssg@0.2",
+      "jsr:@kuboon/remix-ssg@0.3",
       "jsr:@std/front-matter@1",
       "jsr:@std/path@1",
       "npm:remix@3.0.0-beta.5"
