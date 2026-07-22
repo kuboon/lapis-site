@@ -5,14 +5,29 @@ import { base } from "./base.ts";
  * Relative route definitions. `get(...)` declares each as a `GET` route.
  *
  * Add a page by adding a route here and mapping an action in `router.tsx`.
+ * Content lives in `content/<category>/<slug>.md`; the `:slug` routes render it.
  */
 const defs = {
   home: get("/"),
-  about: get("/about"),
+  about: {
+    index: get("/about"),
+    show: get("/about/:slug"),
+  },
+  works: {
+    index: get("/works"),
+    show: get("/works/:slug"),
+  },
+  training: {
+    index: get("/training"),
+    show: get("/training/:slug"),
+  },
   blog: {
     index: get("/blog"),
     show: get("/blog/:slug"),
   },
+  // Standalone info pages (Reviews, Gallery, Contact, …): content/pages/*.md
+  page: get("/pages/:slug"),
+  sitemap: get("/sitemap"),
   // Static assets (images, stylesheets, robots.txt, …) live in `static/`.
   static: get("/static/*path"),
 };

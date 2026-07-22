@@ -1,21 +1,27 @@
 :root {
   color-scheme: light dark;
   --bg: #ffffff;
-  --fg: #1f2937;
-  --muted: #6b7280;
-  --accent: #2563eb;
+  --fg: #1b2430;
+  --muted: #667085;
+  --accent: #26619c; /* lapis lazuli */
+  --accent-strong: #1b3b6f;
   --border: #e5e7eb;
-  --card: #f9fafb;
+  --card: #f7f8fa;
+  --serif: Georgia, "Times New Roman", "Hiragino Mincho ProN", "Yu Mincho",
+    serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto,
+    "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #0b0f19;
     --fg: #e5e7eb;
-    --muted: #9ca3af;
-    --accent: #60a5fa;
+    --muted: #9aa5b4;
+    --accent: #7bb0e6;
+    --accent-strong: #a9cbf0;
     --border: #1f2937;
-    --card: #111827;
+    --card: #121826;
   }
 }
 
@@ -25,8 +31,8 @@
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  line-height: 1.6;
+  font-family: var(--sans);
+  line-height: 1.65;
   color: var(--fg);
   background: var(--bg);
 }
@@ -34,34 +40,48 @@ body {
 .site-header,
 .site-main,
 .site-footer {
-  max-width: 44rem;
+  max-width: 60rem;
   margin-inline: auto;
   padding-inline: 1.25rem;
 }
 
 .site-header {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  align-items: baseline;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 0.5rem 1.5rem;
   padding-block: 1.25rem;
   border-bottom: 1px solid var(--border);
 }
 
 .brand {
+  font-family: var(--serif);
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--fg);
 }
 
 .site-nav {
   display: flex;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.1rem;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.site-nav a:hover {
+  color: var(--accent);
 }
 
 .site-main {
-  padding-block: 2.5rem;
+  padding-block: 2.5rem 3.5rem;
 }
 
 .site-footer {
@@ -71,9 +91,16 @@ body {
   font-size: 0.9rem;
 }
 
-h1 {
-  font-size: 2rem;
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--serif);
   line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.1rem;
   margin-top: 0;
 }
 
@@ -81,23 +108,37 @@ a {
   color: var(--accent);
 }
 
+/* ---------- Hero (home) ---------- */
+.hero {
+  padding-block: 1rem 2.5rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 2.5rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.4rem, 6vw, 3.6rem);
+  letter-spacing: 0.02em;
+  margin-bottom: 0.75rem;
+}
+
 .lead {
   font-size: 1.15rem;
+  color: var(--fg);
+  max-width: 42rem;
+}
+
+.lead-ja {
   color: var(--muted);
+  font-size: 1rem;
 }
 
-.features {
-  padding-left: 1.1rem;
-}
-
-.features li {
-  margin-block: 0.4rem;
+.hero-actions {
+  margin-top: 1.5rem;
 }
 
 .button {
   display: inline-block;
-  margin-top: 0.5rem;
-  padding: 0.6rem 1rem;
+  padding: 0.6rem 1.15rem;
   border-radius: 0.5rem;
   background: var(--accent);
   color: #fff;
@@ -105,23 +146,91 @@ a {
   font-weight: 600;
 }
 
+.button:hover {
+  background: var(--accent-strong);
+}
+
+/* ---------- Card grids (listings) ---------- */
+.card-list,
+.link-grid {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+
+.card {
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: 0.6rem;
+  background: var(--card);
+}
+
+.card a {
+  font-weight: 600;
+  font-size: 1.05rem;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.card p {
+  margin: 0.4rem 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.link-grid a {
+  display: block;
+  padding: 0.9rem 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: 0.6rem;
+  background: var(--card);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.link-grid a:hover {
+  border-color: var(--accent);
+}
+
+.year-group {
+  margin-block: 2rem;
+}
+
+.year-group h2 {
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid var(--accent);
+  display: inline-block;
+}
+
+.home-works,
+.home-sections {
+  margin-block: 2.5rem;
+}
+
+/* ---------- News list ---------- */
 .post-list {
   list-style: none;
   padding: 0;
 }
 
 .post-list li {
-  padding-block: 1rem;
+  padding-block: 1.1rem;
   border-bottom: 1px solid var(--border);
 }
 
 .post-list a {
   font-size: 1.2rem;
   font-weight: 600;
+  text-decoration: none;
 }
 
-.post-list time,
-.post time {
+.post-list time {
   display: block;
   color: var(--muted);
   font-size: 0.85rem;
@@ -130,6 +239,67 @@ a {
 
 .post-list p {
   margin-block: 0.3rem 0;
+  color: var(--muted);
+}
+
+/* ---------- Document (single page) ---------- */
+.doc {
+  max-width: 44rem;
+}
+
+.doc-head {
+  margin-bottom: 1.5rem;
+}
+
+.doc-meta {
+  color: var(--muted);
+  margin: 0.25rem 0 0;
+  font-size: 0.95rem;
+}
+
+.doc img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.4rem;
+}
+
+.doc h2,
+.doc h3 {
+  margin-top: 2rem;
+}
+
+.doc table {
+  display: block;
+  overflow-x: auto;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.doc th,
+.doc td {
+  border: 1px solid var(--border);
+  padding: 0.4rem 0.6rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.doc blockquote {
+  margin-inline: 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--accent);
+  color: var(--muted);
+}
+
+.doc-back {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.muted {
+  color: var(--muted);
+  font-size: 0.9rem;
 }
 
 code {
@@ -137,31 +307,4 @@ code {
   padding: 0.1rem 0.35rem;
   border-radius: 0.3rem;
   font-size: 0.9em;
-}
-
-.demo {
-  margin-block: 2rem;
-  padding: 1.25rem;
-  border: 1px solid var(--border);
-  border-radius: 0.75rem;
-  background: var(--card);
-}
-
-.demo h2 {
-  margin-top: 0;
-}
-
-.counter {
-  font: inherit;
-  font-weight: 600;
-  cursor: pointer;
-  padding: 0.55rem 1rem;
-  border: 1px solid var(--accent);
-  border-radius: 0.5rem;
-  background: var(--accent);
-  color: #fff;
-}
-
-.counter:active {
-  transform: translateY(1px);
 }

@@ -12,6 +12,21 @@ interface DocumentProps {
   children: RemixNode;
 }
 
+/** The primary navigation, shared by every page. */
+function Nav() {
+  return () => (
+    <nav class="site-nav">
+      <Link href={routes.works.index.href()}>Works</Link>
+      <Link href={routes.about.index.href()}>About</Link>
+      <Link href={routes.training.index.href()}>Training</Link>
+      <Link href={routes.blog.index.href()}>News</Link>
+      <Link href={routes.page.href({ slug: "reviews" })}>Reviews</Link>
+      <Link href={routes.page.href({ slug: "gallery" })}>Gallery</Link>
+      <Link href={routes.page.href({ slug: "contact-us" })}>Contact</Link>
+    </nav>
+  );
+}
+
 /** The full HTML document shell shared by every page. */
 function Document(handle: Handle<DocumentProps>) {
   return () => {
@@ -33,20 +48,16 @@ function Document(handle: Handle<DocumentProps>) {
         </head>
         <body>
           <header class="site-header">
-            <Link class="brand" href={routes.home.href()}>remix-ssg</Link>
-            <nav class="site-nav">
-              <Link href={routes.home.href()}>Home</Link>
-              <Link href={routes.about.href()}>About</Link>
-              <Link href={routes.blog.index.href()}>Blog</Link>
-            </nav>
+            <Link class="brand" href={routes.home.href()}>
+              Théâtre&nbsp;Lapis
+            </Link>
+            <Nav />
           </header>
           <main class="site-main">{children}</main>
           <footer class="site-footer">
             <p>
-              Built with{" "}
-              <a href="https://jsr.io/@kuboon/remix-ssg">@kuboon/remix-ssg</a>
-              {" "}
-              and <a href="https://remix.run">Remix v3</a>.
+              © Théâtre Lapis ·{" "}
+              <Link href={routes.sitemap.href()}>Site map</Link>
             </p>
           </footer>
           {hydrate
