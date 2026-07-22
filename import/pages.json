@@ -1,0 +1,704 @@
+[
+  {
+    "wp_id": "1365",
+    "title": "About Théatre Lapis",
+    "category": "about",
+    "year": "",
+    "original_url": "https://theatrelapis.org/about-theatre-lapis/",
+    "new_path": "/about/about-theatre-lapis",
+    "file": "pages/content/about/about-theatre-lapis.md"
+  },
+  {
+    "wp_id": "2",
+    "title": "About Us",
+    "category": "about",
+    "year": "",
+    "original_url": "https://theatrelapis.org/about/",
+    "new_path": "/about/about",
+    "file": "pages/content/about/about.md"
+  },
+  {
+    "wp_id": "1361",
+    "title": "Artistic Director",
+    "category": "about",
+    "year": "",
+    "original_url": "https://theatrelapis.org/artistic-director/",
+    "new_path": "/about/artistic-director",
+    "file": "pages/content/about/artistic-director.md"
+  },
+  {
+    "wp_id": "1342",
+    "title": "Associate Artists",
+    "category": "about",
+    "year": "",
+    "original_url": "https://theatrelapis.org/associate-artists/",
+    "new_path": "/about/associate-artists",
+    "file": "pages/content/about/associate-artists.md"
+  },
+  {
+    "wp_id": "76",
+    "title": "Contact Us",
+    "category": "contact",
+    "year": "",
+    "original_url": "https://theatrelapis.org/contact-us/",
+    "new_path": "/pages/contact-us",
+    "file": "pages/content/pages/contact-us.md"
+  },
+  {
+    "wp_id": "884",
+    "title": "Gallery",
+    "category": "gallery",
+    "year": "",
+    "original_url": "https://theatrelapis.org/gallery/",
+    "new_path": "/pages/gallery",
+    "file": "pages/content/pages/gallery.md"
+  },
+  {
+    "wp_id": "114",
+    "title": "News",
+    "category": "news",
+    "year": "",
+    "original_url": "https://theatrelapis.org/",
+    "new_path": "/blog/from-up-here",
+    "file": "pages/content/blog/from-up-here.md"
+  },
+  {
+    "wp_id": "1486",
+    "title": "GALAXY TRAIN クラウドファンディング",
+    "category": "other",
+    "year": "",
+    "original_url": "https://theatrelapis.org/galaxy-train-crowdfunding/",
+    "new_path": "/pages/galaxy-train-crowdfunding",
+    "file": "pages/content/pages/galaxy-train-crowdfunding.md"
+  },
+  {
+    "wp_id": "815",
+    "title": "Intorduction",
+    "category": "other",
+    "year": "",
+    "original_url": "https://theatrelapis.org/intorduction/",
+    "new_path": "/pages/intorduction",
+    "file": "pages/content/pages/intorduction.md"
+  },
+  {
+    "wp_id": "1268",
+    "title": "Jellicle Songs for All",
+    "category": "other",
+    "year": "",
+    "original_url": "https://theatrelapis.org/jellicle-songs-for-all/",
+    "new_path": "/pages/jellicle-songs-for-all",
+    "file": "pages/content/pages/jellicle-songs-for-all.md"
+  },
+  {
+    "wp_id": "72",
+    "title": "Tickets",
+    "category": "other",
+    "year": "",
+    "original_url": "https://theatrelapis.org/tickets-2/",
+    "new_path": "/pages/tickets-2",
+    "file": "pages/content/pages/tickets-2.md"
+  },
+  {
+    "wp_id": "1457",
+    "title": "日英合作ミュージカル「GALAXY TRAIN」リーディング公演",
+    "category": "other",
+    "year": "",
+    "original_url": "https://theatrelapis.org/galaxy-train-2021/",
+    "new_path": "/pages/galaxy-train-2021",
+    "file": "pages/content/pages/galaxy-train-2021.md"
+  },
+  {
+    "wp_id": "30",
+    "title": "Upcoming",
+    "category": "post",
+    "year": "",
+    "original_url": "https://theatrelapis.org/2012/04/19/ordinary-days/",
+    "new_path": "/blog/ordinary-days",
+    "file": "pages/content/blog/ordinary-days.md"
+  },
+  {
+    "wp_id": "418",
+    "title": "Reviews",
+    "category": "reviews",
+    "year": "",
+    "original_url": "https://theatrelapis.org/reviews/",
+    "new_path": "/pages/reviews",
+    "file": "pages/content/pages/reviews.md"
+  },
+  {
+    "wp_id": "751",
+    "title": "Client Testimonials お客様の声",
+    "category": "training",
+    "year": "",
+    "original_url": "https://theatrelapis.org/reviews-from-clients/",
+    "new_path": "/training/reviews-from-clients",
+    "file": "pages/content/training/reviews-from-clients.md"
+  },
+  {
+    "wp_id": "1408",
+    "title": "Client Testimonials お客様の声 - Monologue Lab",
+    "category": "training",
+    "year": "",
+    "original_url": "https://theatrelapis.org/testimonials-monologue/",
+    "new_path": "/training/testimonials-monologue",
+    "file": "pages/content/training/testimonials-monologue.md"
+  },
+  {
+    "wp_id": "793",
+    "title": "Drama Training",
+    "category": "training",
+    "year": "",
+    "original_url": "https://theatrelapis.org/drama-training/",
+    "new_path": "/training/drama-training",
+    "file": "pages/content/training/drama-training.md"
+  },
+  {
+    "wp_id": "1295",
+    "title": "Monologue Lab",
+    "category": "training",
+    "year": "",
+    "original_url": "https://theatrelapis.org/monologue/",
+    "new_path": "/training/monologue",
+    "file": "pages/content/training/monologue.md"
+  },
+  {
+    "wp_id": "1298",
+    "title": "Monologue Lab JP",
+    "category": "training",
+    "year": "",
+    "original_url": "https://theatrelapis.org/monologue-lab-jp/",
+    "new_path": "/training/monologue-lab-jp",
+    "file": "pages/content/training/monologue-lab-jp.md"
+  },
+  {
+    "wp_id": "1278",
+    "title": "Style Gates - Master Lessons",
+    "category": "training",
+    "year": "",
+    "original_url": "https://theatrelapis.org/masterlessons/",
+    "new_path": "/training/masterlessons",
+    "file": "pages/content/training/masterlessons.md"
+  },
+  {
+    "wp_id": "1287",
+    "title": "VLOG: Lunch at Harrods - ハロッズで昼食を",
+    "category": "training",
+    "year": "",
+    "original_url": "https://theatrelapis.org/lunch-at-harrods/",
+    "new_path": "/training/lunch-at-harrods",
+    "file": "pages/content/training/lunch-at-harrods.md"
+  },
+  {
+    "wp_id": "741",
+    "title": "Vocal Training",
+    "category": "training",
+    "year": "",
+    "original_url": "https://theatrelapis.org/vocal-training/",
+    "new_path": "/training/vocal-training",
+    "file": "pages/content/training/vocal-training.md"
+  },
+  {
+    "wp_id": "781",
+    "title": "Vocal Training EN",
+    "category": "training",
+    "year": "",
+    "original_url": "https://theatrelapis.org/vocal-training-en/",
+    "new_path": "/training/vocal-training-en",
+    "file": "pages/content/training/vocal-training-en.md"
+  },
+  {
+    "wp_id": "784",
+    "title": "Vocal Training JP",
+    "category": "training",
+    "year": "",
+    "original_url": "https://theatrelapis.org/vocal-training-jp/",
+    "new_path": "/training/vocal-training-jp",
+    "file": "pages/content/training/vocal-training-jp.md"
+  },
+  {
+    "wp_id": "459",
+    "title": "Vocal/Drama Coaching",
+    "category": "training",
+    "year": "",
+    "original_url": "https://theatrelapis.org/vocaldrama-coaching/",
+    "new_path": "/training/vocaldrama-coaching",
+    "file": "pages/content/training/vocaldrama-coaching.md"
+  },
+  {
+    "wp_id": "1281",
+    "title": "オンライン・レクチャー",
+    "category": "training",
+    "year": "",
+    "original_url": "https://theatrelapis.org/onlinelectures/",
+    "new_path": "/training/onlinelectures",
+    "file": "pages/content/training/onlinelectures.md"
+  },
+  {
+    "wp_id": "166",
+    "title": "History",
+    "category": "works",
+    "year": "",
+    "original_url": "https://theatrelapis.org/history/",
+    "new_path": "/works/history",
+    "file": "pages/content/works/history.md"
+  },
+  {
+    "wp_id": "15",
+    "title": "Ordinary Days 2012",
+    "category": "works",
+    "year": "2012",
+    "original_url": "https://theatrelapis.org/history/ordinarydays2012/",
+    "new_path": "/works/ordinarydays2012",
+    "file": "pages/content/works/ordinarydays2012.md"
+  },
+  {
+    "wp_id": "161",
+    "title": "From Up Here 2013",
+    "category": "works",
+    "year": "2013",
+    "original_url": "https://theatrelapis.org/history/fuh2013/",
+    "new_path": "/works/fuh2013",
+    "file": "pages/content/works/fuh2013.md"
+  },
+  {
+    "wp_id": "381",
+    "title": "FOUR SEASONS in Japan Festival 2014",
+    "category": "works",
+    "year": "2014",
+    "original_url": "https://theatrelapis.org/japan-festival/",
+    "new_path": "/works/japan-festival",
+    "file": "pages/content/works/japan-festival.md"
+  },
+  {
+    "wp_id": "376",
+    "title": "From Up Here 2014",
+    "category": "works",
+    "year": "2014",
+    "original_url": "https://theatrelapis.org/history/from-up-here-2014/",
+    "new_path": "/works/from-up-here-2014",
+    "file": "pages/content/works/from-up-here-2014.md"
+  },
+  {
+    "wp_id": "368",
+    "title": "PETER PAN A Musical Adventure 2014",
+    "category": "works",
+    "year": "2014",
+    "original_url": "https://theatrelapis.org/peter-pan/",
+    "new_path": "/works/peter-pan",
+    "file": "pages/content/works/peter-pan.md"
+  },
+  {
+    "wp_id": "414",
+    "title": "Tinker Bell in Shoji-Land 2014",
+    "category": "works",
+    "year": "2014",
+    "original_url": "https://theatrelapis.org/tinker-bell-in-shoji-land-2014/",
+    "new_path": "/works/tinker-bell-in-shoji-land-2014",
+    "file": "pages/content/works/tinker-bell-in-shoji-land-2014.md"
+  },
+  {
+    "wp_id": "512",
+    "title": "PRINCE OF BROADWAY 2015",
+    "category": "works",
+    "year": "2015",
+    "original_url": "https://theatrelapis.org/prince-of-broadway-2015/",
+    "new_path": "/works/prince-of-broadway-2015",
+    "file": "pages/content/works/prince-of-broadway-2015.md"
+  },
+  {
+    "wp_id": "401",
+    "title": "TITANIC The Musical 2015",
+    "category": "works",
+    "year": "2015",
+    "original_url": "https://theatrelapis.org/titanic-the-musical/",
+    "new_path": "/works/titanic-the-musical",
+    "file": "pages/content/works/titanic-the-musical.md"
+  },
+  {
+    "wp_id": "603",
+    "title": "ETERNAL CHIKAMATSU 2016",
+    "category": "works",
+    "year": "2016",
+    "original_url": "https://theatrelapis.org/eternal-chikamatsu/",
+    "new_path": "/works/eternal-chikamatsu",
+    "file": "pages/content/works/eternal-chikamatsu.md"
+  },
+  {
+    "wp_id": "535",
+    "title": "GRAND HOTEL The Musical 2016",
+    "category": "works",
+    "year": "2016",
+    "original_url": "https://theatrelapis.org/grand-hotel-the-musical/",
+    "new_path": "/works/grand-hotel-the-musical",
+    "file": "pages/content/works/grand-hotel-the-musical.md"
+  },
+  {
+    "wp_id": "613",
+    "title": "Screw-Eyed 2016",
+    "category": "works",
+    "year": "2016",
+    "original_url": "https://theatrelapis.org/screw-eyed/",
+    "new_path": "/works/screw-eyed",
+    "file": "pages/content/works/screw-eyed.md"
+  },
+  {
+    "wp_id": "519",
+    "title": "Tell Me On A Sunday 2016",
+    "category": "works",
+    "year": "2016",
+    "original_url": "https://theatrelapis.org/tell-me-on-a-sunday-2016/",
+    "new_path": "/works/tell-me-on-a-sunday-2016",
+    "file": "pages/content/works/tell-me-on-a-sunday-2016.md"
+  },
+  {
+    "wp_id": "550",
+    "title": "The Red Candle -Mermaids In The East- 2016",
+    "category": "works",
+    "year": "2016",
+    "original_url": "https://theatrelapis.org/mermaids-in-the-east-2016/",
+    "new_path": "/works/mermaids-in-the-east-2016",
+    "file": "pages/content/works/mermaids-in-the-east-2016.md"
+  },
+  {
+    "wp_id": "833",
+    "title": "Ordinary Days 2017",
+    "category": "works",
+    "year": "2017",
+    "original_url": "https://theatrelapis.org/ordinary-days-2017/",
+    "new_path": "/works/ordinary-days-2017",
+    "file": "pages/content/works/ordinary-days-2017.md"
+  },
+  {
+    "wp_id": "860",
+    "title": "River Lethe",
+    "category": "works",
+    "year": "2017",
+    "original_url": "https://theatrelapis.org/river-lethe/",
+    "new_path": "/works/river-lethe",
+    "file": "pages/content/works/river-lethe.md"
+  },
+  {
+    "wp_id": "951",
+    "title": "Ondine",
+    "category": "works",
+    "year": "2018",
+    "original_url": "https://theatrelapis.org/ondine/",
+    "new_path": "/works/ondine",
+    "file": "pages/content/works/ondine.md"
+  },
+  {
+    "wp_id": "1027",
+    "title": "TITANIC 2018",
+    "category": "works",
+    "year": "2018",
+    "original_url": "https://theatrelapis.org/titanic/",
+    "new_path": "/works/titanic",
+    "file": "pages/content/works/titanic.md"
+  },
+  {
+    "wp_id": "941",
+    "title": "Tapestry",
+    "category": "works",
+    "year": "2018",
+    "original_url": "https://theatrelapis.org/tapestry/",
+    "new_path": "/works/tapestry",
+    "file": "pages/content/works/tapestry.md"
+  },
+  {
+    "wp_id": "1046",
+    "title": "URINETOWN",
+    "category": "works",
+    "year": "2018",
+    "original_url": "https://theatrelapis.org/urinetown/",
+    "new_path": "/works/urinetown",
+    "file": "pages/content/works/urinetown.md"
+  },
+  {
+    "wp_id": "1026",
+    "title": "driving at night with the windows down (and the music on)",
+    "category": "works",
+    "year": "2018",
+    "original_url": "https://theatrelapis.org/driving-at-night-with-the-windows-down-and-the-music-on/",
+    "new_path": "/works/driving-at-night-with-the-windows-down-and-the-music-on",
+    "file": "pages/content/works/driving-at-night-with-the-windows-down-and-the-music-on.md"
+  },
+  {
+    "wp_id": "1176",
+    "title": "Pearl and Dagger",
+    "category": "works",
+    "year": "2019",
+    "original_url": "https://theatrelapis.org/pearl-and-dagger-2019/",
+    "new_path": "/works/pearl-and-dagger-2019",
+    "file": "pages/content/works/pearl-and-dagger-2019.md"
+  },
+  {
+    "wp_id": "1077",
+    "title": "Wycinanki. List z morza (Cut-outs: Letter from the Sea)",
+    "category": "works",
+    "year": "2019",
+    "original_url": "https://theatrelapis.org/wycinanki-list-z-morza-cut-outs-letter-from-the-sea/",
+    "new_path": "/works/wycinanki-list-z-morza-cut-outs-letter-from-the-sea",
+    "file": "pages/content/works/wycinanki-list-z-morza-cut-outs-letter-from-the-sea.md"
+  },
+  {
+    "wp_id": "1305",
+    "title": "KUWENTO - 物語(Monogatari)",
+    "category": "works",
+    "year": "2020",
+    "original_url": "https://theatrelapis.org/kuwento/",
+    "new_path": "/works/kuwento",
+    "file": "pages/content/works/kuwento.md"
+  },
+  {
+    "wp_id": "1126",
+    "title": "Letter from the Sea - Tokyo (海からの てがみ)",
+    "category": "works",
+    "year": "2020",
+    "original_url": "https://theatrelapis.org/umikara/",
+    "new_path": "/works/umikara",
+    "file": "pages/content/works/umikara.md"
+  },
+  {
+    "wp_id": "1222",
+    "title": "Pearl and Dagger - Concert",
+    "category": "works",
+    "year": "2020",
+    "original_url": "https://theatrelapis.org/pearl-and-dagger-concert/",
+    "new_path": "/works/pearl-and-dagger-concert",
+    "file": "pages/content/works/pearl-and-dagger-concert.md"
+  },
+  {
+    "wp_id": "1551",
+    "title": "GALAXY TRAIN - Tokyo Reading",
+    "category": "works",
+    "year": "2021",
+    "original_url": "https://theatrelapis.org/galaxy-train-tokyo-reading/",
+    "new_path": "/works/galaxy-train-tokyo-reading",
+    "file": "pages/content/works/galaxy-train-tokyo-reading.md"
+  },
+  {
+    "wp_id": "1375",
+    "title": "The Illusionist - A New Musical",
+    "category": "works",
+    "year": "2021",
+    "original_url": "https://theatrelapis.org/illusionist/",
+    "new_path": "/works/illusionist",
+    "file": "pages/content/works/illusionist.md"
+  },
+  {
+    "wp_id": "1489",
+    "title": "The View Upstairs",
+    "category": "works",
+    "year": "2022",
+    "original_url": "https://theatrelapis.org/the-view-upstairs/",
+    "new_path": "/works/the-view-upstairs",
+    "file": "pages/content/works/the-view-upstairs.md"
+  },
+  {
+    "wp_id": "1582",
+    "title": "GALAXY TRAIN - London Concert",
+    "category": "works",
+    "year": "2023",
+    "original_url": "https://theatrelapis.org/galaxy-train-london-concert/",
+    "new_path": "/works/galaxy-train-london-concert",
+    "file": "pages/content/works/galaxy-train-london-concert.md"
+  },
+  {
+    "wp_id": "1956",
+    "title": "John & Jen - 2023",
+    "category": "works",
+    "year": "2023",
+    "original_url": "https://theatrelapis.org/john-jen-2023/",
+    "new_path": "/works/john-jen-2023",
+    "file": "pages/content/works/john-jen-2023.md"
+  },
+  {
+    "wp_id": "1973",
+    "title": "ANTIGONE",
+    "category": "works",
+    "year": "2024",
+    "original_url": "https://theatrelapis.org/antigone/",
+    "new_path": "/works/antigone",
+    "file": "pages/content/works/antigone.md"
+  },
+  {
+    "wp_id": "2001",
+    "title": "L'Histore du Soldat",
+    "category": "works",
+    "year": "2025",
+    "original_url": "https://theatrelapis.org/lhistore-du-soldat/",
+    "new_path": "/works/lhistore-du-soldat",
+    "file": "pages/content/works/lhistore-du-soldat.md"
+  },
+  {
+    "wp_id": "1986",
+    "title": "PARIAH",
+    "category": "works",
+    "year": "2025",
+    "original_url": "https://theatrelapis.org/pariah/",
+    "new_path": "/works/pariah",
+    "file": "pages/content/works/pariah.md"
+  },
+  {
+    "wp_id": "1984",
+    "title": "The Illusionist - 2025",
+    "category": "works",
+    "year": "2025",
+    "original_url": "https://theatrelapis.org/the-illusionist-2025/",
+    "new_path": "/works/the-illusionist-2025",
+    "file": "pages/content/works/the-illusionist-2025.md"
+  },
+  {
+    "wp_id": "1992",
+    "title": "THE POUT-POUT FISH",
+    "category": "works",
+    "year": "2026",
+    "original_url": "https://theatrelapis.org/the-pout-pout-fish/",
+    "new_path": "/works/the-pout-pout-fish",
+    "file": "pages/content/works/the-pout-pout-fish.md"
+  },
+  {
+    "wp_id": "2007",
+    "title": "The String Telephone",
+    "category": "works",
+    "year": "2026",
+    "original_url": "https://theatrelapis.org/the-string-telephone/",
+    "new_path": "/works/the-string-telephone",
+    "file": "pages/content/works/the-string-telephone.md"
+  },
+  {
+    "wp_id": "564",
+    "title": "2012",
+    "category": "year-index",
+    "year": "2012",
+    "original_url": "https://theatrelapis.org/2012-2/",
+    "new_path": null,
+    "file": null
+  },
+  {
+    "wp_id": "567",
+    "title": "2013",
+    "category": "year-index",
+    "year": "2013",
+    "original_url": "https://theatrelapis.org/2013-2/",
+    "new_path": null,
+    "file": null
+  },
+  {
+    "wp_id": "569",
+    "title": "2014",
+    "category": "year-index",
+    "year": "2014",
+    "original_url": "https://theatrelapis.org/2014-2/",
+    "new_path": null,
+    "file": null
+  },
+  {
+    "wp_id": "571",
+    "title": "2015",
+    "category": "year-index",
+    "year": "2015",
+    "original_url": "https://theatrelapis.org/2015-2/",
+    "new_path": null,
+    "file": null
+  },
+  {
+    "wp_id": "573",
+    "title": "2016",
+    "category": "year-index",
+    "year": "2016",
+    "original_url": "https://theatrelapis.org/2016-2/",
+    "new_path": null,
+    "file": null
+  },
+  {
+    "wp_id": "838",
+    "title": "2017",
+    "category": "year-index",
+    "year": "2017",
+    "original_url": "https://theatrelapis.org/2017-2/",
+    "new_path": null,
+    "file": null
+  },
+  {
+    "wp_id": "947",
+    "title": "2018",
+    "category": "year-index",
+    "year": "2018",
+    "original_url": "https://theatrelapis.org/2018-2/",
+    "new_path": null,
+    "file": null
+  },
+  {
+    "wp_id": "1105",
+    "title": "2019",
+    "category": "year-index",
+    "year": "2019",
+    "original_url": "https://theatrelapis.org/2019-2/",
+    "new_path": null,
+    "file": null
+  },
+  {
+    "wp_id": "1194",
+    "title": "2020",
+    "category": "year-index",
+    "year": "2020",
+    "original_url": "https://theatrelapis.org/2020-2/",
+    "new_path": null,
+    "file": null
+  },
+  {
+    "wp_id": "1393",
+    "title": "2021",
+    "category": "year-index",
+    "year": "2021",
+    "original_url": "https://theatrelapis.org/2021-2/",
+    "new_path": null,
+    "file": null
+  },
+  {
+    "wp_id": "1547",
+    "title": "2022",
+    "category": "year-index",
+    "year": "2022",
+    "original_url": "https://theatrelapis.org/2022-2/",
+    "new_path": null,
+    "file": null
+  },
+  {
+    "wp_id": "1614",
+    "title": "2023",
+    "category": "year-index",
+    "year": "2023",
+    "original_url": "https://theatrelapis.org/2023-2/",
+    "new_path": null,
+    "file": null
+  },
+  {
+    "wp_id": "1952",
+    "title": "2024",
+    "category": "year-index",
+    "year": "2024",
+    "original_url": "https://theatrelapis.org/2024-2/",
+    "new_path": null,
+    "file": null
+  },
+  {
+    "wp_id": "1954",
+    "title": "2025",
+    "category": "year-index",
+    "year": "2025",
+    "original_url": "https://theatrelapis.org/2025-2/",
+    "new_path": null,
+    "file": null
+  },
+  {
+    "wp_id": "2023",
+    "title": "2026",
+    "category": "year-index",
+    "year": "2026",
+    "original_url": "https://theatrelapis.org/2026-2/",
+    "new_path": null,
+    "file": null
+  }
+]

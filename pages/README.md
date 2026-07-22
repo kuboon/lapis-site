@@ -33,14 +33,19 @@ deno task check   # type-check, lint, and format-check
 pages/
   deno.json          # tasks, imports, compiler + JSX options
   deno.lock          # pinned dependency versions (committed)
-  content/           # Markdown articles (the blog), one .md file each
+  content/           # Markdown content, one .md file per page, grouped by category:
+    about/           #   company & people
+    works/           #   productions (grouped by `year` on the /works page)
+    training/        #   vocal / drama courses
+    blog/            #   news & posts
+    pages/           #   standalone info pages (Reviews, Gallery, Contact, …)
   src/
     base.ts          # base-path helper (see below)
     routes.ts        # the route map
     router.tsx       # route actions (the pages) + static file serving
-    layout.tsx       # the shared HTML document shell + page() helper
+    layout.tsx       # the shared HTML document shell + nav + page() helper
     link.tsx         # internal <Link> (full-document navigation)
-    content.ts       # loads content/*.md (frontmatter + body)
+    content.ts       # loads content/<category>/*.md (frontmatter + body)
     markdown.ts      # renders Markdown to a Remix UI tree (@kuboon/md)
     client.tsx       # browser entry: hydrates islands (bundled to static/client.js)
     islands/
@@ -62,25 +67,36 @@ linked from somewhere reachable.
 
 ## Markdown content
 
-The blog is authored in Markdown. Each article is a `.md` file in `content/`
-with `title`, `date`, and `summary` frontmatter:
+Every page is authored in Markdown. Each is a `.md` file under
+`content/<category>/` with frontmatter:
 
 ```markdown
 ---
-title: Hello, remix-ssg
-date: "2026-07-21"
-summary: How this site is rendered to static HTML at build time.
+title: "Ondine"
+slug: ondine
+category: works
+year: 2018
+date: "2018-03-06"
+original_url: "https://theatrelapis.org/ondine/"
+wp_id: 951
 ---
 
 Body starts here…
 ```
 
-`src/content.ts` reads `content/*.md` (frontmatter via `@std/front-matter`); the
-blog index lists them by date, and `/blog/<filename>` renders one. The body is
-turned into HTML by [`@kuboon/md`](https://jsr.io/@kuboon/md) — GitHub-flavored,
-sanitized, with heading anchors and Shiki-highlighted code — via the
-`renderMarkdown` helper (`src/markdown.ts`), then dropped into the shared
-`page()` layout. Drop a new `.md` file in `content/` and it appears on the blog.
+`src/content.ts` reads `content/<category>/*.md` (frontmatter via
+`@std/front-matter`) and exposes helpers — `listDocs`, `getDoc`, `listByDate`,
+and `worksByYear`. Each category has an index route and a `:slug` route
+(`/works`, `/works/:slug`, `/about/:slug`, …); the body is turned into HTML by
+[`@kuboon/md`](https://jsr.io/@kuboon/md) — GitHub-flavored, sanitized, with
+heading anchors and Shiki-highlighted code — via `renderMarkdown`
+(`src/markdown.ts`) and dropped into the shared `page()` layout. Drop a new
+`.md` file into a category folder and it appears in that section (and on the
+`/sitemap`, which the static crawl follows to reach every page).
+
+The `works` grouping on `/works` comes from each production's `year`
+frontmatter. Most of this content was migrated from WordPress — see
+[`../import/`](../import).
 
 ## Interactive islands (client components)
 

@@ -1,8 +1,12 @@
-# remix3-ssg-gh-pages
+# Théâtre Lapis
 
-A [Remix v3](https://remix.run) static-site starter pre-rendered by
-[`@kuboon/remix-ssg`](https://jsr.io/@kuboon/remix-ssg) and deployed to GitHub
-Pages with per-PR previews.
+The [Théâtre Lapis](https://theatrelapis.org) website — a [Remix v3](https://remix.run)
+static site pre-rendered by [`@kuboon/remix-ssg`](https://jsr.io/@kuboon/remix-ssg)
+and deployed to GitHub Pages with per-PR previews.
+
+The content was migrated off WordPress into Markdown under
+[`pages/content/`](./pages/content); see [`import/`](./import) for the migration
+notes, the old-URL → new-route map, and the reproducible importer.
 
 The site lives in [`pages/`](./pages) — see [`pages/README.md`](./pages/README.md)
 for how it works and how to develop it.
