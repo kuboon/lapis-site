@@ -3,7 +3,6 @@ title: "Style Gates - Master Lessons"
 slug: masterlessons
 category: training
 date: "2020-08-29"
-original_url: "https://theatrelapis.org/masterlessons/"
 wp_id: 1278
 ---
 

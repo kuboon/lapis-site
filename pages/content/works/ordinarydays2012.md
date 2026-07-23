@@ -4,12 +4,11 @@ slug: ordinarydays2012
 category: works
 year: 2012
 date: "2012-03-06"
-original_url: "https://theatrelapis.org/history/ordinarydays2012/"
 wp_id: 15
 ---
 
-[![ordinary-days-front](https://theatrelapis.org/files/2012/03/ordinary-days-front-1024x769.jpg)](https://theatrelapis.org/files/2012/03/ordinary-days-front.jpg)
-[![ordinary-days-rear](https://theatrelapis.org/files/2012/03/ordinary-days-rear-1024x794.png)](https://theatrelapis.org/files/2012/03/ordinary-days-rear.png)
+[![ordinary-days-front](/static/media/2012/03/ordinary-days-front-1024x769.jpg)](/static/media/2012/03/ordinary-days-front.jpg)
+[![ordinary-days-rear](/static/media/2012/03/ordinary-days-rear-1024x794.png)](/static/media/2012/03/ordinary-days-rear.png)
 
 ## Introduction
 

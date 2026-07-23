@@ -3,7 +3,6 @@ title: "Client Testimonials お客様の声 - Monologue Lab"
 slug: testimonials-monologue
 category: training
 date: "2021-02-08"
-original_url: "https://theatrelapis.org/testimonials-monologue/"
 wp_id: 1408
 ---
 

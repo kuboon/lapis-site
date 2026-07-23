@@ -3,11 +3,10 @@ title: "日英合作ミュージカル「GALAXY TRAIN」リーディング公演
 slug: galaxy-train-2021
 category: other
 date: "2021-11-09"
-original_url: "https://theatrelapis.org/galaxy-train-2021/"
 wp_id: 1457
 ---
 
-[![](https://theatrelapis.org/files/2021/11/GALAXY-TRAIN-POSTER-socmed-with-logo-240x300.png)](https://theatrelapis.org/files/2021/11/GALAXY-TRAIN-POSTER-socmed-with-logo.png)
+[![](/static/media/2021/11/GALAXY-TRAIN-POSTER-socmed-with-logo-240x300.png)](/static/media/2021/11/GALAXY-TRAIN-POSTER-socmed-with-logo.png)
 
 ### ＜スケジュール概要＞
 
@@ -74,22 +73,22 @@ wp_id: 1457
 
 「Galaxy Train」は、宮澤賢治の「銀河鉄道の夜」を原作とした新作ミュージカルで、演出家市川洋二郎の原案を元に、イギリスにおいて新進気鋭の作曲家として注目されているエデン・トレッドウェルが曲を書き下ろし、脚本を共同で執筆しています。最終的には日本と英国双方でのフルプロダクション上演を目指しており、今回のリーディングは、そのための第一歩となっています。
 
-[![](https://theatrelapis.org/files/2021/11/Picture2.png)](https://theatrelapis.org/files/2021/11/Picture2.png)
+[![](/static/media/2021/11/Picture2.png)](/static/media/2021/11/Picture2.png)
 
 本作のために書き下ろされた楽曲は現段階でも高い評価を得ており、主題歌『星の唄 Those Stars』は、英国における新作ミュージカルのための楽曲のコンテストthe Stiles and Drew Best New Song Prizeにて2021年度グランプリに輝きました。今後の作品の展開が英演劇界でも注目されています。
 
-[![](https://theatrelapis.org/files/2021/11/thumbnail_image001-300x195.jpg)](https://theatrelapis.org/files/2021/11/thumbnail_image001.jpg)
+[![](/static/media/2021/11/thumbnail_image001-300x195.jpg)](/static/media/2021/11/thumbnail_image001.jpg)
 
 『星の唄 Those Stars』（英語版）ミュージックビデオ
 https://youtu.be/wqHK\_cp4gUg
 
 文化庁Arts For The Future助成金による支援のもとに開催する今回のリーディング公演は、テアトルラピスが主催として日本でプロデュースする公演の第一弾です。日本人の素朴な美意識と哲学的な自己犠牲の死生観に溢れながらも、イタリアのどこかの街を舞台にした国際色あふれる宮澤賢治の「銀河鉄道の夜」を題材として、イギリスのアーティスト達とのコラボレーションを通じ、世界中のお客様に通じる演劇作品の創出を模索したいと願っており、その第一歩として今回は、作品の故郷である日本で、日本人の俳優達と共に、作品を練り上げるワークショップ稽古とそのリーディング公演を実施いたします。日本人の視点と欧州人の視点の双方を融合させて、世界中のお客様にも作品の持つ日本人の美意識や死生観が伝わりやすい演目になるよう、脚本を磨き上げたいと思っております。
 
-[![](https://theatrelapis.org/files/2021/11/Screenshot-2021-10-13-at-22.10.32-1024x600.png)](https://theatrelapis.org/files/2021/11/Screenshot-2021-10-13-at-22.10.32.png)
+[![](/static/media/2021/11/Screenshot-2021-10-13-at-22.10.32-1024x600.png)](/static/media/2021/11/Screenshot-2021-10-13-at-22.10.32.png)
 
 劇場での公演は感染拡大対策として最大観客収容人数112人のところを60人に制限し、オンラインでの配信も並行して行います。そうすることで、劇場に足を運べない日本のお客様はもちろん、世界中のお客様にも作品をご紹介し、作品の更なる発展のためにフィードバックを得る予定です。その際には、演劇を映像として配信するからこそできる表現方法の模索も行い、演劇の更なる可能性を探っていきたいと思っています。
 
-[![](https://theatrelapis.org/files/2021/11/Picture1.png)](https://theatrelapis.org/files/2021/11/Picture1.png)
+[![](/static/media/2021/11/Picture1.png)](/static/media/2021/11/Picture1.png)
 
 世界中で人種問題が浮き彫りになり多くの諍いが生じている現代、また、舞台芸術の存続が危ぶまれるコロナ禍において、この様な国際的なコラボレーションは、芸術が人種や文化を超えて人と人の心を繋ぐ架け橋に成り得るということを証明するプロセスであり、大変意義深いものであると信じております。芸術の未来をサポートするArts For The Future基金のご支援をいただき、この大きな国際的試みを始動させることができることを、大変嬉しく思っております。新しい作品が生まれる現場を、どうぞ一緒にご体感ください！
 
@@ -97,5 +96,5 @@ https://youtu.be/wqHK\_cp4gUg
 
 Theatre Lapis(テアトルラピス)は、演出家・翻訳家である市川洋二郎とプロデューサー和田佳子が中心となり結成したプロデュース団体です。これまで英国を始めとして、フランス、ポーランド、フィリピンなどのアーティストたちとコラボレーションをしてまいりました。日本のお客様に向けてはもちろん、海外へ向けて日本の美意識や価値観を幅広く発信していくことを目的としており、演劇活動を通じての日本文化の再発見と、現代的および国際的な観点によるその更なる発展を目指しています。
 
-[![](https://theatrelapis.org/files/2021/11/AFF-BR-300x152.png)](https://theatrelapis.org/files/2021/11/AFF-BR.png)
+[![](/static/media/2021/11/AFF-BR-300x152.png)](/static/media/2021/11/AFF-BR.png)
 文化庁「ARTS for the future!」補助対象事業

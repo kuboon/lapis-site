@@ -3,11 +3,10 @@ title: "Monologue Lab JP"
 slug: monologue-lab-jp
 category: training
 date: "2020-09-16"
-original_url: "https://theatrelapis.org/monologue-lab-jp/"
 wp_id: 1298
 ---
 
-[![](https://theatrelapis.org/files/2020/09/IMG_9830-e1600288778551-225x300.jpg)](https://theatrelapis.org/files/2020/09/IMG_9830-e1600288778551.jpg)
+[![](/static/media/2020/09/IMG_9830-e1600288778551-225x300.jpg)](/static/media/2020/09/IMG_9830-e1600288778551.jpg)
 
 **Monologue Lab**とは、当カンパニーの芸術監督による、マンツーマンの演技指導レッスンです。
 

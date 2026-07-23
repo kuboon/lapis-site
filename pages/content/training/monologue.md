@@ -3,7 +3,6 @@ title: "Monologue Lab"
 slug: monologue
 category: training
 date: "2020-08-29"
-original_url: "https://theatrelapis.org/monologue/"
 wp_id: 1295
 ---
 

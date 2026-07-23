@@ -4,7 +4,6 @@ slug: ordinary-days-2017
 category: works
 year: 2017
 date: "2017-05-10"
-original_url: "https://theatrelapis.org/ordinary-days-2017/"
 wp_id: 833
 ---
 
@@ -20,7 +19,7 @@ Tickets are on sale now!!
 
 ## INTRODUCTION
 
-[![](https://theatrelapis.org/files/2017/05/ODFlyer-FRONT-FINAL-1000-300x212.jpg)](https://theatrelapis.org/files/2017/05/ODFlyer-FRONT-FINAL-1000.jpg)[![](https://theatrelapis.org/files/2017/05/ODFlyer-BACK-FINAL-1000-300x212.jpg)](https://theatrelapis.org/files/2017/05/ODFlyer-BACK-FINAL-1000.jpg)
+[![](/static/media/2017/05/ODFlyer-FRONT-FINAL-1000-300x212.jpg)](/static/media/2017/05/ODFlyer-FRONT-FINAL-1000.jpg)[![](/static/media/2017/05/ODFlyer-BACK-FINAL-1000-300x212.jpg)](/static/media/2017/05/ODFlyer-BACK-FINAL-1000.jpg)
 
 [Ordinary Days] captures with stinging clarity that uneasy moment in youth when doubts begin to cloud hopes for a future of unlimited possibility." — Charles Isherwood, The New York Times”
 
@@ -86,4 +85,4 @@ a beautiful new production of Ordinary Days. So elegantly directed by Yojiro Ich
 
 ## GALLERY
 
-[![](https://theatrelapis.org/files/2017/05/IMG_9050-200x300.jpg)](https://theatrelapis.org/files/2017/05/IMG_9050.jpg)[![](https://theatrelapis.org/files/2017/05/IMG_9215-200x300.jpg)](https://theatrelapis.org/files/2017/05/IMG_9215.jpg)[![](https://theatrelapis.org/files/2017/05/IMG_9096-200x300.jpg)](https://theatrelapis.org/files/2017/05/IMG_9096.jpg)[![](https://theatrelapis.org/files/2017/05/IMG_9400-1-200x300.jpg)](https://theatrelapis.org/files/2017/05/IMG_9400-1.jpg)[![](https://theatrelapis.org/files/2017/05/IMG_0124-200x300.jpg)](https://theatrelapis.org/files/2017/05/IMG_0124.jpg)[![](https://theatrelapis.org/files/2017/05/IMG_9947-200x300.jpg)](https://theatrelapis.org/files/2017/05/IMG_9947.jpg)[![](https://theatrelapis.org/files/2017/05/IMG_9083-300x200.jpg)](https://theatrelapis.org/files/2017/05/IMG_9083.jpg)[![](https://theatrelapis.org/files/2017/05/IMG_9333-300x200.jpg)](https://theatrelapis.org/files/2017/05/IMG_9333.jpg)[![](https://theatrelapis.org/files/2017/05/IMG_9771-300x200.jpg)](https://theatrelapis.org/files/2017/05/IMG_9771.jpg)[![](https://theatrelapis.org/files/2017/05/IMG_9809-300x200.jpg)](https://theatrelapis.org/files/2017/05/IMG_9809.jpg)[![](https://theatrelapis.org/files/2017/05/IMG_0189-300x200.jpg)](https://theatrelapis.org/files/2017/05/IMG_0189.jpg)[![](https://theatrelapis.org/files/2017/05/IMG_9997-300x200.jpg)](https://theatrelapis.org/files/2017/05/IMG_9997.jpg)
+[![](/static/media/2017/05/IMG_9050-200x300.jpg)](/static/media/2017/05/IMG_9050.jpg)[![](/static/media/2017/05/IMG_9215-200x300.jpg)](/static/media/2017/05/IMG_9215.jpg)[![](/static/media/2017/05/IMG_9096-200x300.jpg)](/static/media/2017/05/IMG_9096.jpg)[![](/static/media/2017/05/IMG_9400-1-200x300.jpg)](/static/media/2017/05/IMG_9400-1.jpg)[![](/static/media/2017/05/IMG_0124-200x300.jpg)](/static/media/2017/05/IMG_0124.jpg)[![](/static/media/2017/05/IMG_9947-200x300.jpg)](/static/media/2017/05/IMG_9947.jpg)[![](/static/media/2017/05/IMG_9083-300x200.jpg)](/static/media/2017/05/IMG_9083.jpg)[![](/static/media/2017/05/IMG_9333-300x200.jpg)](/static/media/2017/05/IMG_9333.jpg)[![](/static/media/2017/05/IMG_9771-300x200.jpg)](/static/media/2017/05/IMG_9771.jpg)[![](/static/media/2017/05/IMG_9809-300x200.jpg)](/static/media/2017/05/IMG_9809.jpg)[![](/static/media/2017/05/IMG_0189-300x200.jpg)](/static/media/2017/05/IMG_0189.jpg)[![](/static/media/2017/05/IMG_9997-300x200.jpg)](/static/media/2017/05/IMG_9997.jpg)

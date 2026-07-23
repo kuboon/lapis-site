@@ -3,7 +3,6 @@ title: "VLOG: Lunch at Harrods - ハロッズで昼食を"
 slug: lunch-at-harrods
 category: training
 date: "2020-08-29"
-original_url: "https://theatrelapis.org/lunch-at-harrods/"
 wp_id: 1287
 ---
 

@@ -3,12 +3,11 @@ title: "Upcoming"
 slug: ordinary-days
 category: post
 date: "2012-04-19"
-original_url: "https://theatrelapis.org/2012/04/19/ordinary-days/"
 wp_id: 30
 ---
 
-[![](https://theatrelapis.org/files/2012/03/ordinary-days-front-300x225.jpg)](https://theatrelapis.org/files/2012/03/ordinary-days-front.jpg)
-[![](https://theatrelapis.org/files/2012/03/ordinary-days-rear-300x232.png)](https://theatrelapis.org/files/2012/03/ordinary-days-rear.png)
+[![](/static/media/2012/03/ordinary-days-front-300x225.jpg)](/static/media/2012/03/ordinary-days-front.jpg)
+[![](/static/media/2012/03/ordinary-days-rear-300x232.png)](/static/media/2012/03/ordinary-days-rear.png)
 
 Tickets for ORDINARY DAYS can be purchased in the website below!!!
 

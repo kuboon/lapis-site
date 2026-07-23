@@ -4,7 +4,6 @@
     "title": "About Théatre Lapis",
     "category": "about",
     "year": "",
-    "original_url": "https://theatrelapis.org/about-theatre-lapis/",
     "new_path": "/about/about-theatre-lapis",
     "file": "pages/content/about/about-theatre-lapis.md"
   },
@@ -13,7 +12,6 @@
     "title": "About Us",
     "category": "about",
     "year": "",
-    "original_url": "https://theatrelapis.org/about/",
     "new_path": "/about/about",
     "file": "pages/content/about/about.md"
   },
@@ -22,7 +20,6 @@
     "title": "Artistic Director",
     "category": "about",
     "year": "",
-    "original_url": "https://theatrelapis.org/artistic-director/",
     "new_path": "/about/artistic-director",
     "file": "pages/content/about/artistic-director.md"
   },
@@ -31,7 +28,6 @@
     "title": "Associate Artists",
     "category": "about",
     "year": "",
-    "original_url": "https://theatrelapis.org/associate-artists/",
     "new_path": "/about/associate-artists",
     "file": "pages/content/about/associate-artists.md"
   },
@@ -40,7 +36,6 @@
     "title": "Contact Us",
     "category": "contact",
     "year": "",
-    "original_url": "https://theatrelapis.org/contact-us/",
     "new_path": "/pages/contact-us",
     "file": "pages/content/pages/contact-us.md"
   },
@@ -49,7 +44,6 @@
     "title": "Gallery",
     "category": "gallery",
     "year": "",
-    "original_url": "https://theatrelapis.org/gallery/",
     "new_path": "/pages/gallery",
     "file": "pages/content/pages/gallery.md"
   },
@@ -58,7 +52,6 @@
     "title": "News",
     "category": "news",
     "year": "",
-    "original_url": "https://theatrelapis.org/",
     "new_path": "/blog/from-up-here",
     "file": "pages/content/blog/from-up-here.md"
   },
@@ -67,7 +60,6 @@
     "title": "GALAXY TRAIN クラウドファンディング",
     "category": "other",
     "year": "",
-    "original_url": "https://theatrelapis.org/galaxy-train-crowdfunding/",
     "new_path": "/pages/galaxy-train-crowdfunding",
     "file": "pages/content/pages/galaxy-train-crowdfunding.md"
   },
@@ -76,7 +68,6 @@
     "title": "Intorduction",
     "category": "other",
     "year": "",
-    "original_url": "https://theatrelapis.org/intorduction/",
     "new_path": "/pages/intorduction",
     "file": "pages/content/pages/intorduction.md"
   },
@@ -85,7 +76,6 @@
     "title": "Jellicle Songs for All",
     "category": "other",
     "year": "",
-    "original_url": "https://theatrelapis.org/jellicle-songs-for-all/",
     "new_path": "/pages/jellicle-songs-for-all",
     "file": "pages/content/pages/jellicle-songs-for-all.md"
   },
@@ -94,7 +84,6 @@
     "title": "Tickets",
     "category": "other",
     "year": "",
-    "original_url": "https://theatrelapis.org/tickets-2/",
     "new_path": "/pages/tickets-2",
     "file": "pages/content/pages/tickets-2.md"
   },
@@ -103,7 +92,6 @@
     "title": "日英合作ミュージカル「GALAXY TRAIN」リーディング公演",
     "category": "other",
     "year": "",
-    "original_url": "https://theatrelapis.org/galaxy-train-2021/",
     "new_path": "/pages/galaxy-train-2021",
     "file": "pages/content/pages/galaxy-train-2021.md"
   },
@@ -112,7 +100,6 @@
     "title": "Upcoming",
     "category": "post",
     "year": "",
-    "original_url": "https://theatrelapis.org/2012/04/19/ordinary-days/",
     "new_path": "/blog/ordinary-days",
     "file": "pages/content/blog/ordinary-days.md"
   },
@@ -121,7 +108,6 @@
     "title": "Reviews",
     "category": "reviews",
     "year": "",
-    "original_url": "https://theatrelapis.org/reviews/",
     "new_path": "/pages/reviews",
     "file": "pages/content/pages/reviews.md"
   },
@@ -130,7 +116,6 @@
     "title": "Client Testimonials お客様の声",
     "category": "training",
     "year": "",
-    "original_url": "https://theatrelapis.org/reviews-from-clients/",
     "new_path": "/training/reviews-from-clients",
     "file": "pages/content/training/reviews-from-clients.md"
   },
@@ -139,7 +124,6 @@
     "title": "Client Testimonials お客様の声 - Monologue Lab",
     "category": "training",
     "year": "",
-    "original_url": "https://theatrelapis.org/testimonials-monologue/",
     "new_path": "/training/testimonials-monologue",
     "file": "pages/content/training/testimonials-monologue.md"
   },
@@ -148,7 +132,6 @@
     "title": "Drama Training",
     "category": "training",
     "year": "",
-    "original_url": "https://theatrelapis.org/drama-training/",
     "new_path": "/training/drama-training",
     "file": "pages/content/training/drama-training.md"
   },
@@ -157,7 +140,6 @@
     "title": "Monologue Lab",
     "category": "training",
     "year": "",
-    "original_url": "https://theatrelapis.org/monologue/",
     "new_path": "/training/monologue",
     "file": "pages/content/training/monologue.md"
   },
@@ -166,7 +148,6 @@
     "title": "Monologue Lab JP",
     "category": "training",
     "year": "",
-    "original_url": "https://theatrelapis.org/monologue-lab-jp/",
     "new_path": "/training/monologue-lab-jp",
     "file": "pages/content/training/monologue-lab-jp.md"
   },
@@ -175,7 +156,6 @@
     "title": "Style Gates - Master Lessons",
     "category": "training",
     "year": "",
-    "original_url": "https://theatrelapis.org/masterlessons/",
     "new_path": "/training/masterlessons",
     "file": "pages/content/training/masterlessons.md"
   },
@@ -184,7 +164,6 @@
     "title": "VLOG: Lunch at Harrods - ハロッズで昼食を",
     "category": "training",
     "year": "",
-    "original_url": "https://theatrelapis.org/lunch-at-harrods/",
     "new_path": "/training/lunch-at-harrods",
     "file": "pages/content/training/lunch-at-harrods.md"
   },
@@ -193,7 +172,6 @@
     "title": "Vocal Training",
     "category": "training",
     "year": "",
-    "original_url": "https://theatrelapis.org/vocal-training/",
     "new_path": "/training/vocal-training",
     "file": "pages/content/training/vocal-training.md"
   },
@@ -202,7 +180,6 @@
     "title": "Vocal Training EN",
     "category": "training",
     "year": "",
-    "original_url": "https://theatrelapis.org/vocal-training-en/",
     "new_path": "/training/vocal-training-en",
     "file": "pages/content/training/vocal-training-en.md"
   },
@@ -211,7 +188,6 @@
     "title": "Vocal Training JP",
     "category": "training",
     "year": "",
-    "original_url": "https://theatrelapis.org/vocal-training-jp/",
     "new_path": "/training/vocal-training-jp",
     "file": "pages/content/training/vocal-training-jp.md"
   },
@@ -220,7 +196,6 @@
     "title": "Vocal/Drama Coaching",
     "category": "training",
     "year": "",
-    "original_url": "https://theatrelapis.org/vocaldrama-coaching/",
     "new_path": "/training/vocaldrama-coaching",
     "file": "pages/content/training/vocaldrama-coaching.md"
   },
@@ -229,7 +204,6 @@
     "title": "オンライン・レクチャー",
     "category": "training",
     "year": "",
-    "original_url": "https://theatrelapis.org/onlinelectures/",
     "new_path": "/training/onlinelectures",
     "file": "pages/content/training/onlinelectures.md"
   },
@@ -238,7 +212,6 @@
     "title": "History",
     "category": "works",
     "year": "",
-    "original_url": "https://theatrelapis.org/history/",
     "new_path": "/works/history",
     "file": "pages/content/works/history.md"
   },
@@ -247,7 +220,6 @@
     "title": "Ordinary Days 2012",
     "category": "works",
     "year": "2012",
-    "original_url": "https://theatrelapis.org/history/ordinarydays2012/",
     "new_path": "/works/ordinarydays2012",
     "file": "pages/content/works/ordinarydays2012.md"
   },
@@ -256,7 +228,6 @@
     "title": "From Up Here 2013",
     "category": "works",
     "year": "2013",
-    "original_url": "https://theatrelapis.org/history/fuh2013/",
     "new_path": "/works/fuh2013",
     "file": "pages/content/works/fuh2013.md"
   },
@@ -265,7 +236,6 @@
     "title": "FOUR SEASONS in Japan Festival 2014",
     "category": "works",
     "year": "2014",
-    "original_url": "https://theatrelapis.org/japan-festival/",
     "new_path": "/works/japan-festival",
     "file": "pages/content/works/japan-festival.md"
   },
@@ -274,7 +244,6 @@
     "title": "From Up Here 2014",
     "category": "works",
     "year": "2014",
-    "original_url": "https://theatrelapis.org/history/from-up-here-2014/",
     "new_path": "/works/from-up-here-2014",
     "file": "pages/content/works/from-up-here-2014.md"
   },
@@ -283,7 +252,6 @@
     "title": "PETER PAN A Musical Adventure 2014",
     "category": "works",
     "year": "2014",
-    "original_url": "https://theatrelapis.org/peter-pan/",
     "new_path": "/works/peter-pan",
     "file": "pages/content/works/peter-pan.md"
   },
@@ -292,7 +260,6 @@
     "title": "Tinker Bell in Shoji-Land 2014",
     "category": "works",
     "year": "2014",
-    "original_url": "https://theatrelapis.org/tinker-bell-in-shoji-land-2014/",
     "new_path": "/works/tinker-bell-in-shoji-land-2014",
     "file": "pages/content/works/tinker-bell-in-shoji-land-2014.md"
   },
@@ -301,7 +268,6 @@
     "title": "PRINCE OF BROADWAY 2015",
     "category": "works",
     "year": "2015",
-    "original_url": "https://theatrelapis.org/prince-of-broadway-2015/",
     "new_path": "/works/prince-of-broadway-2015",
     "file": "pages/content/works/prince-of-broadway-2015.md"
   },
@@ -310,7 +276,6 @@
     "title": "TITANIC The Musical 2015",
     "category": "works",
     "year": "2015",
-    "original_url": "https://theatrelapis.org/titanic-the-musical/",
     "new_path": "/works/titanic-the-musical",
     "file": "pages/content/works/titanic-the-musical.md"
   },
@@ -319,7 +284,6 @@
     "title": "ETERNAL CHIKAMATSU 2016",
     "category": "works",
     "year": "2016",
-    "original_url": "https://theatrelapis.org/eternal-chikamatsu/",
     "new_path": "/works/eternal-chikamatsu",
     "file": "pages/content/works/eternal-chikamatsu.md"
   },
@@ -328,7 +292,6 @@
     "title": "GRAND HOTEL The Musical 2016",
     "category": "works",
     "year": "2016",
-    "original_url": "https://theatrelapis.org/grand-hotel-the-musical/",
     "new_path": "/works/grand-hotel-the-musical",
     "file": "pages/content/works/grand-hotel-the-musical.md"
   },
@@ -337,7 +300,6 @@
     "title": "Screw-Eyed 2016",
     "category": "works",
     "year": "2016",
-    "original_url": "https://theatrelapis.org/screw-eyed/",
     "new_path": "/works/screw-eyed",
     "file": "pages/content/works/screw-eyed.md"
   },
@@ -346,7 +308,6 @@
     "title": "Tell Me On A Sunday 2016",
     "category": "works",
     "year": "2016",
-    "original_url": "https://theatrelapis.org/tell-me-on-a-sunday-2016/",
     "new_path": "/works/tell-me-on-a-sunday-2016",
     "file": "pages/content/works/tell-me-on-a-sunday-2016.md"
   },
@@ -355,7 +316,6 @@
     "title": "The Red Candle -Mermaids In The East- 2016",
     "category": "works",
     "year": "2016",
-    "original_url": "https://theatrelapis.org/mermaids-in-the-east-2016/",
     "new_path": "/works/mermaids-in-the-east-2016",
     "file": "pages/content/works/mermaids-in-the-east-2016.md"
   },
@@ -364,7 +324,6 @@
     "title": "Ordinary Days 2017",
     "category": "works",
     "year": "2017",
-    "original_url": "https://theatrelapis.org/ordinary-days-2017/",
     "new_path": "/works/ordinary-days-2017",
     "file": "pages/content/works/ordinary-days-2017.md"
   },
@@ -373,7 +332,6 @@
     "title": "River Lethe",
     "category": "works",
     "year": "2017",
-    "original_url": "https://theatrelapis.org/river-lethe/",
     "new_path": "/works/river-lethe",
     "file": "pages/content/works/river-lethe.md"
   },
@@ -382,7 +340,6 @@
     "title": "Ondine",
     "category": "works",
     "year": "2018",
-    "original_url": "https://theatrelapis.org/ondine/",
     "new_path": "/works/ondine",
     "file": "pages/content/works/ondine.md"
   },
@@ -391,7 +348,6 @@
     "title": "TITANIC 2018",
     "category": "works",
     "year": "2018",
-    "original_url": "https://theatrelapis.org/titanic/",
     "new_path": "/works/titanic",
     "file": "pages/content/works/titanic.md"
   },
@@ -400,7 +356,6 @@
     "title": "Tapestry",
     "category": "works",
     "year": "2018",
-    "original_url": "https://theatrelapis.org/tapestry/",
     "new_path": "/works/tapestry",
     "file": "pages/content/works/tapestry.md"
   },
@@ -409,7 +364,6 @@
     "title": "URINETOWN",
     "category": "works",
     "year": "2018",
-    "original_url": "https://theatrelapis.org/urinetown/",
     "new_path": "/works/urinetown",
     "file": "pages/content/works/urinetown.md"
   },
@@ -418,7 +372,6 @@
     "title": "driving at night with the windows down (and the music on)",
     "category": "works",
     "year": "2018",
-    "original_url": "https://theatrelapis.org/driving-at-night-with-the-windows-down-and-the-music-on/",
     "new_path": "/works/driving-at-night-with-the-windows-down-and-the-music-on",
     "file": "pages/content/works/driving-at-night-with-the-windows-down-and-the-music-on.md"
   },
@@ -427,7 +380,6 @@
     "title": "Pearl and Dagger",
     "category": "works",
     "year": "2019",
-    "original_url": "https://theatrelapis.org/pearl-and-dagger-2019/",
     "new_path": "/works/pearl-and-dagger-2019",
     "file": "pages/content/works/pearl-and-dagger-2019.md"
   },
@@ -436,7 +388,6 @@
     "title": "Wycinanki. List z morza (Cut-outs: Letter from the Sea)",
     "category": "works",
     "year": "2019",
-    "original_url": "https://theatrelapis.org/wycinanki-list-z-morza-cut-outs-letter-from-the-sea/",
     "new_path": "/works/wycinanki-list-z-morza-cut-outs-letter-from-the-sea",
     "file": "pages/content/works/wycinanki-list-z-morza-cut-outs-letter-from-the-sea.md"
   },
@@ -445,7 +396,6 @@
     "title": "KUWENTO - 物語(Monogatari)",
     "category": "works",
     "year": "2020",
-    "original_url": "https://theatrelapis.org/kuwento/",
     "new_path": "/works/kuwento",
     "file": "pages/content/works/kuwento.md"
   },
@@ -454,7 +404,6 @@
     "title": "Letter from the Sea - Tokyo (海からの てがみ)",
     "category": "works",
     "year": "2020",
-    "original_url": "https://theatrelapis.org/umikara/",
     "new_path": "/works/umikara",
     "file": "pages/content/works/umikara.md"
   },
@@ -463,7 +412,6 @@
     "title": "Pearl and Dagger - Concert",
     "category": "works",
     "year": "2020",
-    "original_url": "https://theatrelapis.org/pearl-and-dagger-concert/",
     "new_path": "/works/pearl-and-dagger-concert",
     "file": "pages/content/works/pearl-and-dagger-concert.md"
   },
@@ -472,7 +420,6 @@
     "title": "GALAXY TRAIN - Tokyo Reading",
     "category": "works",
     "year": "2021",
-    "original_url": "https://theatrelapis.org/galaxy-train-tokyo-reading/",
     "new_path": "/works/galaxy-train-tokyo-reading",
     "file": "pages/content/works/galaxy-train-tokyo-reading.md"
   },
@@ -481,7 +428,6 @@
     "title": "The Illusionist - A New Musical",
     "category": "works",
     "year": "2021",
-    "original_url": "https://theatrelapis.org/illusionist/",
     "new_path": "/works/illusionist",
     "file": "pages/content/works/illusionist.md"
   },
@@ -490,7 +436,6 @@
     "title": "The View Upstairs",
     "category": "works",
     "year": "2022",
-    "original_url": "https://theatrelapis.org/the-view-upstairs/",
     "new_path": "/works/the-view-upstairs",
     "file": "pages/content/works/the-view-upstairs.md"
   },
@@ -499,7 +444,6 @@
     "title": "GALAXY TRAIN - London Concert",
     "category": "works",
     "year": "2023",
-    "original_url": "https://theatrelapis.org/galaxy-train-london-concert/",
     "new_path": "/works/galaxy-train-london-concert",
     "file": "pages/content/works/galaxy-train-london-concert.md"
   },
@@ -508,7 +452,6 @@
     "title": "John & Jen - 2023",
     "category": "works",
     "year": "2023",
-    "original_url": "https://theatrelapis.org/john-jen-2023/",
     "new_path": "/works/john-jen-2023",
     "file": "pages/content/works/john-jen-2023.md"
   },
@@ -517,7 +460,6 @@
     "title": "ANTIGONE",
     "category": "works",
     "year": "2024",
-    "original_url": "https://theatrelapis.org/antigone/",
     "new_path": "/works/antigone",
     "file": "pages/content/works/antigone.md"
   },
@@ -526,7 +468,6 @@
     "title": "L'Histore du Soldat",
     "category": "works",
     "year": "2025",
-    "original_url": "https://theatrelapis.org/lhistore-du-soldat/",
     "new_path": "/works/lhistore-du-soldat",
     "file": "pages/content/works/lhistore-du-soldat.md"
   },
@@ -535,7 +476,6 @@
     "title": "PARIAH",
     "category": "works",
     "year": "2025",
-    "original_url": "https://theatrelapis.org/pariah/",
     "new_path": "/works/pariah",
     "file": "pages/content/works/pariah.md"
   },
@@ -544,7 +484,6 @@
     "title": "The Illusionist - 2025",
     "category": "works",
     "year": "2025",
-    "original_url": "https://theatrelapis.org/the-illusionist-2025/",
     "new_path": "/works/the-illusionist-2025",
     "file": "pages/content/works/the-illusionist-2025.md"
   },
@@ -553,7 +492,6 @@
     "title": "THE POUT-POUT FISH",
     "category": "works",
     "year": "2026",
-    "original_url": "https://theatrelapis.org/the-pout-pout-fish/",
     "new_path": "/works/the-pout-pout-fish",
     "file": "pages/content/works/the-pout-pout-fish.md"
   },
@@ -562,7 +500,6 @@
     "title": "The String Telephone",
     "category": "works",
     "year": "2026",
-    "original_url": "https://theatrelapis.org/the-string-telephone/",
     "new_path": "/works/the-string-telephone",
     "file": "pages/content/works/the-string-telephone.md"
   },
@@ -571,7 +508,6 @@
     "title": "2012",
     "category": "year-index",
     "year": "2012",
-    "original_url": "https://theatrelapis.org/2012-2/",
     "new_path": null,
     "file": null
   },
@@ -580,7 +516,6 @@
     "title": "2013",
     "category": "year-index",
     "year": "2013",
-    "original_url": "https://theatrelapis.org/2013-2/",
     "new_path": null,
     "file": null
   },
@@ -589,7 +524,6 @@
     "title": "2014",
     "category": "year-index",
     "year": "2014",
-    "original_url": "https://theatrelapis.org/2014-2/",
     "new_path": null,
     "file": null
   },
@@ -598,7 +532,6 @@
     "title": "2015",
     "category": "year-index",
     "year": "2015",
-    "original_url": "https://theatrelapis.org/2015-2/",
     "new_path": null,
     "file": null
   },
@@ -607,7 +540,6 @@
     "title": "2016",
     "category": "year-index",
     "year": "2016",
-    "original_url": "https://theatrelapis.org/2016-2/",
     "new_path": null,
     "file": null
   },
@@ -616,7 +548,6 @@
     "title": "2017",
     "category": "year-index",
     "year": "2017",
-    "original_url": "https://theatrelapis.org/2017-2/",
     "new_path": null,
     "file": null
   },
@@ -625,7 +556,6 @@
     "title": "2018",
     "category": "year-index",
     "year": "2018",
-    "original_url": "https://theatrelapis.org/2018-2/",
     "new_path": null,
     "file": null
   },
@@ -634,7 +564,6 @@
     "title": "2019",
     "category": "year-index",
     "year": "2019",
-    "original_url": "https://theatrelapis.org/2019-2/",
     "new_path": null,
     "file": null
   },
@@ -643,7 +572,6 @@
     "title": "2020",
     "category": "year-index",
     "year": "2020",
-    "original_url": "https://theatrelapis.org/2020-2/",
     "new_path": null,
     "file": null
   },
@@ -652,7 +580,6 @@
     "title": "2021",
     "category": "year-index",
     "year": "2021",
-    "original_url": "https://theatrelapis.org/2021-2/",
     "new_path": null,
     "file": null
   },
@@ -661,7 +588,6 @@
     "title": "2022",
     "category": "year-index",
     "year": "2022",
-    "original_url": "https://theatrelapis.org/2022-2/",
     "new_path": null,
     "file": null
   },
@@ -670,7 +596,6 @@
     "title": "2023",
     "category": "year-index",
     "year": "2023",
-    "original_url": "https://theatrelapis.org/2023-2/",
     "new_path": null,
     "file": null
   },
@@ -679,7 +604,6 @@
     "title": "2024",
     "category": "year-index",
     "year": "2024",
-    "original_url": "https://theatrelapis.org/2024-2/",
     "new_path": null,
     "file": null
   },
@@ -688,7 +612,6 @@
     "title": "2025",
     "category": "year-index",
     "year": "2025",
-    "original_url": "https://theatrelapis.org/2025-2/",
     "new_path": null,
     "file": null
   },
@@ -697,7 +620,6 @@
     "title": "2026",
     "category": "year-index",
     "year": "2026",
-    "original_url": "https://theatrelapis.org/2026-2/",
     "new_path": null,
     "file": null
   }

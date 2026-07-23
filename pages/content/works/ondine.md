@@ -4,7 +4,6 @@ slug: ondine
 category: works
 year: 2018
 date: "2018-03-06"
-original_url: "https://theatrelapis.org/ondine/"
 wp_id: 951
 ---
 
@@ -114,16 +113,16 @@ Understudy Ondine
 
 (Photos by Carlos Moral Reis)
 
-[![](https://theatrelapis.org/files/2018/03/DSC_0017-200x300.jpg)](https://theatrelapis.org/files/2018/03/DSC_0017.jpg)[![](https://theatrelapis.org/files/2018/03/DSC_0028-200x300.jpg)](https://theatrelapis.org/files/2018/03/DSC_0028.jpg)[![](https://theatrelapis.org/files/2018/03/DSC_0132-200x300.jpg)](https://theatrelapis.org/files/2018/03/DSC_0132.jpg)
+[![](/static/media/2018/03/DSC_0017-200x300.jpg)](/static/media/2018/03/DSC_0017.jpg)[![](/static/media/2018/03/DSC_0028-200x300.jpg)](/static/media/2018/03/DSC_0028.jpg)[![](/static/media/2018/03/DSC_0132-200x300.jpg)](/static/media/2018/03/DSC_0132.jpg)
 
-[![](https://theatrelapis.org/files/2018/03/DSC_0111-300x200.jpg)](https://theatrelapis.org/files/2018/03/DSC_0111.jpg)[![](https://theatrelapis.org/files/2018/03/DSC_0201-300x200.jpg)](https://theatrelapis.org/files/2018/03/DSC_0201.jpg)
+[![](/static/media/2018/03/DSC_0111-300x200.jpg)](/static/media/2018/03/DSC_0111.jpg)[![](/static/media/2018/03/DSC_0201-300x200.jpg)](/static/media/2018/03/DSC_0201.jpg)
 
-[![](https://theatrelapis.org/files/2018/03/DSC_0216-200x300.jpg)](https://theatrelapis.org/files/2018/03/DSC_0216.jpg)[![](https://theatrelapis.org/files/2018/03/28337066_10213338799682464_651258978614746602_o-200x300.jpg)](https://theatrelapis.org/files/2018/03/28337066_10213338799682464_651258978614746602_o.jpg)[![](https://theatrelapis.org/files/2018/03/28516016_10213338803562561_4595140545996604147_o-200x300.jpg)](https://theatrelapis.org/files/2018/03/28516016_10213338803562561_4595140545996604147_o.jpg)
+[![](/static/media/2018/03/DSC_0216-200x300.jpg)](/static/media/2018/03/DSC_0216.jpg)[![](/static/media/2018/03/28337066_10213338799682464_651258978614746602_o-200x300.jpg)](/static/media/2018/03/28337066_10213338799682464_651258978614746602_o.jpg)[![](/static/media/2018/03/28516016_10213338803562561_4595140545996604147_o-200x300.jpg)](/static/media/2018/03/28516016_10213338803562561_4595140545996604147_o.jpg)
 
-[![](https://theatrelapis.org/files/2018/03/DSC_0247-300x197.jpg)](https://theatrelapis.org/files/2018/03/DSC_0247.jpg)[![](https://theatrelapis.org/files/2018/03/2-1-300x202.jpg)](https://theatrelapis.org/files/2018/03/2-1.jpg)
+[![](/static/media/2018/03/DSC_0247-300x197.jpg)](/static/media/2018/03/DSC_0247.jpg)[![](/static/media/2018/03/2-1-300x202.jpg)](/static/media/2018/03/2-1.jpg)
 
-[![](https://theatrelapis.org/files/2018/03/DSC_0249-194x300.jpg)](https://theatrelapis.org/files/2018/03/DSC_0249.jpg)[![](https://theatrelapis.org/files/2018/03/DSC_0264-200x300.jpg)](https://theatrelapis.org/files/2018/03/DSC_0264.jpg)[![](https://theatrelapis.org/files/2018/03/28238259_10213338796082374_5015611423908630488_o-213x300.jpg)](https://theatrelapis.org/files/2018/03/28238259_10213338796082374_5015611423908630488_o.jpg)
+[![](/static/media/2018/03/DSC_0249-194x300.jpg)](/static/media/2018/03/DSC_0249.jpg)[![](/static/media/2018/03/DSC_0264-200x300.jpg)](/static/media/2018/03/DSC_0264.jpg)[![](/static/media/2018/03/28238259_10213338796082374_5015611423908630488_o-213x300.jpg)](/static/media/2018/03/28238259_10213338796082374_5015611423908630488_o.jpg)
 
-[![](https://theatrelapis.org/files/2018/03/28514394_10213338801002497_6545157875469564740_o-300x200.jpg)](https://theatrelapis.org/files/2018/03/28514394_10213338801002497_6545157875469564740_o.jpg)[![](https://theatrelapis.org/files/2018/03/28337415_10213338803802567_5447979895638859951_o-300x200.jpg)](https://theatrelapis.org/files/2018/03/28337415_10213338803802567_5447979895638859951_o.jpg)
+[![](/static/media/2018/03/28514394_10213338801002497_6545157875469564740_o-300x200.jpg)](/static/media/2018/03/28514394_10213338801002497_6545157875469564740_o.jpg)[![](/static/media/2018/03/28337415_10213338803802567_5447979895638859951_o-300x200.jpg)](/static/media/2018/03/28337415_10213338803802567_5447979895638859951_o.jpg)
 
-[![](https://theatrelapis.org/files/2018/03/28423149_10213338795162351_4618566450692020807_o-200x300.jpg)](https://theatrelapis.org/files/2018/03/28423149_10213338795162351_4618566450692020807_o.jpg)[![](https://theatrelapis.org/files/2018/03/28424876_10213338784802092_5430803316558769063_o-200x300.jpg)](https://theatrelapis.org/files/2018/03/28424876_10213338784802092_5430803316558769063_o.jpg)
+[![](/static/media/2018/03/28423149_10213338795162351_4618566450692020807_o-200x300.jpg)](/static/media/2018/03/28423149_10213338795162351_4618566450692020807_o.jpg)[![](/static/media/2018/03/28424876_10213338784802092_5430803316558769063_o-200x300.jpg)](/static/media/2018/03/28424876_10213338784802092_5430803316558769063_o.jpg)

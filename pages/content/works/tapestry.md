@@ -4,7 +4,6 @@ slug: tapestry
 category: works
 year: 2018
 date: "2018-03-06"
-original_url: "https://theatrelapis.org/tapestry/"
 wp_id: 941
 ---
 
@@ -34,4 +33,4 @@ Southwark Playhouse
 
 ### GALLERY
 
-[![](https://theatrelapis.org/files/2018/03/Tapestry2-300x199.jpg)](https://theatrelapis.org/files/2018/03/Tapestry2.jpg)[![](https://theatrelapis.org/files/2018/03/Taptestry1-300x199.jpg)](https://theatrelapis.org/files/2018/03/Taptestry1.jpg)[![](https://theatrelapis.org/files/2018/03/IMG_3180-300x169.png)](https://theatrelapis.org/files/2018/03/IMG_3180.png)[![](https://theatrelapis.org/files/2018/03/IMG_3182-1-300x169.png)](https://theatrelapis.org/files/2018/03/IMG_3182-1.png)[![](https://theatrelapis.org/files/2018/03/IMG_3175-300x169.png)](https://theatrelapis.org/files/2018/03/IMG_3175.png)[![](https://theatrelapis.org/files/2018/03/IMG_3120-300x169.png)](https://theatrelapis.org/files/2018/03/IMG_3120.png)
+[![](/static/media/2018/03/Tapestry2-300x199.jpg)](/static/media/2018/03/Tapestry2.jpg)[![](/static/media/2018/03/Taptestry1-300x199.jpg)](/static/media/2018/03/Taptestry1.jpg)[![](/static/media/2018/03/IMG_3180-300x169.png)](/static/media/2018/03/IMG_3180.png)[![](/static/media/2018/03/IMG_3182-1-300x169.png)](/static/media/2018/03/IMG_3182-1.png)[![](/static/media/2018/03/IMG_3175-300x169.png)](/static/media/2018/03/IMG_3175.png)[![](/static/media/2018/03/IMG_3120-300x169.png)](/static/media/2018/03/IMG_3120.png)

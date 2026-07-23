@@ -3,7 +3,6 @@ title: "History"
 slug: history
 category: works
 date: "2014-03-22"
-original_url: "https://theatrelapis.org/history/"
 wp_id: 166
 ---
 

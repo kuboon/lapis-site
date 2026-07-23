@@ -4,7 +4,6 @@ slug: mermaids-in-the-east-2016
 category: works
 year: 2016
 date: "2016-01-29"
-original_url: "https://theatrelapis.org/mermaids-in-the-east-2016/"
 wp_id: 550
 ---
 
@@ -42,7 +41,7 @@ https://youtu.be/aZ1bFotJxHM
 
 https://youtu.be/P2GO25lOT8k
 
-[![進捗824jpeg](https://theatrelapis.org/files/2016/09/48a36322496bef898aa78b38081a4098-212x300.jpg)](https://theatrelapis.org/files/2016/09/48a36322496bef898aa78b38081a4098.jpg)[![screen-shot-2016-09-07-at-12-14-40](https://theatrelapis.org/files/2016/01/Screen-Shot-2016-09-07-at-12.14.40-225x300.png)](https://theatrelapis.org/files/2016/01/Screen-Shot-2016-09-07-at-12.14.40.png)[![%e8%b5%a4%e3%81%84%e8%9d%8b%e7%87%adcomp-small](https://theatrelapis.org/files/2013/07/ede472866313e9b423d7d462a363c3dd-212x300.jpg)](https://theatrelapis.org/files/2013/07/ede472866313e9b423d7d462a363c3dd.jpg)
+[![進捗824jpeg](/static/media/2016/09/48a36322496bef898aa78b38081a4098-212x300.jpg)](/static/media/2016/09/48a36322496bef898aa78b38081a4098.jpg)[![screen-shot-2016-09-07-at-12-14-40](/static/media/2016/01/Screen-Shot-2016-09-07-at-12.14.40-225x300.png)](/static/media/2016/01/Screen-Shot-2016-09-07-at-12.14.40.png)[![%e8%b5%a4%e3%81%84%e8%9d%8b%e7%87%adcomp-small](/static/media/2013/07/ede472866313e9b423d7d462a363c3dd-212x300.jpg)](/static/media/2013/07/ede472866313e9b423d7d462a363c3dd.jpg)
 
 The way we tell the story is new and experimental pushing the boundaries of traditional methods. We take a minimalistic approach for the maximum theatrical effects accompanied by some traditional Japanese music.
 
@@ -52,13 +51,13 @@ Our initial inspiration was the earthquake and tsunami that hit Japan in 2011. H
 
 ## [VENUE]
 
-[![Screen Shot 2016-08-08 at 15.21.25](https://theatrelapis.org/files/2016/01/Screen-Shot-2016-08-08-at-15.21.25-300x161.png)](https://theatrelapis.org/files/2016/01/Screen-Shot-2016-08-08-at-15.21.25.png)
+[![Screen Shot 2016-08-08 at 15.21.25](/static/media/2016/01/Screen-Shot-2016-08-08-at-15.21.25-300x161.png)](/static/media/2016/01/Screen-Shot-2016-08-08-at-15.21.25.png)
 
 [The Grand Entrance Hall, The Brunel Museum](http://www.brunel-museum.org.uk/visiting-us/grand-entrance-hall-2/)
 
 Brunel Museum, Railway Avenue, Rotherhithe, London, SE16 4LF
 
-[![©JackHobhouse_TateHarmer_Brunel_024-copy](https://theatrelapis.org/files/2016/01/b78616827d841150825da23a4ae1ec66.jpg)](https://theatrelapis.org/files/2016/01/b78616827d841150825da23a4ae1ec66.jpg)
+[![©JackHobhouse_TateHarmer_Brunel_024-copy](/static/media/2016/01/b78616827d841150825da23a4ae1ec66.jpg)](/static/media/2016/01/b78616827d841150825da23a4ae1ec66.jpg)
 
 ## [DATES & TIME]
 
@@ -67,7 +66,7 @@ Tues-Sat 7:30pm, Sat & Sun 3:00pm,
 
 Special Gala Performance on the 9th, 3:00pm (Not available for the public)
 
-[![14151781_10153748825802231_1885434955_o](https://theatrelapis.org/files/2016/01/14151781_10153748825802231_1885434955_o-1024x302.jpg)](https://theatrelapis.org/files/2016/01/14151781_10153748825802231_1885434955_o.jpg)
+[![14151781_10153748825802231_1885434955_o](/static/media/2016/01/14151781_10153748825802231_1885434955_o-1024x302.jpg)](/static/media/2016/01/14151781_10153748825802231_1885434955_o.jpg)
 
 ## [TICKETS]
 
@@ -109,19 +108,19 @@ with the special appearance by Wally Tuyan
 
 ## [GALLERY]
 
-[![img_0447-min](https://theatrelapis.org/files/2016/01/IMG_0447-min-300x200.jpg)](https://theatrelapis.org/files/2016/01/IMG_0447-min.jpg)[![img_0423-min](https://theatrelapis.org/files/2016/01/IMG_0423-min-300x200.jpg)](https://theatrelapis.org/files/2016/01/IMG_0423-min.jpg)
+[![img_0447-min](/static/media/2016/01/IMG_0447-min-300x200.jpg)](/static/media/2016/01/IMG_0447-min.jpg)[![img_0423-min](/static/media/2016/01/IMG_0423-min-300x200.jpg)](/static/media/2016/01/IMG_0423-min.jpg)
 
-[![img_0373-min](https://theatrelapis.org/files/2016/01/IMG_0373-min-300x200.jpg)](https://theatrelapis.org/files/2016/01/IMG_0373-min.jpg)[![img_0280-min](https://theatrelapis.org/files/2016/01/IMG_0280-min-300x200.jpg)](https://theatrelapis.org/files/2016/01/IMG_0280-min.jpg)
+[![img_0373-min](/static/media/2016/01/IMG_0373-min-300x200.jpg)](/static/media/2016/01/IMG_0373-min.jpg)[![img_0280-min](/static/media/2016/01/IMG_0280-min-300x200.jpg)](/static/media/2016/01/IMG_0280-min.jpg)
 
-[![img_0353-min](https://theatrelapis.org/files/2016/01/IMG_0353-min-200x300.jpg)](https://theatrelapis.org/files/2016/01/IMG_0353-min.jpg)[![img_0218-min](https://theatrelapis.org/files/2016/01/IMG_0218-min-200x300.jpg)](https://theatrelapis.org/files/2016/01/IMG_0218-min.jpg)
+[![img_0353-min](/static/media/2016/01/IMG_0353-min-200x300.jpg)](/static/media/2016/01/IMG_0353-min.jpg)[![img_0218-min](/static/media/2016/01/IMG_0218-min-200x300.jpg)](/static/media/2016/01/IMG_0218-min.jpg)
 
-[![img_1102](https://theatrelapis.org/files/2016/01/IMG_1102-195x300.jpg)](https://theatrelapis.org/files/2016/01/IMG_1102.jpg)[![img_1414l-web](https://theatrelapis.org/files/2013/07/IMG_1414l-Web-221x300.jpg)](https://theatrelapis.org/files/2013/07/IMG_1414l-Web.jpg)[![img_1352](https://theatrelapis.org/files/2013/07/IMG_1352-300x177.jpg)](https://theatrelapis.org/files/2013/07/IMG_1352.jpg)[![img_1178](https://theatrelapis.org/files/2013/07/IMG_1178-300x200.jpg)](https://theatrelapis.org/files/2013/07/IMG_1178.jpg)[![img_1224](https://theatrelapis.org/files/2013/07/IMG_1224-300x176.jpg)](https://theatrelapis.org/files/2013/07/IMG_1224.jpg)[![img_1324](https://theatrelapis.org/files/2013/07/IMG_1324-300x162.jpg)](https://theatrelapis.org/files/2013/07/IMG_1324.jpg)
+[![img_1102](/static/media/2016/01/IMG_1102-195x300.jpg)](/static/media/2016/01/IMG_1102.jpg)[![img_1414l-web](/static/media/2013/07/IMG_1414l-Web-221x300.jpg)](/static/media/2013/07/IMG_1414l-Web.jpg)[![img_1352](/static/media/2013/07/IMG_1352-300x177.jpg)](/static/media/2013/07/IMG_1352.jpg)[![img_1178](/static/media/2013/07/IMG_1178-300x200.jpg)](/static/media/2013/07/IMG_1178.jpg)[![img_1224](/static/media/2013/07/IMG_1224-300x176.jpg)](/static/media/2013/07/IMG_1224.jpg)[![img_1324](/static/media/2013/07/IMG_1324-300x162.jpg)](/static/media/2013/07/IMG_1324.jpg)
 
-[![12541141_10153247194302231_7160156027459940828_n](https://theatrelapis.org/files/2016/01/12541141_10153247194302231_7160156027459940828_n-300x300.jpg)](https://theatrelapis.org/files/2016/01/12541141_10153247194302231_7160156027459940828_n.jpg)[![IMG_5532](https://theatrelapis.org/files/2016/01/IMG_5532-300x300.jpg)](https://theatrelapis.org/files/2016/01/IMG_5532.jpg)
+[![12541141_10153247194302231_7160156027459940828_n](/static/media/2016/01/12541141_10153247194302231_7160156027459940828_n-300x300.jpg)](/static/media/2016/01/12541141_10153247194302231_7160156027459940828_n.jpg)[![IMG_5532](/static/media/2016/01/IMG_5532-300x300.jpg)](/static/media/2016/01/IMG_5532.jpg)
 
-[![m1](https://theatrelapis.org/files/2016/01/m1-300x300.jpg)](https://theatrelapis.org/files/2016/01/m1.jpg)[![Copy of IMG_5544](https://theatrelapis.org/files/2016/01/Copy-of-IMG_5544-300x300.jpg)](https://theatrelapis.org/files/2016/01/Copy-of-IMG_5544.jpg)
+[![m1](/static/media/2016/01/m1-300x300.jpg)](/static/media/2016/01/m1.jpg)[![Copy of IMG_5544](/static/media/2016/01/Copy-of-IMG_5544-300x300.jpg)](/static/media/2016/01/Copy-of-IMG_5544.jpg)
 
-[![12143130_10153247194357231_6055839834135204185_n](https://theatrelapis.org/files/2016/01/12143130_10153247194357231_6055839834135204185_n-300x170.jpg)](https://theatrelapis.org/files/2016/01/12143130_10153247194357231_6055839834135204185_n.jpg)[![12400566_10153247194212231_2511924350651258347_n](https://theatrelapis.org/files/2016/01/12400566_10153247194212231_2511924350651258347_n-300x223.jpg)](https://theatrelapis.org/files/2016/01/12400566_10153247194212231_2511924350651258347_n.jpg)
+[![12143130_10153247194357231_6055839834135204185_n](/static/media/2016/01/12143130_10153247194357231_6055839834135204185_n-300x170.jpg)](/static/media/2016/01/12143130_10153247194357231_6055839834135204185_n.jpg)[![12400566_10153247194212231_2511924350651258347_n](/static/media/2016/01/12400566_10153247194212231_2511924350651258347_n-300x223.jpg)](/static/media/2016/01/12400566_10153247194212231_2511924350651258347_n.jpg)
 
 ## [FREE Physical Theatre Workshops]
 
@@ -133,4 +132,4 @@ Please reserve your place in EVENTBRITE
 [![Eventbrite - FREE Physical Theatre Workshop "The Red Candle - Mermaids in the East"](https://www.eventbrite.com/custombutton?eid=28342308608)](http://www.eventbrite.com/e/free-physical-theatre-workshop-the-red-candle-mermaids-in-the-east-tickets-28342308608?ref=ebtnebtckt)
 
 This production is supported by:
-[![14281573_10153773668132231_181117958_n](https://theatrelapis.org/files/2016/01/14281573_10153773668132231_181117958_n-300x199.jpg)](http://www.uk.emb-japan.go.jp/itprtop_en/index.html)[![sasakawa](https://theatrelapis.org/files/2016/01/sasakawa.jpg)](http://www.gbsf.org.uk)[![The Japan Society Logo](https://theatrelapis.org/files/2016/01/Japan-Society-Logo-En2-300x300.jpg)](http://www.japansociety.org.uk)[![Japan Foundation Logo](https://theatrelapis.org/files/2016/10/14800846_10153879490482231_577315794_n.jpg)](http://www.jpf.org.uk)[![](https://theatrelapis.org/files/2016/10/04f4b5d1d6bb69d896b8cd5f05edad3b.jpg)](http://ceenar.com)[![](https://theatrelapis.org/files/2016/10/LOGO-FAIRYDROPS-e1477317533653.png)](http://fairydropscosmetics.com)[![](https://theatrelapis.org/files/2016/10/Lovely-Beauty-email-logo.jpg)](http://www.lovelybeauty.co.uk)[![](https://theatrelapis.org/files/2016/10/161005_IKOR_Logo.jpg)](http://www.ikor.info/english/)[![](https://theatrelapis.org/files/2016/10/Baroque-Logo-IMG_2799-copy-e1477317938644.jpg)](http://www.baroque-hn.com)[![](https://theatrelapis.org/files/2016/10/Unicoo-Logo-e1477318099809.png)](http://unicoo.co.uk)[![](https://theatrelapis.org/files/2016/10/KGO4_large.png)](http://www.kimonodego.com)[![](https://theatrelapis.org/files/2016/10/kyoto_logodesign-e1477318307434.png)](http://kyoto.travel/en)
+[![14281573_10153773668132231_181117958_n](/static/media/2016/01/14281573_10153773668132231_181117958_n-300x199.jpg)](http://www.uk.emb-japan.go.jp/itprtop_en/index.html)[![sasakawa](/static/media/2016/01/sasakawa.jpg)](http://www.gbsf.org.uk)[![The Japan Society Logo](/static/media/2016/01/Japan-Society-Logo-En2-300x300.jpg)](http://www.japansociety.org.uk)[![Japan Foundation Logo](/static/media/2016/10/14800846_10153879490482231_577315794_n.jpg)](http://www.jpf.org.uk)[![](/static/media/2016/10/04f4b5d1d6bb69d896b8cd5f05edad3b.jpg)](http://ceenar.com)[![](/static/media/2016/10/LOGO-FAIRYDROPS-e1477317533653.png)](http://fairydropscosmetics.com)[![](/static/media/2016/10/Lovely-Beauty-email-logo.jpg)](http://www.lovelybeauty.co.uk)[![](/static/media/2016/10/161005_IKOR_Logo.jpg)](http://www.ikor.info/english/)[![](/static/media/2016/10/Baroque-Logo-IMG_2799-copy-e1477317938644.jpg)](http://www.baroque-hn.com)[![](/static/media/2016/10/Unicoo-Logo-e1477318099809.png)](http://unicoo.co.uk)[![](/static/media/2016/10/KGO4_large.png)](http://www.kimonodego.com)[![](/static/media/2016/10/kyoto_logodesign-e1477318307434.png)](http://kyoto.travel/en)

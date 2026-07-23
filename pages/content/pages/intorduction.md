@@ -3,11 +3,10 @@ title: "Intorduction"
 slug: intorduction
 category: other
 date: "2017-02-22"
-original_url: "https://theatrelapis.org/intorduction/"
 wp_id: 815
 ---
 
-[![](https://theatrelapis.org/files/2017/02/11007351.jpeg)](https://theatrelapis.org/files/2017/02/11007351.jpeg)
+[![](/static/media/2017/02/11007351.jpeg)](/static/media/2017/02/11007351.jpeg)
 Our Artistic Director YOJIRO ICHIKAWA offers a private session for singing or acting. Please check the links below for the details. Feel free to ask us via email address below if you have any question.
 
 当カンパニーの芸術監督：市川洋二郎による個別指導をご提供しております。

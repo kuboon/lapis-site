@@ -3,7 +3,6 @@ title: "About Théatre Lapis"
 slug: about-theatre-lapis
 category: about
 date: "2021-01-26"
-original_url: "https://theatrelapis.org/about-theatre-lapis/"
 wp_id: 1365
 ---
 

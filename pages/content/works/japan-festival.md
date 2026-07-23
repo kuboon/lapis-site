@@ -4,7 +4,6 @@ slug: japan-festival
 category: works
 year: 2014
 date: "2014-11-20"
-original_url: "https://theatrelapis.org/japan-festival/"
 wp_id: 381
 ---
 

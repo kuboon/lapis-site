@@ -4,11 +4,10 @@ slug: kuwento
 category: works
 year: 2020
 date: "2020-12-15"
-original_url: "https://theatrelapis.org/kuwento/"
 wp_id: 1305
 ---
 
-[![](https://theatrelapis.org/files/2020/12/KUWENTISTA-poster-FINALDATE-240x300.png)](https://theatrelapis.org/files/2020/12/KUWENTISTA-poster-FINALDATE.png)
+[![](/static/media/2020/12/KUWENTISTA-poster-FINALDATE-240x300.png)](/static/media/2020/12/KUWENTISTA-poster-FINALDATE.png)
 
 # TRAILER
 
@@ -84,10 +83,10 @@ Melisa Camba
 
 ### GALLERY
 
-[![](https://theatrelapis.org/files/2020/12/kuwentista-_-cat-1-300x300.png)](https://theatrelapis.org/files/2020/12/kuwentista-_-cat-1.png)[![](https://theatrelapis.org/files/2020/12/kuwentista-_-cat-2-300x300.png)](https://theatrelapis.org/files/2020/12/kuwentista-_-cat-2.png)
+[![](/static/media/2020/12/kuwentista-_-cat-1-300x300.png)](/static/media/2020/12/kuwentista-_-cat-1.png)[![](/static/media/2020/12/kuwentista-_-cat-2-300x300.png)](/static/media/2020/12/kuwentista-_-cat-2.png)
 
-[![](https://theatrelapis.org/files/2020/12/thumbnail01-300x300.png)](https://theatrelapis.org/files/2020/12/thumbnail01.png)[![](https://theatrelapis.org/files/2020/12/thumbnail02-300x300.png)](https://theatrelapis.org/files/2020/12/thumbnail02.png)
+[![](/static/media/2020/12/thumbnail01-300x300.png)](/static/media/2020/12/thumbnail01.png)[![](/static/media/2020/12/thumbnail02-300x300.png)](/static/media/2020/12/thumbnail02.png)
 
-[![](https://theatrelapis.org/files/2020/12/thumbnail03-300x300.png)](https://theatrelapis.org/files/2020/12/thumbnail03.png)[![](https://theatrelapis.org/files/2020/12/thumbnail04-300x300.png)](https://theatrelapis.org/files/2020/12/thumbnail04.png)
+[![](/static/media/2020/12/thumbnail03-300x300.png)](/static/media/2020/12/thumbnail03.png)[![](/static/media/2020/12/thumbnail04-300x300.png)](/static/media/2020/12/thumbnail04.png)
 
-[![](https://theatrelapis.org/files/2020/12/thumbnail05-300x300.png)](https://theatrelapis.org/files/2020/12/thumbnail05.png)[![](https://theatrelapis.org/files/2020/12/thumbnail06-300x300.png)](https://theatrelapis.org/files/2020/12/thumbnail06.png)
+[![](/static/media/2020/12/thumbnail05-300x300.png)](/static/media/2020/12/thumbnail05.png)[![](/static/media/2020/12/thumbnail06-300x300.png)](/static/media/2020/12/thumbnail06.png)

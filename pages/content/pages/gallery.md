@@ -3,7 +3,6 @@ title: "Gallery"
 slug: gallery
 category: gallery
 date: "2017-07-15"
-original_url: "https://theatrelapis.org/gallery/"
 wp_id: 884
 ---
 

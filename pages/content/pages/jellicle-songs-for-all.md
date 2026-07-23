@@ -3,7 +3,6 @@ title: "Jellicle Songs for All"
 slug: jellicle-songs-for-all
 category: other
 date: "2020-08-18"
-original_url: "https://theatrelapis.org/jellicle-songs-for-all/"
 wp_id: 1268
 ---
 

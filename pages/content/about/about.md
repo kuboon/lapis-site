@@ -3,7 +3,6 @@ title: "About Us"
 slug: about
 category: about
 date: "2011-08-08"
-original_url: "https://theatrelapis.org/about/"
 wp_id: 2
 ---
 
@@ -11,9 +10,9 @@ Théatre Lapis premiered on the New York stage in spring 2012 with its productio
 
 # Artistic Director: YOJIRO ICHIKAWA 芸術監督:市川洋二郎
 
-[![Headshot Yo Ichikawa](https://theatrelapis.org/files/2014/06/YO-.monochrome.web_-300x200.jpg)](https://theatrelapis.org/files/2014/06/YO-.monochrome.web_.jpg)
+[![Headshot Yo Ichikawa](/static/media/2014/06/YO-.monochrome.web_-300x200.jpg)](/static/media/2014/06/YO-.monochrome.web_.jpg)
 
-Our Artistic Director Yojiro Ichikawa, a graduate of MA Directing at Arts Educational Schools London, has been working internationally in the UK, US and Japan, in various kinds of theatre including musical, drama and physical theatre. His aim is to bridge many borders including those between musical, physical and straight theatres, western and eastern cultures, and other contexts where our differences might enhance our creative expressions. All of his activities can be found at [theatrelapis.org](https://theatrelapis.org/), [Facebook](https://www.facebook.com/yojiro.ichikawa.9), [twitter](https://twitter.com/heki_blue) and [Instagram](https://www.instagram.com/heki_blue/?hl=ja).
+Our Artistic Director Yojiro Ichikawa, a graduate of MA Directing at Arts Educational Schools London, has been working internationally in the UK, US and Japan, in various kinds of theatre including musical, drama and physical theatre. His aim is to bridge many borders including those between musical, physical and straight theatres, western and eastern cultures, and other contexts where our differences might enhance our creative expressions. All of his activities can be found here on Théâtre Lapis, as well as on [Facebook](https://www.facebook.com/yojiro.ichikawa.9), [twitter](https://twitter.com/heki_blue) and [Instagram](https://www.instagram.com/heki_blue/?hl=ja).
 
 He started his career working with the Shiki Theatre Company in his native Japan where he directed, assisted and translated numerous productions including “Once on This Island,” “Songs for A New World” and the Japanese premiere of Tony award winning musical “Spring Awakening”.
 
@@ -39,7 +38,7 @@ JP: Tell Me On A Sunday (The New National Theatre), Songs For A New World (Mitak
 **Acting credits include:**
 UK: GIRI / HAJI (BBC, Netflix), Musical 'Marco Porlo' (General Inrinchin, Shaw Theatre)
 
-**[Yojiro Ichikawa CV](https://theatrelapis.org/files/2020/08/Yojiro_Ichikawa-CV51.pdf)**
+**[Yojiro Ichikawa CV](/static/media/2020/08/Yojiro_Ichikawa-CV51.pdf)**
 
 [Directing Showreels](http://tiny.cc/yojiro-directing)
 
@@ -58,7 +57,7 @@ UK: GIRI / HAJI (BBC, Netflix), Musical 'Marco Porlo' (General Inrinchin, Shaw T
 ＜米国＞『Ordinary Days』（演出）、『Alone World』（演出）
 ＜日本＞『TELL ME ON A SUNDAY〜サヨナラは日曜日に〜』（演出・翻訳・訳詞）、『グランドホテル』（翻訳・訳詞）、『ETERNAL CHIKAMATSU』（台本英訳）、『PRINCE OF BROADWAY』（日本語ナレーション翻訳）『タイタニック』（演出助手兼 翻訳・訳詞、ヴォーカルスーパーヴァイザー）『障子の国のティンカーベル』（演出助手兼 歌唱指導）『春のめざめ』（演出助手兼 翻訳・訳詞）、『55 Steps』(訳詞)、『Songs for A New World』（演出兼 翻訳・訳詞）、『Once on This Island』（演出兼 翻訳・訳詞）
 
-[市川洋二郎 プロフィール（英文）](https://theatrelapis.org/files/2020/08/Yojiro_Ichikawa-CV51.pdf)
+[市川洋二郎 プロフィール（英文）](/static/media/2020/08/Yojiro_Ichikawa-CV51.pdf)
 
 [演出作品ダイジェスト映像集](http://tiny.cc/yojiro-directing)
 

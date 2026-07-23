@@ -3,7 +3,6 @@ title: "Tickets"
 slug: tickets-2
 category: other
 date: "2012-03-16"
-original_url: "https://theatrelapis.org/tickets-2/"
 wp_id: 72
 ---
 
@@ -11,7 +10,7 @@ Tickets for [The Red Candle - Mermaids in the East](/works/mermaids-in-the-east-
 
 [Get Ticket](http://theredcandle.brownpapertickets.com/)
 
-[![%e8%b5%a4%e3%81%84%e8%9d%8b%e7%87%adcomp-small](https://theatrelapis.org/files/2013/07/ede472866313e9b423d7d462a363c3dd-212x300.jpg)](https://theatrelapis.org/files/2013/07/ede472866313e9b423d7d462a363c3dd.jpg)
+[![%e8%b5%a4%e3%81%84%e8%9d%8b%e7%87%adcomp-small](/static/media/2013/07/ede472866313e9b423d7d462a363c3dd-212x300.jpg)](/static/media/2013/07/ede472866313e9b423d7d462a363c3dd.jpg)
 
 ## [DATES & TIME]
 
@@ -19,7 +18,7 @@ Tickets for [The Red Candle - Mermaids in the East](/works/mermaids-in-the-east-
 
 Special Gala Performance on the 9th, 3:00pm (Not available for the public)
 
-[![14151781_10153748825802231_1885434955_o](https://theatrelapis.org/files/2016/01/14151781_10153748825802231_1885434955_o-1024x302.jpg)](https://theatrelapis.org/files/2016/01/14151781_10153748825802231_1885434955_o.jpg)
+[![14151781_10153748825802231_1885434955_o](/static/media/2016/01/14151781_10153748825802231_1885434955_o-1024x302.jpg)](/static/media/2016/01/14151781_10153748825802231_1885434955_o.jpg)
 
 ## [TICKETS]
 

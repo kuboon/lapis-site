@@ -4,7 +4,6 @@ slug: the-illusionist-2025
 category: works
 year: 2025
 date: "2026-03-27"
-original_url: "https://theatrelapis.org/the-illusionist-2025/"
 wp_id: 1984
 ---
 

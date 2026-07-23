@@ -4,11 +4,10 @@ slug: peter-pan
 category: works
 year: 2014
 date: "2014-11-20"
-original_url: "https://theatrelapis.org/peter-pan/"
 wp_id: 368
 ---
 
-[![cropped-Peter-Pan-posters1](https://theatrelapis.org/files/2015/05/cropped-Peter-Pan-posters1-1024x532.jpg)](https://theatrelapis.org/files/2015/05/cropped-Peter-Pan-posters1.jpg)
+[![cropped-Peter-Pan-posters1](/static/media/2015/05/cropped-Peter-Pan-posters1-1024x532.jpg)](/static/media/2015/05/cropped-Peter-Pan-posters1.jpg)
 
 Our Artistic Director Yojiro Ichikawa directed "Peter Pan: A Musical Adventure" produced by Mayhem Musical Theatre Comapany in The Bloomsbury Theatre in the West End
 
@@ -30,8 +29,8 @@ All other information can be found in [Mayhem Peter Pan website](http://peterpan
 
 https://youtu.be/JBHcL6j09F0
 
-[![Peter Pan_THEATRE](https://theatrelapis.org/files/2015/05/Peter-Pan_THEATRE.jpg)](https://theatrelapis.org/files/2015/05/Peter-Pan_THEATRE.jpg)
-[![10675660_1009479972411746_5471452752787411845_n](https://theatrelapis.org/files/2015/05/10675660_1009479972411746_5471452752787411845_n.jpg)](https://theatrelapis.org/files/2015/05/10675660_1009479972411746_5471452752787411845_n.jpg)
+[![Peter Pan_THEATRE](/static/media/2015/05/Peter-Pan_THEATRE.jpg)](/static/media/2015/05/Peter-Pan_THEATRE.jpg)
+[![10675660_1009479972411746_5471452752787411845_n](/static/media/2015/05/10675660_1009479972411746_5471452752787411845_n.jpg)](/static/media/2015/05/10675660_1009479972411746_5471452752787411845_n.jpg)
 
 ### REVIEWS
 
@@ -69,6 +68,6 @@ Further information about the authors and their upcoming projects can be found o
 
 Formed in 2006, Mayhem Musical Theatre Company are an award winning South London based company known primarily for producing diverse and creative theatre in and around the London region. Recent productions include a highly successful outdoor adaptation of Shakespeare's 'Twelfth Night' (July 2014), the UK Premier of 'The Addams Family' (March 2014) and the award winning 'The Producers' (October 2013). Other recent, yet more diverse, productions include LaChiusa's 'The Wild Party', Tim Acito and Alexander Dinelaris' 'Zanna, Don't!' and Duncan Sheik and Steven Sater's 'Spring Awakening'. More information about Mayhem Musical Theatre Company can be found on our website at www.mayhemmusicaltheatrecompany.co.uk
 
-[![Peter Pan flyer-front-b](https://theatrelapis.org/files/2014/11/Peter-Pan-flyer-front-b-483x1024.jpg)](https://theatrelapis.org/files/2014/11/Peter-Pan-flyer-front-b.jpg)
+[![Peter Pan flyer-front-b](/static/media/2014/11/Peter-Pan-flyer-front-b-483x1024.jpg)](/static/media/2014/11/Peter-Pan-flyer-front-b.jpg)
 
-[![Peter Pan flyer-back-b](https://theatrelapis.org/files/2014/11/Peter-Pan-flyer-back-b-482x1024.jpg)](https://theatrelapis.org/files/2014/11/Peter-Pan-flyer-back-b.jpg)
+[![Peter Pan flyer-back-b](/static/media/2014/11/Peter-Pan-flyer-back-b-482x1024.jpg)](/static/media/2014/11/Peter-Pan-flyer-back-b.jpg)

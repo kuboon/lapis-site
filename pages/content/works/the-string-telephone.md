@@ -4,7 +4,6 @@ slug: the-string-telephone
 category: works
 year: 2026
 date: "2026-03-27"
-original_url: "https://theatrelapis.org/the-string-telephone/"
 wp_id: 2007
 ---
 
@@ -18,11 +17,11 @@ As part of the concert 'Echoes of Hope' marking the 15th anniversary of The Grea
 - **俳優：黒田はるか・安達原 旭・リオ　アシザワ　Actor: Haruka Kuroda, Asahi Adachihara, Leo Ashizawa**
 - **ピアノ：松元 沙綾　piano: Saaya Matsumoto**
 
-[![](https://theatrelapis.org/files/2026/03/IMG_4966-724x1024.jpg)](https://theatrelapis.org/files/2026/03/IMG_4966.jpg)
-[![](https://theatrelapis.org/files/2026/03/IMG_4965-724x1024.jpg)](https://theatrelapis.org/files/2026/03/IMG_4965.jpg)
-[![](https://theatrelapis.org/files/2026/03/MSHI_6627-1024x683.jpg)](https://theatrelapis.org/files/2026/03/MSHI_6627-scaled.jpg)
-[![](https://theatrelapis.org/files/2026/03/MSHI_6636-1024x683.jpg)](https://theatrelapis.org/files/2026/03/MSHI_6636-scaled.jpg)
-[![](https://theatrelapis.org/files/2026/03/MSHI_6647-1024x683.jpg)](https://theatrelapis.org/files/2026/03/MSHI_6647-scaled.jpg)
-[![](https://theatrelapis.org/files/2026/03/MSHI_6654-1024x683.jpg)](https://theatrelapis.org/files/2026/03/MSHI_6654-scaled.jpg)
-[![](https://theatrelapis.org/files/2026/03/MSHI_6732-1024x683.jpg)](https://theatrelapis.org/files/2026/03/MSHI_6732-scaled.jpg)
-[![](https://theatrelapis.org/files/2026/03/MSHI_6659-1024x683.jpg)](https://theatrelapis.org/files/2026/03/MSHI_6659-scaled.jpg)
+[![](/static/media/2026/03/IMG_4966-724x1024.jpg)](/static/media/2026/03/IMG_4966.jpg)
+[![](/static/media/2026/03/IMG_4965-724x1024.jpg)](/static/media/2026/03/IMG_4965.jpg)
+[![](/static/media/2026/03/MSHI_6627-1024x683.jpg)](/static/media/2026/03/MSHI_6627-scaled.jpg)
+[![](/static/media/2026/03/MSHI_6636-1024x683.jpg)](/static/media/2026/03/MSHI_6636-scaled.jpg)
+[![](/static/media/2026/03/MSHI_6647-1024x683.jpg)](/static/media/2026/03/MSHI_6647-scaled.jpg)
+[![](/static/media/2026/03/MSHI_6654-1024x683.jpg)](/static/media/2026/03/MSHI_6654-scaled.jpg)
+[![](/static/media/2026/03/MSHI_6732-1024x683.jpg)](/static/media/2026/03/MSHI_6732-scaled.jpg)
+[![](/static/media/2026/03/MSHI_6659-1024x683.jpg)](/static/media/2026/03/MSHI_6659-scaled.jpg)

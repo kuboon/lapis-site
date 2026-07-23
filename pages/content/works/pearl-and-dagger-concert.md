@@ -4,11 +4,10 @@ slug: pearl-and-dagger-concert
 category: works
 year: 2020
 date: "2020-08-05"
-original_url: "https://theatrelapis.org/pearl-and-dagger-concert/"
 wp_id: 1222
 ---
 
-[![](https://theatrelapis.org/files/2020/08/PD-Concert-2020-e-flyer-final-1024x709.jpg)](https://theatrelapis.org/files/2020/08/PD-Concert-2020-e-flyer-final.jpg)
+[![](/static/media/2020/08/PD-Concert-2020-e-flyer-final-1024x709.jpg)](/static/media/2020/08/PD-Concert-2020-e-flyer-final.jpg)
 
 ### DATE and TIME
 
@@ -37,11 +36,11 @@ Additional Lyrics for ‘Hontou no Yuuki’ by **Iskandar Sharazuddin**
 
 ### CAST
 
-[Natsumi Kuroda](https://theatrelapis.org/files/2020/08/PD-2020-Natsumi.png)
-[Kanako Nakano](https://theatrelapis.org/files/2020/08/PD-2020-Kanako.png)
-[Paul Reynolds](https://theatrelapis.org/files/2020/08/PD-2020-Paul.png)
-[Juna Shai](https://theatrelapis.org/files/2020/08/PD-2020-Juna.png)
-[Sok-ho Trinh](https://theatrelapis.org/files/2020/08/PD-2020-Sok-ho.png)
+[Natsumi Kuroda](/static/media/2020/08/PD-2020-Natsumi.png)
+[Kanako Nakano](/static/media/2020/08/PD-2020-Kanako.png)
+[Paul Reynolds](/static/media/2020/08/PD-2020-Paul.png)
+[Juna Shai](/static/media/2020/08/PD-2020-Juna.png)
+[Sok-ho Trinh](/static/media/2020/08/PD-2020-Sok-ho.png)
 
 ### REVIEW
 
@@ -54,17 +53,17 @@ Overall, a lovely experience, and a valuable opportunity to see a new and origin
 
 ### GALLERY
 
-[![](https://theatrelapis.org/files/2020/08/IMG_8058-1-300x225.jpg)](https://theatrelapis.org/files/2020/08/IMG_8058-1.jpg)[![](https://theatrelapis.org/files/2020/08/IMG_8097-300x225.jpg)](https://theatrelapis.org/files/2020/08/IMG_8097.jpg)
+[![](/static/media/2020/08/IMG_8058-1-300x225.jpg)](/static/media/2020/08/IMG_8058-1.jpg)[![](/static/media/2020/08/IMG_8097-300x225.jpg)](/static/media/2020/08/IMG_8097.jpg)
 
-[![](https://theatrelapis.org/files/2020/08/IMG_0143-300x247.jpg)](https://theatrelapis.org/files/2020/08/IMG_0143.jpg)[![](https://theatrelapis.org/files/2020/08/IMG_0147-300x253.jpg)](https://theatrelapis.org/files/2020/08/IMG_0147.jpg)
+[![](/static/media/2020/08/IMG_0143-300x247.jpg)](/static/media/2020/08/IMG_0143.jpg)[![](/static/media/2020/08/IMG_0147-300x253.jpg)](/static/media/2020/08/IMG_0147.jpg)
 
-[![](https://theatrelapis.org/files/2020/08/IMG_8094-300x239.jpg)](https://theatrelapis.org/files/2020/08/IMG_8094.jpg)[![](https://theatrelapis.org/files/2020/08/IMG_0149-300x236.jpg)](https://theatrelapis.org/files/2020/08/IMG_0149.jpg)
+[![](/static/media/2020/08/IMG_8094-300x239.jpg)](/static/media/2020/08/IMG_8094.jpg)[![](/static/media/2020/08/IMG_0149-300x236.jpg)](/static/media/2020/08/IMG_0149.jpg)
 
-[![](https://theatrelapis.org/files/2020/08/IMG_8046-3-225x300.jpg)](https://theatrelapis.org/files/2020/08/IMG_8046-3.jpg)[![](https://theatrelapis.org/files/2020/08/IMG_8041-225x300.jpg)](https://theatrelapis.org/files/2020/08/IMG_8041.jpg)[![](https://theatrelapis.org/files/2020/08/IMG_8106-225x300.jpg)](https://theatrelapis.org/files/2020/08/IMG_8106.jpg)
+[![](/static/media/2020/08/IMG_8046-3-225x300.jpg)](/static/media/2020/08/IMG_8046-3.jpg)[![](/static/media/2020/08/IMG_8041-225x300.jpg)](/static/media/2020/08/IMG_8041.jpg)[![](/static/media/2020/08/IMG_8106-225x300.jpg)](/static/media/2020/08/IMG_8106.jpg)
 
-[![](https://theatrelapis.org/files/2020/08/PD-concert-12-300x248.jpg)](https://theatrelapis.org/files/2020/08/PD-concert-12.jpg)[![](https://theatrelapis.org/files/2020/08/6Mbnskbt-300x243.jpg)](https://theatrelapis.org/files/2020/08/6Mbnskbt.jpg)
+[![](/static/media/2020/08/PD-concert-12-300x248.jpg)](/static/media/2020/08/PD-concert-12.jpg)[![](/static/media/2020/08/6Mbnskbt-300x243.jpg)](/static/media/2020/08/6Mbnskbt.jpg)
 
-[![](https://theatrelapis.org/files/2020/08/IMG_8117-300x292.jpg)](https://theatrelapis.org/files/2020/08/IMG_8117.jpg)[![](https://theatrelapis.org/files/2020/08/PD-concert-11-300x197.jpg)](https://theatrelapis.org/files/2020/08/PD-concert-11.jpg)
+[![](/static/media/2020/08/IMG_8117-300x292.jpg)](/static/media/2020/08/IMG_8117.jpg)[![](/static/media/2020/08/PD-concert-11-300x197.jpg)](/static/media/2020/08/PD-concert-11.jpg)
 
 Pearl & Dagger - the staged reading 2019 - excerpt
 https://youtu.be/RejXzwvAvrI
