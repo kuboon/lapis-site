@@ -4,7 +4,6 @@ slug: eternal-chikamatsu
 category: works
 year: 2016
 date: "2016-07-15"
-original_url: "https://theatrelapis.org/eternal-chikamatsu/"
 wp_id: 603
 ---
 
@@ -18,8 +17,8 @@ English website:
 Japanese website:
 [Umeda Arts](http://www.umegei.com/schedule/514/)
 
-[![004411_5](https://theatrelapis.org/files/2016/07/004411_5.jpg)](https://theatrelapis.org/files/2016/07/004411_5.jpg)
+[![004411_5](/static/media/2016/07/004411_5.jpg)](/static/media/2016/07/004411_5.jpg)
 
-[![download](https://theatrelapis.org/files/2016/07/download.jpeg)](https://theatrelapis.org/files/2016/07/download.jpeg)
+[![download](/static/media/2016/07/download.jpeg)](/static/media/2016/07/download.jpeg)
 
-[![news_xlarge__DSC_3874_](https://theatrelapis.org/files/2016/07/news_xlarge__DSC_3874_.jpg)](https://theatrelapis.org/files/2016/07/news_xlarge__DSC_3874_.jpg)
+[![news_xlarge__DSC_3874_](/static/media/2016/07/news_xlarge__DSC_3874_.jpg)](/static/media/2016/07/news_xlarge__DSC_3874_.jpg)

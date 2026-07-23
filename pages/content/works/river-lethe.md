@@ -4,7 +4,6 @@ slug: river-lethe
 category: works
 year: 2017
 date: "2017-06-21"
-original_url: "https://theatrelapis.org/river-lethe/"
 wp_id: 860
 ---
 
@@ -18,12 +17,12 @@ The Cockpit Theatre
 Helen: Valentina Pakou
 Haron: Giorgio Borghes
 
-[![](https://theatrelapis.org/files/2017/06/IMG_2134-300x169.png)](https://theatrelapis.org/files/2017/06/IMG_2134.png)
+[![](/static/media/2017/06/IMG_2134-300x169.png)](/static/media/2017/06/IMG_2134.png)
 
-[![](https://theatrelapis.org/files/2017/06/19911939_10154623634146766_285502931_o-300x225.jpg)](https://theatrelapis.org/files/2017/06/19911939_10154623634146766_285502931_o.jpg)
+[![](/static/media/2017/06/19911939_10154623634146766_285502931_o-300x225.jpg)](/static/media/2017/06/19911939_10154623634146766_285502931_o.jpg)
 
-[![](https://theatrelapis.org/files/2017/06/19911859_10154623634176766_132391863_o-300x225.jpg)](https://theatrelapis.org/files/2017/06/19911859_10154623634176766_132391863_o.jpg)
+[![](/static/media/2017/06/19911859_10154623634176766_132391863_o-300x225.jpg)](/static/media/2017/06/19911859_10154623634176766_132391863_o.jpg)
 
-[![](https://theatrelapis.org/files/2017/06/19959058_10212790622895623_6903933390919974157_n-225x300.jpg)](https://theatrelapis.org/files/2017/06/19959058_10212790622895623_6903933390919974157_n.jpg)
+[![](/static/media/2017/06/19959058_10212790622895623_6903933390919974157_n-225x300.jpg)](/static/media/2017/06/19959058_10212790622895623_6903933390919974157_n.jpg)
 
-[![](https://theatrelapis.org/files/2017/06/IMG_2133-300x169.png)](https://theatrelapis.org/files/2017/06/IMG_2133.png)
+[![](/static/media/2017/06/IMG_2133-300x169.png)](/static/media/2017/06/IMG_2133.png)

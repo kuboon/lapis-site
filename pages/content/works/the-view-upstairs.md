@@ -4,11 +4,10 @@ slug: the-view-upstairs
 category: works
 year: 2022
 date: "2022-02-21"
-original_url: "https://theatrelapis.org/the-view-upstairs/"
 wp_id: 1489
 ---
 
-[![](https://theatrelapis.org/files/2022/02/536027-212x300.jpeg)](https://theatrelapis.org/files/2022/02/536027.jpeg)
+[![](/static/media/2022/02/536027-212x300.jpeg)](/static/media/2022/02/536027.jpeg)
 
 Our Artistic Director Yojiro directed/choreographed/adapted the Japanese Premiere production of the Off-Broadway hit 'The View Upstairs' created by Max Vernon.
 
@@ -51,12 +50,12 @@ Vocal Coach: Motomu Azaki, Junya Yoshida
 Assistant Director: Hirono Suyama
 Produced by AMUSE ENTERTAINMENT
 
-[![](https://theatrelapis.org/files/2022/02/FLcH_TPakAItEeY-300x200.jpeg)![](https://theatrelapis.org/files/2022/02/FLM6ntdagAAO-sF-300x200.jpeg)](https://theatrelapis.org/files/2022/02/FLcH_TPakAItEeY.jpeg)
+[![](/static/media/2022/02/FLcH_TPakAItEeY-300x200.jpeg)![](/static/media/2022/02/FLM6ntdagAAO-sF-300x200.jpeg)](/static/media/2022/02/FLcH_TPakAItEeY.jpeg)
 
-[![](https://theatrelapis.org/files/2022/02/FLw5pVKaUAAErzF-300x200.jpeg)![](https://theatrelapis.org/files/2022/02/FKzJUR8aQAY1Bcd-300x200.jpeg)](https://theatrelapis.org/files/2022/02/FLw5pVKaUAAErzF.jpeg)
+[![](/static/media/2022/02/FLw5pVKaUAAErzF-300x200.jpeg)![](/static/media/2022/02/FKzJUR8aQAY1Bcd-300x200.jpeg)](/static/media/2022/02/FLw5pVKaUAAErzF.jpeg)
 
-[![](https://theatrelapis.org/files/2022/02/FLEM4SwUcAIAuVh-300x200.jpeg)![](https://theatrelapis.org/files/2022/02/IMG_7296-300x200.jpg)](https://theatrelapis.org/files/2022/02/FLEM4SwUcAIAuVh.jpeg)
+[![](/static/media/2022/02/FLEM4SwUcAIAuVh-300x200.jpeg)![](/static/media/2022/02/IMG_7296-300x200.jpg)](/static/media/2022/02/FLEM4SwUcAIAuVh.jpeg)
 
-[![](https://theatrelapis.org/files/2022/02/reUpstairs_220201_70-300x200.jpg)![](https://theatrelapis.org/files/2022/02/spice.eplus-20-300x200.jpg)](https://theatrelapis.org/files/2022/02/reUpstairs_220201_70.jpg)
+[![](/static/media/2022/02/reUpstairs_220201_70-300x200.jpg)![](/static/media/2022/02/spice.eplus-20-300x200.jpg)](/static/media/2022/02/reUpstairs_220201_70.jpg)
 
-[![](https://theatrelapis.org/files/2022/02/reUpstairs_220201_88-300x200.jpg)![](https://theatrelapis.org/files/2022/02/reUpstairs_220201_135-300x200.jpg)](https://theatrelapis.org/files/2022/02/reUpstairs_220201_88.jpg)
+[![](/static/media/2022/02/reUpstairs_220201_88-300x200.jpg)![](/static/media/2022/02/reUpstairs_220201_135-300x200.jpg)](/static/media/2022/02/reUpstairs_220201_88.jpg)

@@ -4,7 +4,6 @@ slug: galaxy-train-tokyo-reading
 category: works
 year: 2021
 date: "2022-02-21"
-original_url: "https://theatrelapis.org/galaxy-train-tokyo-reading/"
 wp_id: 1551
 ---
 
@@ -12,7 +11,7 @@ Théatre Lapis presented the reading performance of GALAXY TRAIN, a new musical 
 
 [Click here for the JP page](/pages/galaxy-train-2021)
 
-[![](https://theatrelapis.org/files/2021/11/GALAXY-TRAIN-POSTER-socmed-with-logo-240x300.png)](https://theatrelapis.org/files/2021/11/GALAXY-TRAIN-POSTER-socmed-with-logo.png)
+[![](/static/media/2021/11/GALAXY-TRAIN-POSTER-socmed-with-logo-240x300.png)](/static/media/2021/11/GALAXY-TRAIN-POSTER-socmed-with-logo.png)
 
 ### SCHEDULE
 
@@ -56,18 +55,18 @@ Produced by Theatre Lapis
 
 Supported by Japanese Government's 'ARTS for the future!' funding
 
-[![](https://theatrelapis.org/files/2021/11/Screenshot-2021-10-13-at-22.10.32-300x176.png)](https://theatrelapis.org/files/2021/11/Screenshot-2021-10-13-at-22.10.32.png)[![](https://theatrelapis.org/files/2022/02/IMG_1012-300x170.jpg)](https://theatrelapis.org/files/2022/02/IMG_1012.jpg)
+[![](/static/media/2021/11/Screenshot-2021-10-13-at-22.10.32-300x176.png)](/static/media/2021/11/Screenshot-2021-10-13-at-22.10.32.png)[![](/static/media/2022/02/IMG_1012-300x170.jpg)](/static/media/2022/02/IMG_1012.jpg)
 
-[![](https://theatrelapis.org/files/2022/02/IMG_1013-300x179.jpg)](https://theatrelapis.org/files/2022/02/IMG_1013.jpg)[![](https://theatrelapis.org/files/2022/02/IMG_1014-300x167.jpg)](https://theatrelapis.org/files/2022/02/IMG_1014.jpg)
+[![](/static/media/2022/02/IMG_1013-300x179.jpg)](/static/media/2022/02/IMG_1013.jpg)[![](/static/media/2022/02/IMG_1014-300x167.jpg)](/static/media/2022/02/IMG_1014.jpg)
 
-[![](https://theatrelapis.org/files/2022/02/IMG_1015-300x170.jpg)](https://theatrelapis.org/files/2022/02/IMG_1015.jpg)[![](https://theatrelapis.org/files/2022/02/IMG_1016-300x169.jpg)](https://theatrelapis.org/files/2022/02/IMG_1016.jpg)
+[![](/static/media/2022/02/IMG_1015-300x170.jpg)](/static/media/2022/02/IMG_1015.jpg)[![](/static/media/2022/02/IMG_1016-300x169.jpg)](/static/media/2022/02/IMG_1016.jpg)
 
-[![](https://theatrelapis.org/files/2022/02/IMG_1017-300x174.jpg)](https://theatrelapis.org/files/2022/02/IMG_1017.jpg)[![](https://theatrelapis.org/files/2022/02/IMG_1018-300x178.jpg)](https://theatrelapis.org/files/2022/02/IMG_1018.jpg)
+[![](/static/media/2022/02/IMG_1017-300x174.jpg)](/static/media/2022/02/IMG_1017.jpg)[![](/static/media/2022/02/IMG_1018-300x178.jpg)](/static/media/2022/02/IMG_1018.jpg)
 
-[![](https://theatrelapis.org/files/2022/02/IMG_1019-300x174.jpg)](https://theatrelapis.org/files/2022/02/IMG_1019.jpg)[![](https://theatrelapis.org/files/2022/02/IMG_1004-300x153.jpg)](https://theatrelapis.org/files/2022/02/IMG_1004.jpg)
+[![](/static/media/2022/02/IMG_1019-300x174.jpg)](/static/media/2022/02/IMG_1019.jpg)[![](/static/media/2022/02/IMG_1004-300x153.jpg)](/static/media/2022/02/IMG_1004.jpg)
 
-[![](https://theatrelapis.org/files/2022/02/IMG_1005-300x164.jpg)](https://theatrelapis.org/files/2022/02/IMG_1005.jpg)[![](https://theatrelapis.org/files/2022/02/IMG_1006-300x160.jpg)](https://theatrelapis.org/files/2022/02/IMG_1006.jpg)
+[![](/static/media/2022/02/IMG_1005-300x164.jpg)](/static/media/2022/02/IMG_1005.jpg)[![](/static/media/2022/02/IMG_1006-300x160.jpg)](/static/media/2022/02/IMG_1006.jpg)
 
-[![](https://theatrelapis.org/files/2022/02/IMG_1007-300x185.jpg)](https://theatrelapis.org/files/2022/02/IMG_1007.jpg)[![](https://theatrelapis.org/files/2022/02/IMG_1008-300x169.jpg)](https://theatrelapis.org/files/2022/02/IMG_1008.jpg)
+[![](/static/media/2022/02/IMG_1007-300x185.jpg)](/static/media/2022/02/IMG_1007.jpg)[![](/static/media/2022/02/IMG_1008-300x169.jpg)](/static/media/2022/02/IMG_1008.jpg)
 
-[![](https://theatrelapis.org/files/2022/02/IMG_1009-300x197.jpg)](https://theatrelapis.org/files/2022/02/IMG_1009.jpg)[![](https://theatrelapis.org/files/2022/02/IMG_1010-300x162.jpg)](https://theatrelapis.org/files/2022/02/IMG_1010.jpg)
+[![](/static/media/2022/02/IMG_1009-300x197.jpg)](/static/media/2022/02/IMG_1009.jpg)[![](/static/media/2022/02/IMG_1010-300x162.jpg)](/static/media/2022/02/IMG_1010.jpg)

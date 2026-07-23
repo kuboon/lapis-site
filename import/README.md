@@ -45,20 +45,14 @@ Three items were **SEO spam injected into WordPress** (a link-farm post, a
 "Write for us sponsored posts" solicitation, and an empty `test` post) —
 `wp_id` 1803, 1805, 1423. They are excluded by `DROP_IDS` in the importer.
 
-## Images ⚠️ still on WordPress
+## Images — now local
 
-The WXR export references image URLs but does **not** contain the image files.
-Every `<img>` and asset link still points at `https://theatrelapis.org/files/…`,
-so pages render with live images **only while the WordPress site stays up**.
-
-Before decommissioning WordPress, download the images and rewrite the links:
-
-- `images-inline.txt` — 587 image/asset URLs referenced inside page content.
-- `images-attachments.txt` — 477 media-library attachment URLs (the full library).
-
-A follow-up step can fetch these into `pages/static/media/` and rewrite the
-`https://theatrelapis.org/files/…` references to local `/static/media/…` paths.
-(This environment can't reach the live site, so it wasn't done here.)
+The WXR export referenced image URLs but did not contain the image files, so
+migrated content originally pointed at the live WordPress host. Ahead of that
+server being shut down, every referenced media file (587 images/PDFs) was
+downloaded into [`pages/static/media/`](../pages/static/media) and all
+`<img>`/asset references were rewritten to local `/static/media/…` paths. No
+content or import file references the old host any more.
 
 ## Files in this folder
 
@@ -66,9 +60,7 @@ A follow-up step can fetch these into `pages/static/media/` and rewrite the
 | -------------------------- | ------------------------------------------------- |
 | `wxr-to-markdown.py`       | The reproducible importer (see below).            |
 | `SITEMAP.md`               | Old URL → new route/file map for every page.      |
-| `pages.json`               | The same map as JSON.                             |
-| `images-inline.txt`        | Image/asset URLs used inside content.             |
-| `images-attachments.txt`   | Every WordPress media-library attachment URL.     |
+| `pages.json`               | The new-route map as JSON.                        |
 
 ## Re-running the import
 

@@ -4,7 +4,6 @@ slug: titanic
 category: works
 year: 2018
 date: "2018-10-29"
-original_url: "https://theatrelapis.org/titanic/"
 wp_id: 1027
 ---
 

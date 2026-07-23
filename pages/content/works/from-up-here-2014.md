@@ -4,7 +4,6 @@ slug: from-up-here-2014
 category: works
 year: 2014
 date: "2014-11-20"
-original_url: "https://theatrelapis.org/history/from-up-here-2014/"
 wp_id: 376
 ---
 
@@ -12,13 +11,13 @@ We are delighted to announce the tour production of FROM UP HERE in 2014 followi
 https://www.youtube.com/watch?v=L9Wv59LlQ1o
 From Up Here is a new musical by writer and West-End performer Aaron Lee Lambert originally produced by Pitch Perfect in 2012.
 
-[![From Up Here 2013](https://theatrelapis.org/files/2014/06/10499772_905753959451015_147240813_o-300x225.jpg)](https://theatrelapis.org/files/2014/06/10499772_905753959451015_147240813_o.jpg)[![](https://theatrelapis.org/files/2014/06/IMG_0041-300x225.jpg)](https://theatrelapis.org/files/2014/06/IMG_0041.jpg)
+[![From Up Here 2013](/static/media/2014/06/10499772_905753959451015_147240813_o-300x225.jpg)](/static/media/2014/06/10499772_905753959451015_147240813_o.jpg)[![](/static/media/2014/06/IMG_0041-300x225.jpg)](/static/media/2014/06/IMG_0041.jpg)
 
 Set entirely on Brooklyn Bridge – exactly halfway between Brooklyn and Manhattan – the show explores time, change and the choices that shape the lives of five very different people. With a finely written book and a vibrant, beautiful and often witty musical score, From Up Here is an unforgettable musical, and one which dares to ask the question “what makes life worth living?”
 
-[![](https://theatrelapis.org/files/2014/06/BnmyPPRIAAA5jxc-300x200.jpg)](https://theatrelapis.org/files/2014/06/BnmyPPRIAAA5jxc.jpg)
+[![](/static/media/2014/06/BnmyPPRIAAA5jxc-300x200.jpg)](/static/media/2014/06/BnmyPPRIAAA5jxc.jpg)
 
-[![](https://theatrelapis.org/files/2014/06/458_1399694612-300x220.jpg)](https://theatrelapis.org/files/2014/06/458_1399694612.jpg)
+[![](/static/media/2014/06/458_1399694612-300x220.jpg)](/static/media/2014/06/458_1399694612.jpg)
 
 This production is a unique fusion of modern and ancient theatre traditions, with a typically Broadway sound and story combined with visual elements of Japanese Noh theatre. Blurring the lines between reality and dream, the show explores what it is to hope, to wish, to despair: to live.?
 
@@ -51,7 +50,7 @@ This production is a unique fusion of modern and ancient theatre traditions, wit
 
 ## DATES
 
-[![Camden Logo Grey2](https://theatrelapis.org/files/2014/06/Camden-Logo-Grey2-300x58.png)](http://www.camdenfringe.com/)
+[![Camden Logo Grey2](/static/media/2014/06/Camden-Logo-Grey2-300x58.png)](http://www.camdenfringe.com/)
 
 |  |  |
 | --- | --- |
@@ -61,7 +60,7 @@ This production is a unique fusion of modern and ancient theatre traditions, wit
 | 2/Aug | 9:00 |
 | 3/Aug | 9:00 |
 
-[![](https://theatrelapis.org/files/2014/06/logo.png)](http://www.cptheatre.co.uk/)
+[![](/static/media/2014/06/logo.png)](http://www.cptheatre.co.uk/)
 
 [Camden People's Theatre](http://www.cptheatre.co.uk/)
 
@@ -78,7 +77,7 @@ NW1 2PY
 | 22/Aug | 7:30 |
 | 23/Aug | 7:30 |
 
-[![fpj7slr8mfuf33eiey2w](https://theatrelapis.org/files/2014/06/fpj7slr8mfuf33eiey2w-150x150.jpeg)](https://theatrelapis.org/files/2014/06/fpj7slr8mfuf33eiey2w.jpeg)
+[![fpj7slr8mfuf33eiey2w](/static/media/2014/06/fpj7slr8mfuf33eiey2w-150x150.jpeg)](/static/media/2014/06/fpj7slr8mfuf33eiey2w.jpeg)
 
 [The Poor School](http://thepoorschool.com/)
 
@@ -101,7 +100,7 @@ Alan: Giorgio Borghes
 Dan: Benjamin Bowen (Camden People's Theatre), Dan Breakwell (The Poor School),
 Henry: Anthony Trott (Camden People's Theatre), Tom Murphy (The Poor School),
 
-[![ZX6E0095](https://theatrelapis.org/files/2014/06/ZX6E0095-300x200.jpg)](https://theatrelapis.org/files/2014/06/ZX6E0095.jpg)
+[![ZX6E0095](/static/media/2014/06/ZX6E0095-300x200.jpg)](/static/media/2014/06/ZX6E0095.jpg)
 
 ## CREATIVES
 
@@ -125,11 +124,11 @@ Costume Stylist: Marie Yagami
 Hair Dresser & Make Up Supervisor: Emi Kusaba
 Web Management: Kuboon
 
-[![](https://theatrelapis.org/files/2014/06/458_1399694715-300x269.jpg)](https://theatrelapis.org/files/2014/06/458_1399694715.jpg)
+[![](/static/media/2014/06/458_1399694715-300x269.jpg)](/static/media/2014/06/458_1399694715.jpg)
 
 ## FLYERS
 
-[![0618Final-chirashiomote](https://theatrelapis.org/files/2014/06/From-Up-Here-Flyer-Front-212x300.jpg)](https://theatrelapis.org/files/2014/06/From-Up-Here-Flyer-Front.jpg)[![0618Final-urachirashi](https://theatrelapis.org/files/2014/06/From-Up-Here-Flyer-Rear-213x300.jpg)](https://theatrelapis.org/files/2014/06/From-Up-Here-Flyer-Rear.jpg)
+[![0618Final-chirashiomote](/static/media/2014/06/From-Up-Here-Flyer-Front-212x300.jpg)](/static/media/2014/06/From-Up-Here-Flyer-Front.jpg)[![0618Final-urachirashi](/static/media/2014/06/From-Up-Here-Flyer-Rear-213x300.jpg)](/static/media/2014/06/From-Up-Here-Flyer-Rear.jpg)
 
 ---
 
@@ -141,10 +140,10 @@ Presented by arrangement with Perfect Pitch
 
 Originally Developed by Perfect Pitch
 
-![Print](https://theatrelapis.org/files/2014/07/PP_Vector_PPRed_10.100.100.10.jpg)
+![Print](/static/media/2014/07/PP_Vector_PPRed_10.100.100.10.jpg)
 
 ---
 
 Supported by
 
-![embassy_logo](https://theatrelapis.org/files/2014/06/embassy_logo.jpg)
+![embassy_logo](/static/media/2014/06/embassy_logo.jpg)

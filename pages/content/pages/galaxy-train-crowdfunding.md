@@ -3,7 +3,6 @@ title: "GALAXY TRAIN クラウドファンディング"
 slug: galaxy-train-crowdfunding
 category: other
 date: "2021-12-03"
-original_url: "https://theatrelapis.org/galaxy-train-crowdfunding/"
 wp_id: 1486
 ---
 
@@ -13,4 +12,4 @@ wp_id: 1486
 
 開設でき次第、こちらのページからご支援いただけます。
 
-[![](https://theatrelapis.org/files/2021/11/Picture2-300x189.png)](https://theatrelapis.org/files/2021/11/Picture2.png)
+[![](/static/media/2021/11/Picture2-300x189.png)](/static/media/2021/11/Picture2.png)

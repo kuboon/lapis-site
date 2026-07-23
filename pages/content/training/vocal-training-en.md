@@ -3,11 +3,10 @@ title: "Vocal Training EN"
 slug: vocal-training-en
 category: training
 date: "2017-02-04"
-original_url: "https://theatrelapis.org/vocal-training-en/"
 wp_id: 781
 ---
 
-[![](https://theatrelapis.org/files/2017/02/2008-3-16-2-300x225.jpg)](https://theatrelapis.org/files/2017/02/2008-3-16-2.jpg)
+[![](/static/media/2017/02/2008-3-16-2-300x225.jpg)](/static/media/2017/02/2008-3-16-2.jpg)
 
 ## ＜Lesson Details＞
 

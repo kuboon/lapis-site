@@ -3,7 +3,6 @@ title: "Client Testimonials お客様の声"
 slug: reviews-from-clients
 category: training
 date: "2017-01-17"
-original_url: "https://theatrelapis.org/reviews-from-clients/"
 wp_id: 751
 ---
 

@@ -4,11 +4,10 @@ slug: galaxy-train-london-concert
 category: works
 year: 2023
 date: "2023-02-01"
-original_url: "https://theatrelapis.org/galaxy-train-london-concert/"
 wp_id: 1582
 ---
 
-[![](https://theatrelapis.org/files/2023/02/GALAXY-TRAIN-digital-screen-lands-1024x576.jpg)](https://theatrelapis.org/files/2023/02/GALAXY-TRAIN-digital-screen-lands.jpg)
+[![](/static/media/2023/02/GALAXY-TRAIN-digital-screen-lands-1024x576.jpg)](/static/media/2023/02/GALAXY-TRAIN-digital-screen-lands.jpg)
 
 Théatre Lapis presents the concert version of **GALAXY TRAIN**, a new musical co-created by **Yojiro Ichikawa** and **Eden Tredwell** and based on the beloved 1927 Japanese novel ‘Night on the Galactic Railroad’ by Kenji Miyazawa.
 
@@ -19,11 +18,11 @@ It tells the story of Giovanni and Campanella, two boys who find themselves on a
 The show features a diverse cast, including **Joey Zerpa-Falco** (making his professional London stage debut), **Misato Higashijima** (Galaxy Train Tokyo, Bye Bye Birdie), **Liam Murray Scott** (The Shark is Broken, Avenue Q), **Saori Oda** (The Phantom of the Opera, The King and I), **Juna Shai** (Pearl and Dagger, Cats), **Jordan Broatch** (Anyone Can Whistle, LIFT), **Sinéad Wall** (Medusa in Monstersongs, 1446 the Musical).
 
 It won **the Stiles & Drewe ‘Best New Song Prize’ in 2021** for the theme song ‘Those Stars’.
-[![](https://theatrelapis.org/files/2021/11/thumbnail_image001-300x195.jpg)](https://theatrelapis.org/files/2021/11/thumbnail_image001.jpg)
+[![](/static/media/2021/11/thumbnail_image001-300x195.jpg)](/static/media/2021/11/thumbnail_image001.jpg)
 
 This will be its English language premiere to the UK audience after receiving [a reading performance in Tokyo Japan](/works/galaxy-train-tokyo-reading).
 
-[![](https://theatrelapis.org/files/2022/02/IMG_1004-300x153.jpg)](https://theatrelapis.org/files/2022/02/IMG_1004.jpg)
+[![](/static/media/2022/02/IMG_1004-300x153.jpg)](/static/media/2022/02/IMG_1004.jpg)
 
 ### SCHEDULE
 
@@ -63,13 +62,13 @@ Can be booked **[here](https://linktr.ee/galaxytrainstreaming)**
 
 ### CAST
 
-[Joey Zerpa-Falcon](https://theatrelapis.org/files/2023/02/Joey-high.jpeg)
-[Misato Higashijima](https://theatrelapis.org/files/2023/02/Misato-New-2.jpg)
-[Liam Murray Scott](https://theatrelapis.org/files/2023/02/Liam-high.jpeg)
-[Saori Oda](https://theatrelapis.org/files/2023/02/Saori-high.jpeg)
-[Juna Shai](https://theatrelapis.org/files/2023/02/Juna-High.jpeg)
-[Jordan Broatch](https://theatrelapis.org/files/2023/02/Jordan-HIgh.jpeg)
-[Sinéad Wall](https://theatrelapis.org/files/2023/02/Sinead-high.jpeg)
+[Joey Zerpa-Falcon](/static/media/2023/02/Joey-high.jpeg)
+[Misato Higashijima](/static/media/2023/02/Misato-New-2.jpg)
+[Liam Murray Scott](/static/media/2023/02/Liam-high.jpeg)
+[Saori Oda](/static/media/2023/02/Saori-high.jpeg)
+[Juna Shai](/static/media/2023/02/Juna-High.jpeg)
+[Jordan Broatch](/static/media/2023/02/Jordan-HIgh.jpeg)
+[Sinéad Wall](/static/media/2023/02/Sinead-high.jpeg)
 
 ### CREATIVES
 
@@ -88,7 +87,7 @@ Concept Arts: **Nina Martinez**
 
 Produced by **Théatre Lapis**
 
-[![](https://theatrelapis.org/files/2023/02/329612158_1263619317831701_7834470878922449849_n-1024x282.png)](https://theatrelapis.org/files/2023/02/329612158_1263619317831701_7834470878922449849_n.png)
+[![](/static/media/2023/02/329612158_1263619317831701_7834470878922449849_n-1024x282.png)](/static/media/2023/02/329612158_1263619317831701_7834470878922449849_n.png)
 
 ### GALLERY
 

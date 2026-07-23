@@ -3,11 +3,10 @@ title: "Vocal/Drama Coaching"
 slug: vocaldrama-coaching
 category: training
 date: "2015-05-05"
-original_url: "https://theatrelapis.org/vocaldrama-coaching/"
 wp_id: 459
 ---
 
-[![](https://theatrelapis.org/files/2017/02/11007351.jpeg)](https://theatrelapis.org/files/2017/02/11007351.jpeg)
+[![](/static/media/2017/02/11007351.jpeg)](/static/media/2017/02/11007351.jpeg)
 Our Artistic Director YOJIRO ICHIKAWA offers a private session for singing or acting. Please check the links below for the details. Feel free to ask us via email address below if you have any question.
 
 当カンパニーの芸術監督：市川洋二郎による個別指導をご提供しております。

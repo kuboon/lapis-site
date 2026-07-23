@@ -3,7 +3,6 @@ title: "Reviews"
 slug: reviews
 category: reviews
 date: "2015-05-05"
-original_url: "https://theatrelapis.org/reviews/"
 wp_id: 418
 ---
 

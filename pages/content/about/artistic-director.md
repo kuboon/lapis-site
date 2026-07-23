@@ -3,17 +3,16 @@ title: "Artistic Director"
 slug: artistic-director
 category: about
 date: "2021-01-26"
-original_url: "https://theatrelapis.org/artistic-director/"
 wp_id: 1361
 ---
 
 # Artistic Director: YOJIRO ICHIKAWA 芸術監督:市川洋二郎
 
-[![Headshot Yo Ichikawa](https://theatrelapis.org/files/2014/06/YO-.monochrome.web_-300x200.jpg)](https://theatrelapis.org/files/2014/06/YO-.monochrome.web_.jpg)
+[![Headshot Yo Ichikawa](/static/media/2014/06/YO-.monochrome.web_-300x200.jpg)](/static/media/2014/06/YO-.monochrome.web_.jpg)
 
 (日本語プロフィールは英文の下です。)
 
-Our Artistic Director, Yojiro Ichikawa, a graduate of MA Directing at Arts Educational Schools London, is an award-winning director who has been working internationally in the UK, US and Japan, in various kinds of theatre, including musical, drama and physical theatre. His aim is to bridge many borders, including those between musical, physical and straight theatres, western and eastern cultures, and other contexts where our differences might enhance our creative expressions. All of his activities can be found at [theatrelapis.org](https://theatrelapis.org/), [Facebook](https://www.facebook.com/yojiro.ichikawa.9), [twitter](https://twitter.com/heki_blue) and [Instagram](https://www.instagram.com/heki_blue/?hl=ja).
+Our Artistic Director, Yojiro Ichikawa, a graduate of MA Directing at Arts Educational Schools London, is an award-winning director who has been working internationally in the UK, US and Japan, in various kinds of theatre, including musical, drama and physical theatre. His aim is to bridge many borders, including those between musical, physical and straight theatres, western and eastern cultures, and other contexts where our differences might enhance our creative expressions. All of his activities can be found here on Théâtre Lapis, as well as on [Facebook](https://www.facebook.com/yojiro.ichikawa.9), [twitter](https://twitter.com/heki_blue) and [Instagram](https://www.instagram.com/heki_blue/?hl=ja).
 
 He started his career working with the Shiki Theatre Company in his native Japan where he directed, assisted and translated numerous productions including “Once on This Island,” “Songs for A New World” and the Japanese premiere of Tony award winning musical “Spring Awakening”.
 
@@ -53,7 +52,7 @@ UK:
 Stage: 'My Neighbour Totoro' (Principal Puppeteer Original cast, Royal Shakespeare Company, Barbican Theatre),  'Death Note' (Ukita, London Palladium, Lyric Theatre), 'Not Yet Midnight' (Royal Court Theatre), Musical 'Marco Porlo' (General Inrinchin, Shaw Theatre)
 TV: Invasion (Apple TV), GIRI / HAJI (BBC, Netflix),
 
-**[Yojiro Ichikawa CV](https://theatrelapis.org/files/2025/09/Yojiro_Ichikawa-CV72.pdf)**
+**[Yojiro Ichikawa CV](/static/media/2025/09/Yojiro_Ichikawa-CV72.pdf)**
 
 [Directing Showreels](http://tiny.cc/yojiro-directing)
 
@@ -145,7 +144,7 @@ TV: Invasion (Apple TV), GIRI / HAJI (BBC, Netflix),
 2013 – Legally Blonde（演出助手） （Arts Educational Schools/UK）
 2009 – 春のめざめ（演出助手） （自由劇場 他/日本）
 
-[市川洋二郎 プロフィール（英文）](https://theatrelapis.org/files/2025/09/Yojiro_Ichikawa-CV72.pdf)
+[市川洋二郎 プロフィール（英文）](/static/media/2025/09/Yojiro_Ichikawa-CV72.pdf)
 
 [演出作品ダイジェスト映像集](http://tiny.cc/yojiro-directing)
 

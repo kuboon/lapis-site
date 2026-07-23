@@ -3,7 +3,6 @@ title: "News"
 slug: from-up-here
 category: news
 date: "2013-07-21"
-original_url: "https://theatrelapis.org/"
 wp_id: 114
 ---
 
@@ -11,13 +10,13 @@ wp_id: 114
 
 Our Artistic Director, Yojiro, has been appointed as one of the directors for The Drama League's Directors Project in 2025, selected from over 1200 candidates.
 
-[![](https://theatrelapis.org/files/2026/03/8952a83918f1e8d004d2a8b7eb944522-1024x654.png)](https://theatrelapis.org/files/2026/03/8952a83918f1e8d004d2a8b7eb944522.png)
-[![](https://theatrelapis.org/files/2026/03/att.6rlmtR-fzd7PFxc3z-QuI-pezD7DbUYh0FdQDhJyDKw-1024x683.jpg)](https://theatrelapis.org/files/2026/03/att.6rlmtR-fzd7PFxc3z-QuI-pezD7DbUYh0FdQDhJyDKw.jpg)
-[![](https://theatrelapis.org/files/2026/03/Directing-Fellows-Imani-Mitchell-Nathaniel-P_-Claridad-Keng-S_-Meateanuwat-Aileen-Wen-McGroddy-Emily-Moler-Yojiro-ichikawa-Zoe-Adams-Fran-de-Leon-.jpg)](https://theatrelapis.org/files/2026/03/Directing-Fellows-Imani-Mitchell-Nathaniel-P_-Claridad-Keng-S_-Meateanuwat-Aileen-Wen-McGroddy-Emily-Moler-Yojiro-ichikawa-Zoe-Adams-Fran-de-Leon-.jpg)
+[![](/static/media/2026/03/8952a83918f1e8d004d2a8b7eb944522-1024x654.png)](/static/media/2026/03/8952a83918f1e8d004d2a8b7eb944522.png)
+[![](/static/media/2026/03/att.6rlmtR-fzd7PFxc3z-QuI-pezD7DbUYh0FdQDhJyDKw-1024x683.jpg)](/static/media/2026/03/att.6rlmtR-fzd7PFxc3z-QuI-pezD7DbUYh0FdQDhJyDKw.jpg)
+[![](/static/media/2026/03/Directing-Fellows-Imani-Mitchell-Nathaniel-P_-Claridad-Keng-S_-Meateanuwat-Aileen-Wen-McGroddy-Emily-Moler-Yojiro-ichikawa-Zoe-Adams-Fran-de-Leon-.jpg)](/static/media/2026/03/Directing-Fellows-Imani-Mitchell-Nathaniel-P_-Claridad-Keng-S_-Meateanuwat-Aileen-Wen-McGroddy-Emily-Moler-Yojiro-ichikawa-Zoe-Adams-Fran-de-Leon-.jpg)
 
 # [GALAXY TRAIN - London Concert](/works/galaxy-train-london-concert)
 
-[![](https://theatrelapis.org/files/2023/02/GALAXY-TRAIN-digital-screen-lands-1024x576.jpg)](https://theatrelapis.org/files/2023/02/GALAXY-TRAIN-digital-screen-lands.jpg)
+[![](/static/media/2023/02/GALAXY-TRAIN-digital-screen-lands-1024x576.jpg)](/static/media/2023/02/GALAXY-TRAIN-digital-screen-lands.jpg)
 
 Théatre Lapis is presenting a concert version of a new musical ‘Galaxy Train’, which runs between the 24th and 26h March 2023 at The Other Palace Theatre Studio. The musical was created by director Yojiro Ichikawa (My Neighbour Totoro, Urinetown, Pearl and Dagger) and composer-lyricist Eden Tredwell (The Last Nativity, Pearl and Dagger), based on the beloved 1927 Japanese novel ‘Night on the Galactic Railroad’ by Kenji Miyazawa.
 
@@ -27,13 +26,13 @@ For more information, visit [here](/works/galaxy-train-london-concert)
 
 # [My Neighbour Totoro](https://www.rsc.org.uk/my-neighbour-totoro)
 
-[![](https://theatrelapis.org/files/2023/02/IMG_MNT.jpeg)](https://theatrelapis.org/files/2023/02/IMG_MNT.jpeg)
+[![](/static/media/2023/02/IMG_MNT.jpeg)](/static/media/2023/02/IMG_MNT.jpeg)
 
 Our Artistic Director Yojiro Ichikawa has performed as the puppeteer of Chu-totoro in the world premiere of 'My Neighbour Totoro' by the Royal Shakespeare Company and Improbable at Barbican Theatre. The show received a huge number of five-star reviews, and we are so delighted! Huge congrats to the whole company!
 
 # [Kuwento-物語 (Monogatari): Revisited Tales of Japan and the Philippines](/works/kuwento)
 
-[![](https://theatrelapis.org/files/2020/12/KUWENTISTA-fb-cover-photo-FINALDATE-300x169.png)](https://theatrelapis.org/files/2020/12/KUWENTISTA-fb-cover-photo-FINALDATE.png)
+[![](/static/media/2020/12/KUWENTISTA-fb-cover-photo-FINALDATE-300x169.png)](/static/media/2020/12/KUWENTISTA-fb-cover-photo-FINALDATE.png)
 
 Théatre Lapis is proud to present **‘[Kuwento-物語 (read as Monogatari): Revisited Tales of Japan and the Philippines](/works/kuwento)’**, an online performance created through the collaboration between artists in the UK, Japan, France and Manila.
 
@@ -58,7 +57,7 @@ We are delighted to announce a couple of new chapters for our 'Pearl and Dagger'
 
 Last year's musical 'Pearl and Dagger' RETURNS! Come and join us at Battersea Park bandstand on Sunday the 16th of August at 1pm for a special concert version of the show, featuring new friends and old.
 
-[![](https://theatrelapis.org/files/2020/08/PD-Concert-2020-e-flyer-final-300x208.jpg)](/works/pearl-and-dagger-concert)
+[![](/static/media/2020/08/PD-Concert-2020-e-flyer-final-300x208.jpg)](/works/pearl-and-dagger-concert)
 
 **2. Music Video Project**
 We are releasing a series of music videos, featuring wonderful East Asian performers all around the world singing songs from the show in both English AND Japanese!
@@ -81,7 +80,7 @@ We are thrilled to announce that our Artistic Director Yojiro Ichikawa is direct
 
 [SEDOS Website](https://co.uk/2018/urinetown.htm)
 
-[![](https://theatrelapis.org/files/2018/10/urinetown-square-300x300.jpg)](https://theatrelapis.org/files/2018/10/urinetown-square.jpg)
+[![](/static/media/2018/10/urinetown-square-300x300.jpg)](/static/media/2018/10/urinetown-square.jpg)
 
 # ONDINE
 
@@ -116,7 +115,7 @@ All the details can be found on [this website](http://thecockpit.org.uk/show/the
 
 # Ordinary Days 2017
 
-[![](https://theatrelapis.org/files/2017/05/s_od2-4.jpg)](https://theatrelapis.org/files/2017/05/s_od2-4.jpg)
+[![](/static/media/2017/05/s_od2-4.jpg)](/static/media/2017/05/s_od2-4.jpg)
 
 We are delighted to announce that our artistic director Yojiro will be directing Ordinary Days once again, in London, collaborating with SEDOS. The show opens on the 27th September 2017 at Bridewell Theatre, and runs only for a week. All information and updates can be found on the website below.
 
@@ -160,14 +159,14 @@ Tickets for [The Red Candle - Mermaids in the East](/works/mermaids-in-the-east-
 
 https://youtu.be/aZ1bFotJxHM
 
-[![%e8%b5%a4%e3%81%84%e8%9d%8b%e7%87%adcomp-small](https://theatrelapis.org/files/2013/07/ede472866313e9b423d7d462a363c3dd-212x300.jpg)](https://theatrelapis.org/files/2013/07/ede472866313e9b423d7d462a363c3dd.jpg)
+[![%e8%b5%a4%e3%81%84%e8%9d%8b%e7%87%adcomp-small](/static/media/2013/07/ede472866313e9b423d7d462a363c3dd-212x300.jpg)](/static/media/2013/07/ede472866313e9b423d7d462a363c3dd.jpg)
 
 # Marco Polo the Musical
 
 Yojiro Ichikawa joined the world premiere production of "Marco Polo" the musical at the Shaw Theatre in London. He appeared as General Irinchin, between 23rd August and 4th September.
 
 [Marco Polo - A New Musical](http://marcopolo-newmusical.com/)
-[![4vvdfkwo_193c76f6](https://theatrelapis.org/files/2013/07/4vvdfkwo_193c76f6-300x300.png)](https://theatrelapis.org/files/2013/07/4vvdfkwo_193c76f6.png)
+[![4vvdfkwo_193c76f6](/static/media/2013/07/4vvdfkwo_193c76f6-300x300.png)](/static/media/2013/07/4vvdfkwo_193c76f6.png)
 
 # Screw-Eyed
 
@@ -175,17 +174,17 @@ Our artistic director, Yojiro Ichikawa is directing "Screw Eyed" as part of Rapi
 
 [Rapid Write Response Screwed](https://theatre503.com/whats-on/rapid-write-response-screwed/)
 
-[![Rapid Write Response Screwed Asset](https://theatrelapis.org/files/2016/07/Rapid-Write-Response-Screwed-Asset-300x200.jpg)](https://theatrelapis.org/files/2016/07/Rapid-Write-Response-Screwed-Asset.jpg)
+[![Rapid Write Response Screwed Asset](/static/media/2016/07/Rapid-Write-Response-Screwed-Asset-300x200.jpg)](/static/media/2016/07/Rapid-Write-Response-Screwed-Asset.jpg)
 
 # Tell Me On A Sunday & Grand Hotel
 
 The new publicity image has been released for Tell Me On A Sunday which our Artistic Director Yojiro is directing at New National Theatre Tokyo in June 2016
-[![メインビジュアル(rogoあり)](https://theatrelapis.org/files/2016/01/e5170483c4d503dbc253d244090eaa6c-212x300.jpg)](https://theatrelapis.org/files/2016/01/e5170483c4d503dbc253d244090eaa6c.jpg)
+[![メインビジュアル(rogoあり)](/static/media/2016/01/e5170483c4d503dbc253d244090eaa6c-212x300.jpg)](/static/media/2016/01/e5170483c4d503dbc253d244090eaa6c.jpg)
 
 Yojiro is also working as the translator in Grand Hotel the musical directed by Thom Southerland which opens in April 2016 in Tokyo.
 
-[![gh_red](https://theatrelapis.org/files/2016/01/gh_red-300x207.jpg)](https://theatrelapis.org/files/2016/01/gh_red.jpg)
-[![gh_green](https://theatrelapis.org/files/2016/01/gh_green-300x207.jpg)](https://theatrelapis.org/files/2016/01/gh_green.jpg)
+[![gh_red](/static/media/2016/01/gh_red-300x207.jpg)](/static/media/2016/01/gh_red.jpg)
+[![gh_green](/static/media/2016/01/gh_green-300x207.jpg)](/static/media/2016/01/gh_green.jpg)
 
 # Tell Me On A Sunday
 
@@ -193,20 +192,20 @@ In June 2016, Our Artistic Director Yojiro Ichikawa is directing the Japanese pr
 
 [OFFICIAL WEBSITE](http://hpot.jp/stage/sunday "OFFICIAL WEBSITE")
 
-[![seihoukei1](https://theatrelapis.org/files/2015/10/seihoukei1.jpg)](https://theatrelapis.org/files/2015/10/seihoukei1.jpg)
+[![seihoukei1](/static/media/2015/10/seihoukei1.jpg)](/static/media/2015/10/seihoukei1.jpg)
 
 # PRINCE OF BROADWAY
 
 Our Artistic Director YOJIRO ICHIKAWA is currently working on PRINCE OF BROADWAY, a new musical conceived and directed by legendary Harold Prince. The show premieres in October in Tokyo. Yojiro is the translator of the script for subtitles and Japanese narration.
 [PRINCE OB BROADWAY website](http://pobjp.com/en/ "PRINCE OB BROADWAY website")
-[![453_play_image1](https://theatrelapis.org/files/2013/07/453_play_image1-210x300.jpg)](https://theatrelapis.org/files/2013/07/453_play_image1.jpg)
+[![453_play_image1](/static/media/2013/07/453_play_image1-210x300.jpg)](/static/media/2013/07/453_play_image1.jpg)
 
 # TITANIC the musical 2015
 
 Our Artistic Director YOJIRO ICHIKAWA recently worked as the Assistant Director to Thom Southerland in Japanese Production of TITANIC the musical which was transferred from Southwerk Playhouse. He also adapted the show into Japanese and worked as the vocal supervisor.
 
 [TITANIC official website](http://titanic-musical.com/ "TITANIC official website")
-[![titanic](https://theatrelapis.org/files/2015/05/titanic.jpg)](https://theatrelapis.org/files/2015/05/titanic.jpg)
+[![titanic](/static/media/2015/05/titanic.jpg)](/static/media/2015/05/titanic.jpg)
 
 ### REVIEWS
 

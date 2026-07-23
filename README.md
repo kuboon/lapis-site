@@ -1,6 +1,6 @@
 # Théâtre Lapis
 
-The [Théâtre Lapis](https://theatrelapis.org) website — a [Remix v3](https://remix.run)
+The Théâtre Lapis website — a [Remix v3](https://remix.run)
 static site pre-rendered by [`@kuboon/remix-ssg`](https://jsr.io/@kuboon/remix-ssg)
 and deployed to GitHub Pages with per-PR previews.
 

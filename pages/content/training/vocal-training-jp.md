@@ -3,11 +3,10 @@ title: "Vocal Training JP"
 slug: vocal-training-jp
 category: training
 date: "2017-02-04"
-original_url: "https://theatrelapis.org/vocal-training-jp/"
 wp_id: 784
 ---
 
-[![](https://theatrelapis.org/files/2017/02/9c33f00a-215x300.jpg)](https://theatrelapis.org/files/2017/02/9c33f00a.jpg)
+[![](/static/media/2017/02/9c33f00a-215x300.jpg)](/static/media/2017/02/9c33f00a.jpg)
 
 ## ＜ボイストレーニング詳細＞
 
