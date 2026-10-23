@@ -1,9 +1,9 @@
 /**
  * Spotlight marquee for the home page.
  *
- * A light source sweeps across the `.marquee` stage. The title's extruded
+ * A light source sweeps across the `.marquee` stage. The logo's extruded
  * depth and its cast shadow fall away from the light, the letter faces glow
- * where the light hits them, and the lettering tilts slightly towards it.
+ * where the light hits them, and the logo tilts slightly towards it.
  *
  * - Mouse (fine pointer): the light follows the cursor.
  * - Touch / no pointer: the light drifts slowly over time and shifts with
@@ -11,15 +11,15 @@
  * - prefers-reduced-motion: no time drift; the light still follows the cursor
  *   or the scroll position.
  *
- * Without this script the CSS defaults render a static lit title.
+ * Without this script the CSS defaults render a static lit logo.
  */
 
 const stage = document.querySelector(".marquee");
 const title = stage?.querySelector(".marquee-title");
-const depth = stage?.querySelector(".marquee-depth");
-const face = stage?.querySelector(".marquee-face");
+const logo = stage?.querySelector(".marquee-logo");
+const lit = logo?.querySelector("#marquee-lit");
 
-if (stage && title && depth && face) start();
+if (stage && title && logo && lit) start();
 
 function start() {
   const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)");
@@ -97,35 +97,30 @@ function start() {
   }
 
   function render(box) {
-    const tBox = title.getBoundingClientRect();
-    const fBox = face.getBoundingClientRect();
-    const cx = tBox.left - box.left + tBox.width / 2;
-    const cy = tBox.top - box.top + tBox.height / 2;
+    const lBox = logo.getBoundingClientRect();
+    const cx = lBox.left - box.left + lBox.width / 2;
+    const cy = lBox.top - box.top + lBox.height / 2;
 
     // Shadows fall away from the light, longer the further away it is.
     const dx = cx - light.x;
     const dy = cy - light.y;
     const dist = Math.hypot(dx, dy) || 1;
-    const ux = dx / dist;
-    const uy = dy / dist;
     const reach = Math.min(dist / (Math.hypot(box.width, box.height) / 2), 1.4);
-    const size = parseFloat(getComputedStyle(face).fontSize);
+    logo.style.filter = shadows(dx / dist, dy / dist, logo.clientWidth, reach);
 
-    depth.style.textShadow = shadows(ux, uy, size, reach);
-
-    // Spotlight pool on the stage, highlight on the letter faces.
+    // Spotlight pool on the stage.
     stage.style.setProperty("--lx", `${light.x.toFixed(1)}px`);
     stage.style.setProperty("--ly", `${light.y.toFixed(1)}px`);
-    face.style.setProperty(
-      "--fx",
-      `${(light.x + box.left - fBox.left).toFixed(1)}px`,
-    );
-    face.style.setProperty(
-      "--fy",
-      `${(light.y + box.top - fBox.top).toFixed(1)}px`,
-    );
 
-    // Lean the lettering slightly towards the light.
+    // Highlight on the letter faces: centre the gradient on the light, in the
+    // logo's own (viewBox) coordinates.
+    const vb = logo.viewBox.baseVal;
+    const gx = vb.x + (light.x + box.left - lBox.left) / lBox.width * vb.width;
+    const gy = vb.y + (light.y + box.top - lBox.top) / lBox.height * vb.height;
+    lit.setAttribute("cx", gx.toFixed(0));
+    lit.setAttribute("cy", gy.toFixed(0));
+
+    // Lean the logo slightly towards the light.
     const rx = clamp((light.y - cy) / box.height, -1, 1) * -9;
     const ry = clamp((light.x - cx) / box.width, -1, 1) * 12;
     title.style.setProperty("--rx", `${rx.toFixed(2)}deg`);
@@ -135,28 +130,30 @@ function start() {
   wake();
 }
 
-/** Builds the extrusion + cast-shadow `text-shadow` list. */
-function shadows(ux, uy, size, reach) {
+/**
+ * Builds the extrusion + cast-shadow `filter`. Chained drop-shadows each copy
+ * everything before them one step further away, so N small steps sweep the
+ * logo into a solid extrusion that darkens with depth.
+ */
+function shadows(ux, uy, width, reach) {
   const parts = [];
-  const steps = 14;
-  const extrude = size * (0.035 + 0.05 * reach);
+  const steps = 10;
+  const step = width * (0.006 + 0.008 * reach) / steps;
   for (let i = 1; i <= steps; i++) {
-    const s = (i / steps) * extrude;
     const lightness = (26 - (i / steps) * 18).toFixed(1);
     parts.push(
-      `${px(ux * s)} ${px(uy * s)} 0 hsl(32 28% ${lightness}%)`,
+      `drop-shadow(${px(ux * step)} ${
+        px(uy * step)
+      } 0 hsl(32 28% ${lightness}%))`,
     );
   }
-  const cast = size * (0.12 + 0.4 * reach);
+  const cast = width * (0.02 + 0.06 * reach);
   parts.push(
-    `${px(ux * cast)} ${px(uy * cast)} ${
-      px(size * (0.06 + 0.1 * reach))
-    } rgb(0 0 0 / 0.7)`,
-    `${px(ux * cast * 1.9)} ${px(uy * cast * 1.9)} ${
-      px(size * (0.2 + 0.3 * reach))
-    } rgb(0 0 0 / 0.45)`,
+    `drop-shadow(${px(ux * cast)} ${px(uy * cast)} ${
+      px(width * (0.008 + 0.014 * reach))
+    } rgb(0 0 0 / 0.75))`,
   );
-  return parts.join(", ");
+  return parts.join(" ");
 }
 
 function px(n) {

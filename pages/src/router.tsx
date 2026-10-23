@@ -15,6 +15,7 @@ import {
 } from "./content.ts";
 import { renderMarkdown } from "./markdown.ts";
 import { Link } from "./link.tsx";
+import { lapisLogo } from "./lapis-logo.ts";
 
 /** Directory of static files served under `/static/*` (favicon, CSS, images, …). */
 const STATIC_DIR = fromFileUrl(new URL("../static/", import.meta.url));
@@ -99,14 +100,32 @@ router.mount(base || "/", (app: RouteBuilder) => {
             <>
               <section class="marquee">
                 <h1 class="marquee-title">
-                  <span class="marquee-depth" aria-hidden="true">
-                    <span class="marquee-word">Théâtre</span>{" "}
-                    <span class="marquee-word">Lapis</span>
-                  </span>
-                  <span class="marquee-face">
-                    <span class="marquee-word">Théâtre</span>{" "}
-                    <span class="marquee-word">Lapis</span>
-                  </span>
+                  <svg
+                    class="marquee-logo"
+                    viewBox={lapisLogo.viewBox}
+                    role="img"
+                    aria-label="Théâtre Lapis"
+                  >
+                    <defs>
+                      <radialGradient
+                        id="marquee-lit"
+                        gradientUnits="userSpaceOnUse"
+                        cx="1570"
+                        cy="-400"
+                        r="2000"
+                      >
+                        <stop offset="0" />
+                        <stop offset="0.2" />
+                        <stop offset="0.55" />
+                        <stop offset="1" />
+                      </radialGradient>
+                    </defs>
+                    <path
+                      transform={lapisLogo.transform}
+                      d={lapisLogo.d}
+                      fill="url(#marquee-lit)"
+                    />
+                  </svg>
                 </h1>
               </section>
               <section class="hero">

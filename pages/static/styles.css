@@ -109,16 +109,17 @@ a {
   color: var(--accent);
 }
 
-/* ---------- Marquee (home): spotlit 3D title ---------- */
-/* Light position (--lx/--ly), face highlight (--fx/--fy) and tilt (--rx/--ry)
-   are driven by static/spotlight.js; the defaults here are the no-JS look. */
+/* ---------- Marquee (home): spotlit 3D logo ---------- */
+/* Light position (--lx/--ly), tilt (--rx/--ry), the face highlight
+   (#marquee-lit) and the logo's shadow filter are driven by
+   static/spotlight.js; the defaults here are the no-JS look. */
 .marquee {
   --lx: 50%;
   --ly: 18%;
   position: relative;
   display: grid;
   place-items: center;
-  min-height: min(78vh, 46rem);
+  min-height: min(78vh, 46rem, 115vw);
   width: 100vw;
   margin-inline: calc(50% - 50vw);
   margin-top: -2.5rem;
@@ -142,64 +143,40 @@ a {
 .marquee-title {
   --rx: 6deg;
   --ry: 0deg;
-  display: grid;
+  width: min(100%, 50rem, (78vh - 6rem) * 1.55);
   margin: 0;
-  font-family: "Didot", "Bodoni 72", "Bodoni MT", var(--serif);
-  font-size: clamp(3.4rem, 12vw, 10rem);
-  font-weight: 700;
-  line-height: 0.95;
-  letter-spacing: 0.01em;
-  text-align: center;
   transform: rotateX(var(--rx)) rotateY(var(--ry));
-  transform-style: preserve-3d;
 }
 
-.marquee-depth,
-.marquee-face {
-  grid-area: 1 / 1;
+/* The logo face; its extruded depth and cast shadow are a chain of
+   drop-shadows (rebuilt per frame by spotlight.js). */
+.marquee-logo {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+  filter: drop-shadow(0 1px 0 hsl(32 28% 24%))
+    drop-shadow(0 1px 0 hsl(32 28% 20%)) drop-shadow(0 1px 0 hsl(32 28% 16%))
+    drop-shadow(0 1px 0 hsl(32 28% 12%))
+    drop-shadow(0 1px 0 hsl(32 28% 9%))
+    drop-shadow(0 2.5rem 1.5rem rgb(0 0 0 / 0.7));
 }
 
-.marquee-word {
-  display: inline-block;
+/* Lit where the spotlight hits the letter faces. */
+#marquee-lit stop:nth-child(1) {
+  stop-color: #fffbf2;
 }
 
-@media (max-width: 40rem) {
-  .marquee-title {
-    font-size: 22vw;
-  }
-
-  .marquee-word {
-    display: block;
-  }
+#marquee-lit stop:nth-child(2) {
+  stop-color: #f3dcae;
 }
 
-/* The extruded body + cast shadow, drawn underneath the lit faces. */
-.marquee-depth {
-  color: hsl(32 28% 26%);
-  text-shadow:
-    0 2px 0 hsl(32 28% 22%),
-    0 4px 0 hsl(32 28% 18%),
-    0 6px 0 hsl(32 28% 14%),
-    0 8px 0 hsl(32 28% 10%),
-    0 0.3em 0.15em rgb(0 0 0 / 0.7),
-    0 0.6em 0.4em rgb(0 0 0 / 0.45);
-  user-select: none;
+#marquee-lit stop:nth-child(3) {
+  stop-color: #b38a52;
 }
 
-/* The letter faces, lit where the spotlight hits them. */
-.marquee-face {
-  --fx: 50%;
-  --fy: -20%;
-  color: transparent;
-  background: radial-gradient(
-    circle at var(--fx) var(--fy),
-    #fffbf2 0,
-    #f3dcae 0.9em,
-    #b38a52 2.4em,
-    #5a4429 4.2em
-  );
-  -webkit-background-clip: text;
-  background-clip: text;
+#marquee-lit stop:nth-child(4) {
+  stop-color: #5a4429;
 }
 
 /* ---------- Hero (home) ---------- */
