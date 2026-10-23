@@ -15,7 +15,7 @@ import subprocess
 import tempfile
 from pathlib import Path
 
-from PIL import Image
+from PIL import Image, ImageDraw
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "pages/static/media/2013/07/lapislogo.png"
@@ -24,6 +24,13 @@ OUT_TS = ROOT / "pages/src/lapis-logo.ts"
 
 SCALE = 4  # trace at 4x for smooth curves
 MARGIN = 10  # viewBox padding, in traced units
+
+# Worn hairline joins to redraw, as polylines in source-pixel coordinates.
+JOINS = [
+    [(138, 98), (141, 93), (145, 88), (149, 84), (153, 81)],  # h: stem → arch
+    [(396, 98), (398, 94), (401, 89), (404, 85), (407, 82)],  # r: stem → arm
+]
+JOIN_WIDTH = 2.5  # source pixels
 
 
 def main() -> None:
@@ -36,21 +43,31 @@ def main() -> None:
         bg.alpha_composite(im)
         gray = bg.convert("L")
 
-        # The hairline joining the "h" stem to its arch is an almost-white
-        # 1px anti-aliased stroke in the source; darken it so it survives.
-        px = gray.load()
-        for y in range(81, 99):
-            for x in range(137, 154):
-                if px[x, y] < 253:
-                    px[x, y] = 0
-        gray.save(tmp / "src.png")
+        # Blank a 3px frame (the source has stray edge pixels), then upscale.
+        frame = Image.new("L", (gray.width - 6, gray.height - 6), 255)
+        frame.paste(gray.crop((3, 3, gray.width - 3, gray.height - 3)))
+        gray = Image.new("L", gray.size, 255)
+        gray.paste(frame, (3, 3))
+        big = gray.resize(
+            (gray.width * SCALE, gray.height * SCALE), Image.Resampling.LANCZOS
+        )
 
-        # Upscale, blur away JPEG-ish jaggies, then threshold to a bitmap.
+        # The scan is worn where two hairlines leave their stems — the "h"
+        # into its arch and the "r" into its arm — leaving them broken or
+        # nearly white. Redraw them as solid strokes.
+        draw = ImageDraw.Draw(big)
+        for stroke in JOINS:
+            pts = [((x + 0.5) * SCALE, (y + 0.5) * SCALE) for x, y in stroke]
+            r = JOIN_WIDTH * SCALE / 2
+            draw.line(pts, fill=0, width=round(r * 2), joint="curve")
+            for x, y in (pts[0], pts[-1]):
+                draw.ellipse((x - r, y - r, x + r, y + r), fill=0)
+        big.save(tmp / "src.png")
+
+        # Blur away JPEG-ish jaggies, then threshold to a bitmap.
         subprocess.run(
             [
                 "convert", tmp / "src.png",
-                "-shave", "3x3", "-bordercolor", "white", "-border", "3",
-                "-filter", "Lanczos", "-resize", f"{SCALE * 100}%",
                 "-blur", "0x5", "-threshold", "55%",
                 tmp / "logo.pbm",
             ],
