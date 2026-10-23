@@ -71,3 +71,14 @@ export:
 pip install markdownify beautifulsoup4
 python3 import/wxr-to-markdown.py path/to/theatrelapis.WordPress.xml
 ```
+
+## Vector logo
+
+`vectorize-logo.py` traces the original raster logo
+(`pages/static/media/2013/07/lapislogo.png`) into `pages/static/lapis-logo.svg`
+and `pages/src/lapis-logo.ts` (the path inlined into the home page's spotlit
+marquee). It needs Pillow, ImageMagick, potrace and Deno:
+
+```sh
+python3 import/vectorize-logo.py
+```

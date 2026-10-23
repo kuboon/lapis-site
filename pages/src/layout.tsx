@@ -9,6 +9,8 @@ interface DocumentProps {
   description?: string;
   /** Load the client bundle to hydrate islands on this page. */
   hydrate?: boolean;
+  /** Extra classic-enhancement module scripts (URLs) to load on this page. */
+  scripts?: string[];
   children: RemixNode;
 }
 
@@ -30,7 +32,7 @@ function Nav() {
 /** The full HTML document shell shared by every page. */
 function Document(handle: Handle<DocumentProps>) {
   return () => {
-    const { title, description, hydrate, children } = handle.props;
+    const { title, description, hydrate, scripts, children } = handle.props;
     return (
       <html lang="en">
         <head>
@@ -69,6 +71,9 @@ function Document(handle: Handle<DocumentProps>) {
               </script>
             )
             : null}
+          {scripts?.map((src) => (
+            <script key={src} type="module" src={src}></script>
+          ))}
         </body>
       </html>
     );

@@ -15,6 +15,7 @@ import {
 } from "./content.ts";
 import { renderMarkdown } from "./markdown.ts";
 import { Link } from "./link.tsx";
+import { lapisLogo } from "./lapis-logo.ts";
 
 /** Directory of static files served under `/static/*` (favicon, CSS, images, …). */
 const STATIC_DIR = fromFileUrl(new URL("../static/", import.meta.url));
@@ -94,10 +95,40 @@ router.mount(base || "/", (app: RouteBuilder) => {
           title: "Théâtre Lapis",
           description:
             "Théâtre Lapis — theatre company led by artistic director Yojiro Ichikawa, bridging musical, physical and straight theatre across cultures.",
+          scripts: [routes.static.href({ path: "spotlight.js" })],
           children: (
             <>
+              <section class="marquee">
+                <h1 class="marquee-title">
+                  <svg
+                    class="marquee-logo"
+                    viewBox={lapisLogo.viewBox}
+                    role="img"
+                    aria-label="Théâtre Lapis"
+                  >
+                    <defs>
+                      <radialGradient
+                        id="marquee-lit"
+                        gradientUnits="userSpaceOnUse"
+                        cx="1570"
+                        cy="-400"
+                        r="2000"
+                      >
+                        <stop offset="0" />
+                        <stop offset="0.2" />
+                        <stop offset="0.55" />
+                        <stop offset="1" />
+                      </radialGradient>
+                    </defs>
+                    <path
+                      transform={lapisLogo.transform}
+                      d={lapisLogo.d}
+                      fill="url(#marquee-lit)"
+                    />
+                  </svg>
+                </h1>
+              </section>
               <section class="hero">
-                <h1>Théâtre Lapis</h1>
                 <p class="lead">
                   A theatre company led by artistic director{" "}
                   <Link

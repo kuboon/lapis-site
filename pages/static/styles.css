@@ -31,6 +31,7 @@
 
 body {
   margin: 0;
+  overflow-x: clip;
   font-family: var(--sans);
   line-height: 1.65;
   color: var(--fg);
@@ -108,17 +109,81 @@ a {
   color: var(--accent);
 }
 
+/* ---------- Marquee (home): spotlit 3D logo ---------- */
+/* Light position (--lx/--ly), tilt (--rx/--ry), the face highlight
+   (#marquee-lit) and the logo's shadow filter are driven by
+   static/spotlight.js; the defaults here are the no-JS look. */
+.marquee {
+  --lx: 50%;
+  --ly: 18%;
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: min(78vh, 46rem, 115vw);
+  width: 100vw;
+  margin-inline: calc(50% - 50vw);
+  margin-top: -2.5rem;
+  margin-bottom: 2.5rem;
+  padding: 3rem 1.25rem;
+  overflow: hidden;
+  background:
+    radial-gradient(
+    circle at var(--lx) var(--ly),
+    rgb(255 238 205 / 0.4) 0,
+    rgb(255 222 170 / 0.14) min(16rem, 45vw),
+    rgb(38 97 156 / 0.08) min(34rem, 90vw),
+    transparent min(52rem, 140vw)
+  ),
+    radial-gradient(ellipse at 50% 120%, #14233d 0, transparent 70%),
+    #06080e;
+  color-scheme: dark;
+  perspective: 900px;
+}
+
+.marquee-title {
+  --rx: 6deg;
+  --ry: 0deg;
+  width: min(100%, 50rem, (78vh - 6rem) * 1.55);
+  margin: 0;
+  transform: rotateX(var(--rx)) rotateY(var(--ry));
+}
+
+/* The logo face; its extruded depth and cast shadow are a chain of
+   drop-shadows (rebuilt per frame by spotlight.js). */
+.marquee-logo {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+  filter: drop-shadow(0 1px 0 hsl(32 28% 24%))
+    drop-shadow(0 1px 0 hsl(32 28% 20%)) drop-shadow(0 1px 0 hsl(32 28% 16%))
+    drop-shadow(0 1px 0 hsl(32 28% 12%))
+    drop-shadow(0 1px 0 hsl(32 28% 9%))
+    drop-shadow(0 2.5rem 1.5rem rgb(0 0 0 / 0.7));
+}
+
+/* Lit where the spotlight hits the letter faces. */
+#marquee-lit stop:nth-child(1) {
+  stop-color: #fffbf2;
+}
+
+#marquee-lit stop:nth-child(2) {
+  stop-color: #f3dcae;
+}
+
+#marquee-lit stop:nth-child(3) {
+  stop-color: #b38a52;
+}
+
+#marquee-lit stop:nth-child(4) {
+  stop-color: #5a4429;
+}
+
 /* ---------- Hero (home) ---------- */
 .hero {
   padding-block: 1rem 2.5rem;
   border-bottom: 1px solid var(--border);
   margin-bottom: 2.5rem;
-}
-
-.hero h1 {
-  font-size: clamp(2.4rem, 6vw, 3.6rem);
-  letter-spacing: 0.02em;
-  margin-bottom: 0.75rem;
 }
 
 .lead {
