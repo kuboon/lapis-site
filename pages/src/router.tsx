@@ -94,10 +94,22 @@ router.mount(base || "/", (app: RouteBuilder) => {
           title: "Théâtre Lapis",
           description:
             "Théâtre Lapis — theatre company led by artistic director Yojiro Ichikawa, bridging musical, physical and straight theatre across cultures.",
+          scripts: [routes.static.href({ path: "spotlight.js" })],
           children: (
             <>
+              <section class="marquee">
+                <h1 class="marquee-title">
+                  <span class="marquee-depth" aria-hidden="true">
+                    <span class="marquee-word">Théâtre</span>{" "}
+                    <span class="marquee-word">Lapis</span>
+                  </span>
+                  <span class="marquee-face">
+                    <span class="marquee-word">Théâtre</span>{" "}
+                    <span class="marquee-word">Lapis</span>
+                  </span>
+                </h1>
+              </section>
               <section class="hero">
-                <h1>Théâtre Lapis</h1>
                 <p class="lead">
                   A theatre company led by artistic director{" "}
                   <Link

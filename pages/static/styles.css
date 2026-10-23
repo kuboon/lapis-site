@@ -31,6 +31,7 @@
 
 body {
   margin: 0;
+  overflow-x: clip;
   font-family: var(--sans);
   line-height: 1.65;
   color: var(--fg);
@@ -108,17 +109,104 @@ a {
   color: var(--accent);
 }
 
+/* ---------- Marquee (home): spotlit 3D title ---------- */
+/* Light position (--lx/--ly), face highlight (--fx/--fy) and tilt (--rx/--ry)
+   are driven by static/spotlight.js; the defaults here are the no-JS look. */
+.marquee {
+  --lx: 50%;
+  --ly: 18%;
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: min(78vh, 46rem);
+  width: 100vw;
+  margin-inline: calc(50% - 50vw);
+  margin-top: -2.5rem;
+  margin-bottom: 2.5rem;
+  padding: 3rem 1.25rem;
+  overflow: hidden;
+  background:
+    radial-gradient(
+    circle at var(--lx) var(--ly),
+    rgb(255 238 205 / 0.4) 0,
+    rgb(255 222 170 / 0.14) min(16rem, 45vw),
+    rgb(38 97 156 / 0.08) min(34rem, 90vw),
+    transparent min(52rem, 140vw)
+  ),
+    radial-gradient(ellipse at 50% 120%, #14233d 0, transparent 70%),
+    #06080e;
+  color-scheme: dark;
+  perspective: 900px;
+}
+
+.marquee-title {
+  --rx: 6deg;
+  --ry: 0deg;
+  display: grid;
+  margin: 0;
+  font-family: "Didot", "Bodoni 72", "Bodoni MT", var(--serif);
+  font-size: clamp(3.4rem, 12vw, 10rem);
+  font-weight: 700;
+  line-height: 0.95;
+  letter-spacing: 0.01em;
+  text-align: center;
+  transform: rotateX(var(--rx)) rotateY(var(--ry));
+  transform-style: preserve-3d;
+}
+
+.marquee-depth,
+.marquee-face {
+  grid-area: 1 / 1;
+}
+
+.marquee-word {
+  display: inline-block;
+}
+
+@media (max-width: 40rem) {
+  .marquee-title {
+    font-size: 22vw;
+  }
+
+  .marquee-word {
+    display: block;
+  }
+}
+
+/* The extruded body + cast shadow, drawn underneath the lit faces. */
+.marquee-depth {
+  color: hsl(32 28% 26%);
+  text-shadow:
+    0 2px 0 hsl(32 28% 22%),
+    0 4px 0 hsl(32 28% 18%),
+    0 6px 0 hsl(32 28% 14%),
+    0 8px 0 hsl(32 28% 10%),
+    0 0.3em 0.15em rgb(0 0 0 / 0.7),
+    0 0.6em 0.4em rgb(0 0 0 / 0.45);
+  user-select: none;
+}
+
+/* The letter faces, lit where the spotlight hits them. */
+.marquee-face {
+  --fx: 50%;
+  --fy: -20%;
+  color: transparent;
+  background: radial-gradient(
+    circle at var(--fx) var(--fy),
+    #fffbf2 0,
+    #f3dcae 0.9em,
+    #b38a52 2.4em,
+    #5a4429 4.2em
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
 /* ---------- Hero (home) ---------- */
 .hero {
   padding-block: 1rem 2.5rem;
   border-bottom: 1px solid var(--border);
   margin-bottom: 2.5rem;
-}
-
-.hero h1 {
-  font-size: clamp(2.4rem, 6vw, 3.6rem);
-  letter-spacing: 0.02em;
-  margin-bottom: 0.75rem;
 }
 
 .lead {
