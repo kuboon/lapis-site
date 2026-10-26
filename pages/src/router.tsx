@@ -14,11 +14,18 @@ import {
   worksByYear,
 } from "./content.ts";
 import { renderMarkdown } from "./markdown.ts";
+import type { Handle } from "remix/ui";
 import { Link } from "./link.tsx";
 import { lapisLogo } from "./lapis-logo.ts";
 
 /** Directory of static files served under `/static/*` (favicon, CSS, images, …). */
 const STATIC_DIR = fromFileUrl(new URL("../static/", import.meta.url));
+
+/** Prefixes a root-relative content path (e.g. `/static/media/…`) with the
+ * deploy base path. */
+function media(path: string): string {
+  return path.startsWith("/") ? base + path : path;
+}
 
 async function serveStatic(request: Request, rel: string): Promise<Response> {
   // Guard against path traversal before touching the filesystem.
@@ -62,25 +69,55 @@ function docHref(d: Doc): string {
   }
 }
 
-/** Renders one Markdown document inside the page shell. */
+/** Renders one Markdown document inside the page shell. A production with an
+ * image opens on a full-bleed hero of it. */
 async function docPage(d: Doc, backHref: string, backLabel: string) {
   const body = await renderMarkdown(stripLeadingH1(d.body));
+  const hero = d.category === "works" && d.image;
+  const heading = (
+    <>
+      <Link class="more" href={backHref}>← {backLabel}</Link>
+      {d.year ? <p class="eyebrow">{d.year}</p> : null}
+      <h1 class="display">{d.title}</h1>
+    </>
+  );
   return page({
     title: `${d.title} — Théâtre Lapis`,
     description: d.summary,
     children: (
       <article class="doc">
-        <header class="doc-head">
-          <h1>{d.title}</h1>
-          {d.year ? <p class="doc-meta">{d.year}</p> : null}
-        </header>
-        {body}
+        {hero
+          ? (
+            <header class="doc-hero bleed">
+              <img src={media(d.image)} alt="" />
+              <div class="wrap doc-hero-text">{heading}</div>
+            </header>
+          )
+          : <header class="doc-head">{heading}</header>}
+        <div class="doc-body">{body}</div>
         <p class="doc-back">
-          <Link href={backHref}>← {backLabel}</Link>
+          <Link class="more" href={backHref}>← {backLabel}</Link>
         </p>
       </article>
     ),
   });
+}
+
+/** A big, ruled list of links to documents (About, Training). */
+function RowList(handle: Handle<{ docs: Doc[] }>) {
+  return () => (
+    <ul class="row-list">
+      {handle.props.docs.map((d) => (
+        <li key={d.slug}>
+          <Link href={docHref(d)}>
+            <span class="row-title">{d.title}</span>
+            <span class="row-note">→</span>
+          </Link>
+          {d.summary ? <p>{d.summary}</p> : null}
+        </li>
+      ))}
+    </ul>
+  );
 }
 
 export const router = createRouter();
@@ -90,7 +127,8 @@ router.mount(base || "/", (app: RouteBuilder) => {
   app.map(routeGroup, {
     actions: {
       home: async () => {
-        const [latestYear] = await worksByYear();
+        const works = (await worksByYear()).flatMap(([, docs]) => docs);
+        const onStage = works.filter((d) => d.image).slice(0, 3);
         return page({
           title: "Théâtre Lapis",
           description:
@@ -98,7 +136,7 @@ router.mount(base || "/", (app: RouteBuilder) => {
           scripts: [routes.static.href({ path: "spotlight.js" })],
           children: (
             <>
-              <section class="marquee">
+              <section class="marquee bleed">
                 <h1 class="marquee-title">
                   <svg
                     class="marquee-logo"
@@ -128,80 +166,140 @@ router.mount(base || "/", (app: RouteBuilder) => {
                   </svg>
                 </h1>
               </section>
+
               <section class="hero">
-                <p class="lead">
-                  A theatre company led by artistic director{" "}
-                  <Link
-                    href={routes.about.show.href({ slug: "artistic-director" })}
-                  >
-                    Yojiro Ichikawa
-                  </Link>, working across the UK, US and Japan to bridge
-                  musical, physical and straight theatre — and the cultures they
-                  come from.
-                </p>
-                <p class="lead lead-ja" lang="ja">
-                  市川洋二郎が芸術監督を務める劇団。イギリス・アメリカ・日本を拠点に、
-                  ミュージカル／フィジカルシアター／ストレートプレイ、そして東西の文化を
-                  つなぐ作品を制作しています。
-                </p>
-                <p class="hero-actions">
+                <p class="eyebrow">London · New York · Tokyo — since 2012</p>
+                <p class="display hero-title">Theatre without borders</p>
+                <div class="hero-row">
+                  <div>
+                    <p class="lead">
+                      A theatre company led by artistic director{" "}
+                      <Link
+                        href={routes.about.show.href({
+                          slug: "artistic-director",
+                        })}
+                      >
+                        Yojiro Ichikawa
+                      </Link>, working across the UK, US and Japan to bridge
+                      musical, physical and straight theatre — and the cultures
+                      they come from.
+                    </p>
+                    <p class="lead lead-ja" lang="ja">
+                      {
+                        // One string: JSX would turn line breaks into spaces.
+                        "市川洋二郎が芸術監督を務める劇団。イギリス・アメリカ・日本を拠点に、" +
+                        "ミュージカル／フィジカルシアター／ストレートプレイ、そして東西の文化を" +
+                        "つなぐ作品を制作しています。"
+                      }
+                    </p>
+                  </div>
                   <Link class="button" href={routes.works.index.href()}>
-                    See our works →
+                    Explore our works →
                   </Link>
-                </p>
+                </div>
               </section>
 
-              {latestYear
-                ? (
-                  <section class="home-works">
-                    <h2>Latest — {latestYear[0]}</h2>
-                    <ul class="card-list">
-                      {latestYear[1].map((d) => (
-                        <li key={d.slug} class="card">
-                          <Link href={docHref(d)}>{d.title}</Link>
-                          {d.summary ? <p>{d.summary}</p> : null}
-                        </li>
-                      ))}
-                    </ul>
-                    <p>
-                      <Link href={routes.works.index.href()}>
-                        Browse the full history →
+              <section class="home-works">
+                <div class="section-head">
+                  <h2 class="display">On stage</h2>
+                  <Link class="more" href={routes.works.index.href()}>
+                    All productions →
+                  </Link>
+                </div>
+                <ul class="poster-grid">
+                  {onStage.map((d) => (
+                    <li key={d.slug}>
+                      <Link class="poster" href={docHref(d)}>
+                        <img src={media(d.image)} alt="" loading="lazy" />
+                        <span class="poster-text">
+                          <span class="eyebrow">{d.year}</span>
+                          <span class="poster-title">{d.title}</span>
+                        </span>
                       </Link>
-                    </p>
-                  </section>
-                )
-                : null}
-
-              <section class="home-sections">
-                <h2>Explore</h2>
-                <ul class="link-grid">
-                  <li>
-                    <Link href={routes.about.index.href()}>About</Link>
-                  </li>
-                  <li>
-                    <Link href={routes.training.index.href()}>
-                      Training courses
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href={routes.blog.index.href()}>News</Link>
-                  </li>
-                  <li>
-                    <Link href={routes.page.href({ slug: "reviews" })}>
-                      Reviews
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href={routes.page.href({ slug: "gallery" })}>
-                      Gallery
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href={routes.page.href({ slug: "contact-us" })}>
-                      Contact
-                    </Link>
-                  </li>
+                    </li>
+                  ))}
                 </ul>
+              </section>
+
+              <section class="aim bleed">
+                <div class="wrap">
+                  <p class="eyebrow">Our aim</p>
+                  <p class="aim-quote">
+                    To introduce authentic and aesthetic artforms to Western
+                    audiences — and a deeper perspective on Japan.
+                  </p>
+                  <ol class="timeline">
+                    <li>
+                      <span class="timeline-year">2012</span>
+                      Premiered in New York with <em>Ordinary Days</em>.
+                    </li>
+                    <li>
+                      <span class="timeline-year">2016</span>
+                      <em>The Red Candle</em>{" "}
+                      at the Brunel Museum, seen by Prince Edward, Earl of
+                      Wessex.
+                    </li>
+                    <li>
+                      <span class="timeline-year">2019</span>
+                      <em>Letter from the Sea</em>{" "}
+                      marks 100 years of Japan–Poland relations.
+                    </li>
+                    <li>
+                      <span class="timeline-year">2023</span>
+                      <em>Galaxy Train</em>{" "}
+                      in London; “Those Stars” won the Stiles &amp; Drewe Best
+                      New Song Prize.
+                    </li>
+                  </ol>
+                </div>
+              </section>
+
+              <section class="feature">
+                <img
+                  src={media("/static/media/2014/06/YO-.monochrome.web_.jpg")}
+                  alt="Portrait of Yojiro Ichikawa"
+                  loading="lazy"
+                />
+                <div>
+                  <p class="eyebrow">Artistic Director</p>
+                  <h2 class="display">Yojiro Ichikawa</h2>
+                  <p class="name-ja" lang="ja">市川洋二郎</p>
+                  <p>
+                    An award-winning director and translator working across the
+                    UK, US and Japan — from the New National Theatre Tokyo to
+                    the Drama League’s Directors Project in New York.
+                  </p>
+                  <Link
+                    class="more"
+                    href={routes.about.show.href({ slug: "artistic-director" })}
+                  >
+                    Read biography →
+                  </Link>
+                </div>
+              </section>
+
+              <section class="training-band bleed">
+                <div class="wrap">
+                  <div class="section-head">
+                    <h2 class="display">Training</h2>
+                    <span lang="ja">レッスン</span>
+                  </div>
+                  <ul class="row-list">
+                    {[
+                      ["vocal-training", "Vocal Training", "EN / JP"],
+                      ["drama-training", "Drama Training", "EN / JP"],
+                      ["monologue", "Monologue Lab", "EN / JP"],
+                      ["masterlessons", "Master Lessons", "Style Gates"],
+                    ].map(([slug, title, note]) => (
+                      <li key={slug}>
+                        <Link href={routes.training.show.href({ slug })}>
+                          <span class="row-title">{title}</span>
+                          <span class="row-note">{note} →</span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </section>
             </>
           ),
@@ -234,7 +332,7 @@ router.mount(base || "/", (app: RouteBuilder) => {
           description: "Every page on the site.",
           children: (
             <>
-              <h1>Site map</h1>
+              <h1 class="display page-title">Site map</h1>
               {sections.map(({ label, docs }) => (
                 <section key={label}>
                   <h2>{label}</h2>
@@ -267,19 +365,70 @@ router.mount(base || "/", (app: RouteBuilder) => {
         return page({
           title: "Works — Théâtre Lapis",
           description: "Productions by Théâtre Lapis, year by year.",
+          scripts: [routes.static.href({ path: "works-filter.js" })],
           children: (
             <>
-              <h1>Works</h1>
+              <header class="page-head">
+                <p class="eyebrow">
+                  Works · <span lang="ja">公演記録</span>
+                </p>
+                <h1 class="display page-title">Works</h1>
+                <div class="page-head-row">
+                  <p class="lead">
+                    Musicals, plays, readings and concerts, 2012 to now —
+                    directed, adapted or translated by the company.
+                  </p>
+                  <div
+                    class="filter"
+                    role="group"
+                    aria-label="Filter by period"
+                    hidden
+                  >
+                    <button type="button" data-period="all" aria-pressed="true">
+                      All
+                    </button>
+                    <button
+                      type="button"
+                      data-period="2020s"
+                      aria-pressed="false"
+                    >
+                      2020s
+                    </button>
+                    <button
+                      type="button"
+                      data-period="2010s"
+                      aria-pressed="false"
+                    >
+                      2010s
+                    </button>
+                  </div>
+                </div>
+              </header>
               {groups.map(([year, docs]) => (
-                <section key={year} class="year-group">
-                  <h2>{year}</h2>
-                  <ul class="card-list">
+                <section
+                  key={year}
+                  class="year-group"
+                  data-decade={/^\d{4}$/.test(year)
+                    ? `${year.slice(0, 3)}0s`
+                    : ""}
+                >
+                  <h2 class="year">{year}</h2>
+                  <ul class="work-grid">
                     {docs.map((d) => (
-                      <li key={d.slug} class="card">
-                        <Link href={routes.works.show.href({ slug: d.slug })}>
-                          {d.title}
+                      <li key={d.slug}>
+                        <Link
+                          class="work"
+                          href={routes.works.show.href({ slug: d.slug })}
+                        >
+                          {d.image
+                            ? <img src={media(d.image)} alt="" loading="lazy" />
+                            : (
+                              <span class="work-blank" aria-hidden="true">
+                                {d.title}
+                              </span>
+                            )}
+                          <span class="work-title">{d.title}</span>
                         </Link>
-                        {d.summary ? <p>{d.summary}</p> : null}
                       </li>
                     ))}
                   </ul>
@@ -308,17 +457,25 @@ router.mount(base || "/", (app: RouteBuilder) => {
           description: "About Théâtre Lapis and the people behind it.",
           children: (
             <>
-              <h1>About</h1>
-              <ul class="card-list">
-                {docs.map((d) => (
-                  <li key={d.slug} class="card">
-                    <Link href={routes.about.show.href({ slug: d.slug })}>
-                      {d.title}
-                    </Link>
-                    {d.summary ? <p>{d.summary}</p> : null}
-                  </li>
-                ))}
-              </ul>
+              <header class="page-head">
+                <p class="eyebrow">
+                  About · <span lang="ja">劇団について</span>
+                </p>
+                <h1 class="display page-title">Between East &amp; West</h1>
+                <p class="lead">
+                  Théâtre Lapis premiered on the New York stage in spring 2012
+                  with the musical{" "}
+                  <em>Ordinary Days</em>. We question traditional boundaries —
+                  between musical and straight plays, between western and
+                  eastern cultures — and seek other frontiers.
+                </p>
+              </header>
+              <img
+                class="wide-image bleed"
+                src={media("/static/media/2026/03/Antigone-27-copy-scaled.jpg")}
+                alt="The ensemble of Antigone at Clifftown Theatre"
+              />
+              <RowList docs={docs} />
             </>
           ),
         });
@@ -343,17 +500,13 @@ router.mount(base || "/", (app: RouteBuilder) => {
             "Vocal and drama training courses offered by Théâtre Lapis.",
           children: (
             <>
-              <h1>Training courses</h1>
-              <ul class="card-list">
-                {docs.map((d) => (
-                  <li key={d.slug} class="card">
-                    <Link href={routes.training.show.href({ slug: d.slug })}>
-                      {d.title}
-                    </Link>
-                    {d.summary ? <p>{d.summary}</p> : null}
-                  </li>
-                ))}
-              </ul>
+              <header class="page-head">
+                <p class="eyebrow">
+                  Training · <span lang="ja">レッスン</span>
+                </p>
+                <h1 class="display page-title">Training</h1>
+              </header>
+              <RowList docs={docs} />
             </>
           ),
         });
@@ -376,7 +529,10 @@ router.mount(base || "/", (app: RouteBuilder) => {
           description: "News and updates from Théâtre Lapis.",
           children: (
             <>
-              <h1>News</h1>
+              <header class="page-head">
+                <p class="eyebrow">News</p>
+                <h1 class="display page-title">News</h1>
+              </header>
               <ul class="post-list">
                 {docs.map((d) => (
                   <li key={d.slug}>
