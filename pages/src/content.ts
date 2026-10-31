@@ -20,6 +20,8 @@ export interface Doc {
   originalUrl: string;
   /** A short plain-text excerpt derived from the body. */
   summary: string;
+  /** The first image in the body (a root-relative `/static/…` path), or `""`. */
+  image: string;
   /** The Markdown body (frontmatter removed). */
   body: string;
 }
@@ -45,6 +47,15 @@ function summarize(body: string): string {
   return "";
 }
 
+/** The first image in a Markdown body: the full-size target of a linked
+ * thumbnail (`[![](thumb)](full)`) when there is one, else the image itself. */
+function firstImage(body: string): string {
+  const m = body.match(/!\[[^\]]*\]\(([^)\s]+)[^)]*\)(?:\]\(([^)\s]+)\))?/);
+  if (!m) return "";
+  const full = m[2];
+  return full && /\.(jpe?g|png|gif|webp)$/i.test(full) ? full : m[1];
+}
+
 function parse(category: Category, slug: string, text: string): Doc {
   const { attrs, body } = extract(text);
   const a = attrs as Record<string, unknown>;
@@ -56,6 +67,7 @@ function parse(category: Category, slug: string, text: string): Doc {
     year: str(a.year),
     originalUrl: str(a.original_url),
     summary: summarize(body),
+    image: firstImage(body),
     body,
   };
 }
